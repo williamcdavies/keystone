@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8d6ffdbfe0fcdb04",
+        "id": "a9ed53e3bd280544",
         "type": "tabs",
         "children": [
           {
-            "id": "12a01569a8729121",
+            "id": "6b4fd54cfaeec2b0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -157,19 +153,9 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
-          },
-          {
-            "id": "e92b46b80bde398a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "12a01569a8729121",
+  "active": "6b4fd54cfaeec2b0",
   "lastOpenFiles": [
     "Pathos.md",
     "Missing at random (MAR).md",
