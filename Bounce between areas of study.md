@@ -1,0 +1,1 @@
+[[Don't study one thing over and over again]]. Bounce between a handful of topics to give yourself space to process previous ones.

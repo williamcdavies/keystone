@@ -1,0 +1,5 @@
+---
+tags:
+  - CS425
+---
+Requirements management is the process of documenting, analysing, tracing, prioritising, and agreeing on requirements and then controlling change and communicating to relevant stakeholders. It is a continuous process throughout a project. A requirement is a capability to which a project outcome (product or service) should conform. 

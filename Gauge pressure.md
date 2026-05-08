@@ -1,0 +1,1 @@
+Gauge pressure is equal to absolute pressure minus atmospheric pressure. A tire pressure gauge is an example of gauge pressure measurement; when it indicates zero, then the pressure it is measuring is the same as the ambient pressure. 

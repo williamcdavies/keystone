@@ -1,0 +1,1 @@
+Don't let numbers be the source of your motivation. [[Statistics disallow intrinsic motivation]] by placing your success on a system of grading. When it comes to likes, subscribers, grades, etc. [[Attempt to create a habit of non-statistical stress]].

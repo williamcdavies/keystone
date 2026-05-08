@@ -1,0 +1,7 @@
+---
+tags:
+  - CS457
+---
+A database transaction symbolises a unit of work, performed within a [[Database management systems|Database management system]] against a database, that is treated in a coherent and reliable way independent of other transactions.
+
+A database transaction, by definition, must be atomic (it must either be complete in its entirety or have no effect whatsoever), consistent (it must conform to existing constraints in the database), isolated (it must not affect other transactions), and durable (it must get written to persistent storage). Database practitioners often refer to these properties of database transactions using the acronym [[ACID]].

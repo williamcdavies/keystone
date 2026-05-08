@@ -1,0 +1,9 @@
+.graph-view.color-line
+{
+    color: rgba(187, 218, 255, 0.10);
+}
+
+.graph-view.color-line-highlight
+{
+    color: rgba(187, 218, 255, 0.50);
+}

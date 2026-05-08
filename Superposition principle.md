@@ -1,0 +1,5 @@
+---
+tags:
+  - EE220
+---
+The superposition principle, states that, for all linear systems, the net response caused by two or more stimuli is the sum of the responses that would have been caused by each stimulus individually. So that if input $A$ produces response $X$, and input $B$ produces response $Y$, then input $A + B$ produces response $X + Y$.

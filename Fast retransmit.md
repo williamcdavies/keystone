@@ -1,0 +1,9 @@
+---
+tags:
+  - CPE400
+---
+Fast retransmit is an enhancement to [[Transmission control protocol (TCP)]] that reduces the time a sender waits before retransmitting a lost segment. A TCP sender normally uses a simple timer to recognise lost segments. If an ACK is not received for a particular segment within a specified time, the sender will assume the segment was lost and will retransmits the segment.
+
+Duplicate ACK is the basis for the fast retransmit mechanism. After receiving a packet an ACK is sent for the last in-order byte of data received. For an in-order packet, this is effectively the lsat packet's sequence number plus the current packet's payload length. If the next packet in the sequence is lost but a third packet in the sequence is received, then the receiver can only ACK the last in-order byte of data, which is the same value as was acknowledged in the first packet. The second packet is lost and the third packet is not in order, so the last in-order byte of data remains the same as before. Thus a duplicate ACK occurs. The sender continues to send packets, and a fourth and fifth packet are received by the receiver. Again, the second packet is missing from the sequence, sot he last in-order byte has not changed. Duplicated acknowledgements are sent for both of these packets.
+
+When a sender receives three duplicates acknowledgements, it can be reasonably confident that the segment carrying the data that followed the last in-order byte specified in the ACK was lost. A sender with fast retransmit will then retransmit his packet immediately without waiting for its timeout. On receipt of the retransmitted segment, the receiver can ACK the last in-order byte of data received. In the above example, this would ACK to the end of the payload of the fifth packet. There is no need to ACK intermediate packets since TCP uses cumulative acknowledgements by default.

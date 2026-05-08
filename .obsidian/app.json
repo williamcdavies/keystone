@@ -1,0 +1,31 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "showFrontmatter": false,
+  "rightToLeft": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "focusNewTab": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "showIndentGuide": true,
+  "foldIndent": false,
+  "livePreview": false,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": false,
+  "foldHeading": false,
+  "vimMode": false,
+  "autoPairBrackets": true,
+  "autoPairMarkdown": true,
+  "defaultViewMode": "preview",
+  "tabSize": 4,
+  "showInlineTitle": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

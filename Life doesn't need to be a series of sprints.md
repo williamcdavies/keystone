@@ -1,0 +1,1 @@
+Life doesn't need to be a series of sprints. Sometimes slowing down and taking in the joy of the everyday can be the change of pace you need. 

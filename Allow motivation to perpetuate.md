@@ -1,0 +1,1 @@
+Don't overspend your energy by sprinting through bursts of motivation. Instead, allow motivation to perpetuate into the long-term so it can be used gradually over a more significant period of time.

@@ -1,0 +1,20 @@
+{
+  "accentColor": "#6e87b2",
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "nativeMenus": false,
+  "translucency": true,
+  "textFontFamily": "Apple Braille",
+  "showViewHeader": true,
+  "interfaceFontFamily": "Apple Braille",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "graph-view",
+    "pastel-h",
+    "accented-h",
+    "accented-callouts",
+    "mjx-math",
+    "accented-graph-view"
+  ],
+  "showRibbon": true
+}

@@ -1,0 +1,5 @@
+---
+tags:
+  - CPE400
+---
+Wi-Fi is a family of wireless network protocols based on the [[IEEE 802.11]] family of standards, which are commonly used for local area networking of devices and Internet access, allowing nearby digital devices to exchange data by radio waves.

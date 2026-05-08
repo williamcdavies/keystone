@@ -1,0 +1,1 @@
+Incidental exercise is any movement done in small amounts meant to add up over the course of a day. It is meant to be built upon everyday activities and routines.

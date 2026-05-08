@@ -1,0 +1,5 @@
+---
+tags:
+  - CS326
+---
+An interpreter is a computer program that directly executes instructions written in a programming or scripting language, without requiring them previously to been compiled into a machine language program.

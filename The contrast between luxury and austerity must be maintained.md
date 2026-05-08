@@ -1,0 +1,1 @@
+In order to appreciate luxury, the contrast between luxury and austerity must be maintained. If we only surround ourselves with luxury, then [[Our appreciation for luxury will be lost to our tendency to adapt]].
