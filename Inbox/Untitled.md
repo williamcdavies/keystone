@@ -12,4 +12,4 @@ For 2023, for the 2000 lakes, I need a column that specifies how many days of sm
 
 https://climate.esa.int/en/projects/lakes/
 
-read webpage deeply. Some papers in the webpage. We will use this in a methods section for the paper. It would be good for me for the name of the products that we use. Put together word doc. Important information: kind of image, spatial resolution, temporal resolution.
+Read webpage deeply. Some papers in the webpage. We will use this in a methods section for the paper. It would be good for me for the name of the products that we use. Put together word doc. Important information: kind of image, spatial resolution, temporal resolution. We are in a really good spot with Europeans. We can get feedback.
