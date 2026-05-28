@@ -11,10 +11,24 @@
             "id": "6b4fd54cfaeec2b0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
             }
           }
         ]
@@ -171,6 +185,7 @@
   },
   "active": "6b4fd54cfaeec2b0",
   "lastOpenFiles": [
+    "Inbox/Untitled.md",
     "Pathos.md",
     "Missing at random (MAR).md",
     "~/Documents/Projects/P-12",
@@ -200,7 +215,6 @@
     "Big associated number (BAN).md",
     "Benford's law.md",
     "Bar charts.md",
-    "Analytics.md",
     "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",
