@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "e69c5878acd4dcb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lakes have been observed as sentinels of climate change"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,9 +208,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b4fd54cfaeec2b0",
+  "active": "e69c5878acd4dcb5",
   "lastOpenFiles": [
     "Inbox/Untitled.md",
+    "Inbox/Lakes have been observed as sentinels of climate change.md",
     "Pathos.md",
     "Missing at random (MAR).md",
     "~/Documents/Projects/P-12",
@@ -214,7 +240,6 @@
     "Big data.md",
     "Big associated number (BAN).md",
     "Benford's law.md",
-    "Bar charts.md",
     "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",
