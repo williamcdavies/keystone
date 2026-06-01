@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Lakes_cci"
             }
+          },
+          {
+            "id": "423ceb614b67ca2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/WFEL.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "WFEL"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Lakes_cci.md"
+                "file": "Inbox/WFEL.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Lakes_cci"
+              "title": "File properties for WFEL"
             }
           },
           {
@@ -185,10 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b4fd54cfaeec2b0",
+  "active": "423ceb614b67ca2f",
   "lastOpenFiles": [
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Inbox/Lakes_cci.md",
+    "Inbox/WFEL.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
@@ -212,7 +238,6 @@
     "There are no nice shiny boxes.md",
     "There is no way to happiness.md",
     "Bijective functions.md",
-    "Subgraphs.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
