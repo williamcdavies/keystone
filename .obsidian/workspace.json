@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/netCDF4.md",
+                "file": "Inbox/WFEL – Project 1.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "netCDF4"
+              "title": "WFEL – Project 1"
             }
           }
         ],
@@ -203,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/netCDF4.md"
+                "file": "Inbox/WFEL – Project 1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for netCDF4"
+              "title": "File properties for WFEL – Project 1"
             }
           },
           {
@@ -236,10 +236,24 @@
   },
   "active": "f88c8fd1023ce3b0",
   "lastOpenFiles": [
-    "Inbox/WFEL.md",
     "Inbox/netCDF4.md",
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Inbox/Lakes_cci.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/WFEL – Project 1.md",
+    "Pivot tables.md",
+    "Learn a few tools well.md",
+    "Don't optimise prematurely.md",
+    "Kernel.md",
+    "When in doubt, use brute force.md",
+    "Distributions.md",
+    "Univariate analysis.md",
+    "Predictive analytics.md",
+    "Spurious relationship.md",
+    "Missing at random (MAR).md",
+    "EUMESTAT.md",
+    "C3S.md",
+    "Unstacked data.md",
+    "Sparklines.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
@@ -248,20 +262,6 @@
     "Compound propositions.md",
     "Abstract data types.md",
     "Taylor series.md",
-    "Dependency inversion principle.md",
-    "Interface segregation principle.md",
-    "Liskov substitution principle.md",
-    "Open-closed principle.md",
-    "Single-responsibility principle.md",
-    "Binary-coded decimal.md",
-    "Sign-magnitude.md",
-    "The hexadecimal system.md",
-    "The binary system.md",
-    "Division-by-2s method.md",
-    "Sum-of-weights method.md",
-    "Resources/Evergreen notes.md",
-    "There are no nice shiny boxes.md",
-    "There is no way to happiness.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",

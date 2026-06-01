@@ -2,7 +2,6 @@
 tags:
   - WFEL
 ---
-
 ## Classes
 
 ### Dataset
@@ -11,6 +10,18 @@ tags:
 
 ```python
 __init__(self, filename, mode="r", clobber=True, diskless=False, persist=False, keepweakref=False, memory=None, encoding=None, parallel=False, comm=None, info=None, format='NETCDF4')
+```
+
+## Examples
+
+### Creating/Opening/Closing a netCDF File
+
+```python
+>>> from netCDF4 import Dataset
+>>> rootgrp = Dataset("file.nc", "w", format="NETCDF4")
+>>> print(rootgrp.data_model)
+NETCDF4
+>>> rootgrp.close()
 ```
 
 ---
