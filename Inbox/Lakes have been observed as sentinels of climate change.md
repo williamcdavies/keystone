@@ -15,6 +15,9 @@ Develops satellite-derived products for the Lakes Essential Climate Variable (EC
 ### Objectives
 The overarching objective of the Lakes project is to produce and validate a consistent data set of the variables grouped under the Lakes ECV.
 
+## WFEL
+The objective of this project is to restrict the domain of the 
+
 ---
 ## References
 [ESA Climate Office - Lakes](https://climate.esa.int/en/projects/lakes/)

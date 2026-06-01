@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Lakes have been observed as sentinels of climate change"
             }
           }
         ],
@@ -179,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Lakes have been observed as sentinels of climate change"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "e69c5878acd4dcb5",
   "lastOpenFiles": [
-    "Inbox/Lakes have been observed as sentinels of climate change.md",
     "Inbox/Untitled.md",
+    "Inbox/Lakes have been observed as sentinels of climate change.md",
     "Resources/Evergreen notes.md",
     "Pathos.md",
     "Missing at random (MAR).md",
