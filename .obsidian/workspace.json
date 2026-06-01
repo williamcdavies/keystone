@@ -151,7 +151,7 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
@@ -178,9 +178,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for Lakes have been observed as sentinels of climate change"
             }
           },
           {
@@ -194,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e69c5878acd4dcb5",
+  "active": "f622b379d2860eee",
   "lastOpenFiles": [
     "Inbox/Untitled.md",
     "Inbox/Lakes have been observed as sentinels of climate change.md",
