@@ -13,3 +13,9 @@ Develops satellite-derived products for the Lakes Essential Climate Variable (EC
 - Lake Water-Leaving Reflectance (LWLR): a direct indicator of biogeochemical processes and habitats in the visible part of the water column (e.g. seasonal phytoplankton biomass fluctuations), and an indicator of the frequency of extreme events (peak terrestrial run-off, changing mixing conditions).
 
 ### Objectives
+The overarching objective of the Lakes project is to produce and validate a consistent data set of the variables grouped under the Lakes ECV.
+
+---
+## References
+[Evergreen notes - Evergreen Method]([https://notes.andymatuschak.org/Evergreen_notes](https://climate.esa.int/en/projects/lakes/))
+as fundamental unit of knowledge work](https://notes.andymatuschak.org/z3SjnvsB5aR2ddsycyXofbYR7fCxo7RmKW2be)."
