@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Conversation with Dr. Facundo Scordo.md",
+                "file": "Inbox/Lakes_cci.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Conversation with Dr. Facundo Scordo"
+              "title": "Lakes_cci"
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Conversation with Dr. Facundo Scordo.md"
+                "file": "Inbox/Lakes_cci.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Conversation with Dr. Facundo Scordo"
+              "title": "File properties for Lakes_cci"
             }
           },
           {
@@ -187,8 +187,8 @@
   },
   "active": "6b4fd54cfaeec2b0",
   "lastOpenFiles": [
-    "Inbox/Lakes have been observed as sentinels of climate change.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/Lakes_cci.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
