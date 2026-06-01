@@ -20,7 +20,7 @@ The overarching objective of the Lakes project is to produce and validate a cons
 ### Objectives
 
 ### Data Preprocessing
-The _ project is dependant upon data published by the ESA Climate Office. These data can be found [here](https://climate.esa.int/en/projects/lakes/). Filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to strip records associated with lakes which fall outside the project domain (Continental North America: United States and Canada), produces the following list of 
+The _ project is dependant upon data published by the ESA Climate Office. These data can be found [here](https://climate.esa.int/en/projects/lakes/). Filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to strip records which fall outside the spatial domain (Continental North America: United States and Canada) of the project, produces an identity list of 667 lakes 
 
 ---
 ## References
