@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
+                "file": "Inbox/Conversation with Dr. Facundo Scordo.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lakes have been observed as sentinels of climate change"
+              "title": "Conversation with Dr. Facundo Scordo"
             }
           }
         ],
@@ -227,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Lakes have been observed as sentinels of climate change.md"
+                "file": "Inbox/Conversation with Dr. Facundo Scordo.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Lakes have been observed as sentinels of climate change"
+              "title": "File properties for Conversation with Dr. Facundo Scordo"
             }
           },
           {
@@ -260,6 +260,7 @@
   },
   "active": "4d79818295e1d566",
   "lastOpenFiles": [
+    "Inbox/Lakes have been observed as sentinels of climate change.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
@@ -285,7 +286,6 @@
     "Bijective functions.md",
     "Subgraphs.md",
     "Dirac's theorem.md",
-    "The four colour theorem.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
