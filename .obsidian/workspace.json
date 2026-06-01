@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Conversation with Dr. Facundo Scordo.md",
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,11 +100,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Conversation with Dr. Facundo Scordo"
+              "title": "Lakes have been observed as sentinels of climate change"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -258,9 +257,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d79818295e1d566",
+  "active": "6b4fd54cfaeec2b0",
   "lastOpenFiles": [
     "Inbox/Lakes have been observed as sentinels of climate change.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
@@ -285,7 +285,6 @@
     "There is no way to happiness.md",
     "Bijective functions.md",
     "Subgraphs.md",
-    "Dirac's theorem.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
