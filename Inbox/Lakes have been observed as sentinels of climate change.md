@@ -20,8 +20,14 @@ The overarching objective of the Lakes project is to produce and validate a cons
 ### Objectives
 
 ### Data Preprocessing
-This project relies upon data sourced from the [ESA Climate Change Initiative (CCI) Lakes dataset](https://climate.esa.int/en/projects/lakes/). Candidate lakes were identified by filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to retain only those lakes falling within the spatial domain of interest (Continental North America: United States and Canada) of interest. This procedure yielded a working inventory of 667 lakes.
+This project relies upon data sourced from the [ESA Climate Office - Lakes Climate Change Initiative (CCI)](https://climate.esa.int/en/projects/lakes/). Candidate lakes were identified by filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to retain only those lakes whose  within the spatial domain of interest (continental North America). 
+
+```RBSQL
+
+```
+
+This procedure yielded a working inventory of 667 lakes.
 
 ---
 ## References
-[ESA Climate Office - Lakes](https://climate.esa.int/en/projects/lakes/)
+[ESA Climate Office - Lakes Climate Change Initiative (CCI)](https://climate.esa.int/en/projects/lakes/)
