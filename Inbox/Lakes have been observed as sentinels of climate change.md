@@ -17,5 +17,4 @@ The overarching objective of the Lakes project is to produce and validate a cons
 
 ---
 ## References
-[Evergreen notes - Evergreen Method]([https://notes.andymatuschak.org/Evergreen_notes](https://climate.esa.int/en/projects/lakes/))
-as fundamental unit of knowledge work](https://notes.andymatuschak.org/z3SjnvsB5aR2ddsycyXofbYR7fCxo7RmKW2be)."
+[ESA Climate Office - Lakes](https://climate.esa.int/en/projects/lakes/)
