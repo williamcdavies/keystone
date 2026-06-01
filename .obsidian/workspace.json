@@ -136,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS491  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -260,10 +260,12 @@
   },
   "active": "4d79818295e1d566",
   "lastOpenFiles": [
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/Lakes have been observed as sentinels of climate change.md",
+    "Internet group management protocol (IGMP).md",
+    "Linear systems.md",
     "EUMESTAT.md",
     "C3S.md",
-    "Inbox/Lakes have been observed as sentinels of climate change.md",
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Inbox/Game engine architectures.md",
     "Inbox/Lifecycle functions.md",
     "Resources/Evergreen notes.md",
@@ -288,8 +290,6 @@
     "Deception results from incorrect extrapolation.md",
     "Data-ink ratio.md",
     "Crosstabulation.md",
-    "Categorical data.md",
-    "Categorial variables.md",
     "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",

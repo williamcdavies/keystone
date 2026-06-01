@@ -29,6 +29,9 @@ SELECT * WHERE like(a4, '%United States%') || like(a4, '%Canada%')
 
 This procedure yielded a metadata catalogue for 667 lakes.
 
+> [!note]
+> 
+
 ---
 ## References
 [ESA Climate Office - Lakes Climate Change Initiative (CCI)](https://climate.esa.int/en/projects/lakes/)
