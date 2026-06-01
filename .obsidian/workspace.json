@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFEL.md",
+                "file": "Inbox/Conversation with Dr. Facundo Scordo.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WFEL"
+              "title": "Conversation with Dr. Facundo Scordo"
             }
           }
         ],
@@ -179,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFEL.md"
+                "file": "Inbox/Conversation with Dr. Facundo Scordo.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WFEL"
+              "title": "File properties for Conversation with Dr. Facundo Scordo"
             }
           },
           {
@@ -213,8 +213,8 @@
   "active": "423ceb614b67ca2f",
   "lastOpenFiles": [
     "Inbox/Lakes_cci.md",
-    "Inbox/WFEL.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/WFEL.md",
     "Argument forms.md",
     "Arguments.md",
     "Quantification.md",
