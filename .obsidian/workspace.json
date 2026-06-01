@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Lakes have been observed as sentinels of climate change"
             }
+          },
+          {
+            "id": "4d79818295e1d566",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lakes have been observed as sentinels of climate change"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -234,11 +258,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed99b199429470a8",
+  "active": "4d79818295e1d566",
   "lastOpenFiles": [
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
-    "Inbox/C3S.md",
+    "EUMESTAT.md",
+    "C3S.md",
     "Inbox/Lakes have been observed as sentinels of climate change.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Inbox/Game engine architectures.md",
     "Inbox/Lifecycle functions.md",
     "Resources/Evergreen notes.md",
@@ -265,7 +290,6 @@
     "Crosstabulation.md",
     "Categorical data.md",
     "Categorial variables.md",
-    "Bubble charts.md",
     "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",

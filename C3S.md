@@ -1,0 +1,8 @@
+---
+tags:
+  - WFEL
+---
+The Copernicus Climate Change Service (C3S) supports society by providing authoritative information about the past, present and future climate in Europe and the rest of the World.
+
+## References
+[Copernicus - About Us]((https://climate.copernicus.eu/about-us))
