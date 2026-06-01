@@ -16,19 +16,18 @@ Develops satellite-derived products for the Lakes Essential Climate Variable (EC
 The overarching objective of the Lakes project is to produce and validate a consistent data set of the variables grouped under the Lakes ECV.
 
 ## WFEL
+This project relies upon data sourced from the [ESA Climate Office - Lakes Climate Change Initiative (CCI)](https://climate.esa.int/en/projects/lakes/).
 
 ### Objectives
 
 ### Data Preprocessing
-This project relies upon data sourced from the [ESA Climate Office - Lakes Climate Change Initiative (CCI)](https://climate.esa.int/en/projects/lakes/). Candidate lakes were identified by filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to retain only those lakes whose `country` was defined as either `Canada` or `United States`.
+ Candidate lakes were identified by filtering ([lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)) to retain only those lakes whose `country` was defined as either `Canada` or `United States`:
 
 ```RBQL
 SELECT * WHERE like(a4, '%United States%') || like(a4, '%Canada%')
 ```
 
-This procedure yielded a catalogue of 667 lakes.
-
-
+This procedure yielded a metadata catalogue for 667 lakes.
 
 ---
 ## References

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/Conversation with Dr. Facundo Scordo.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Conversation with Dr. Facundo Scordo"
             }
           },
           {
@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Lakes have been observed as sentinels of climate change"
             }
+          },
+          {
+            "id": "ed99b199429470a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Lakes have been observed as sentinels of climate change.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lakes have been observed as sentinels of climate change"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -210,10 +234,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e69c5878acd4dcb5",
+  "active": "ed99b199429470a8",
   "lastOpenFiles": [
-    "Inbox/Untitled.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/C3S.md",
     "Inbox/Lakes have been observed as sentinels of climate change.md",
+    "Inbox/Game engine architectures.md",
+    "Inbox/Lifecycle functions.md",
     "Resources/Evergreen notes.md",
     "Pathos.md",
     "Missing at random (MAR).md",
@@ -239,9 +266,6 @@
     "Categorical data.md",
     "Categorial variables.md",
     "Bubble charts.md",
-    "Bins.md",
-    "Big data.md",
-    "Big associated number (BAN).md",
     "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",
