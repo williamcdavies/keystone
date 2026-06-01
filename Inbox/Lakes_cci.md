@@ -47,12 +47,16 @@ tags:
 • Extent: -180 to 180 degrees longitude, -90 to 90 degrees latitude, where positive signs point north and east. The pixel coordinate is the centre of the pixel.
 
 ## WFEL
-This project relies upon data sourced from the [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 3.0](https://catalogue.ceda.ac.uk/uuid/a56dba09df8a42ec9fba8b8c7a5e1f69/).
 
-### Objective
+### Introduction
+
+#### Scope
 The objective of this project is to produce, for each of the variables grouped under the Lakes ECV, a dataset comprising monthly mean values spanning September 1992 – December 2023, wherein each record corresponds to a single lake within the candidate set.
 
-### Candidate Set Selection
+> [!note]
+> This project relies upon data sourced from the [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 3.0](https://catalogue.ceda.ac.uk/uuid/a56dba09df8a42ec9fba8b8c7a5e1f69/).
+
+#### Candidate Set Selection
  Candidate lakes are identified by filtering the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file to retain only those records whose `country` field contains either `Canada` or `United States`:
 
 ```RBQL
@@ -66,9 +70,9 @@ The resulting candidate set comprises 667 lakes.
 
 ### Processing
 
-
 ---
 ## References
 [ESA Lakes Climate Change Initiative (Lakes_cci)](https://climate.esa.int/en/projects/lakes/)
 [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 2.1](https://catalogue.ceda.ac.uk/uuid/7fc9df8070d34cacab8092e45ef276f1/)
 [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 3.0](https://catalogue.ceda.ac.uk/uuid/a56dba09df8a42ec9fba8b8c7a5e1f69/)
+[Lakes_cci Product User Guide (PUG)](https://climate.esa.int/media/documents/Lakes_cci_PUG-v3.00_ST.pdf)
