@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Python.md",
+                "file": "Inbox/netCDF4.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "netCDF4"
+            }
+          },
+          {
+            "id": "74d9a9c2585af70a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/xarray.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "xarray"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,10 +251,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Python.md"
+                "file": "Inbox/xarray.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Python"
+              "title": "File properties for xarray"
             }
           },
           {
@@ -258,11 +282,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6b997a66fa3c0f5",
+  "active": "74d9a9c2585af70a",
   "lastOpenFiles": [
     "Inbox/netCDF4.md",
-    "Inbox/WFEL – Project 1.md",
+    "Inbox/xarray.md",
     "Inbox/Python.md",
+    "Inbox/WFEL – Project 1.md",
     "Inbox/Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Pathos.md",
@@ -285,7 +310,6 @@
     "Quantification.md",
     "System specifications should be consistent.md",
     "Logical operators.md",
-    "Compound propositions.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
