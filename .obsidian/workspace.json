@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFEL – Project 1.md",
+                "file": "Inbox/Lakes_cci.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WFEL – Project 1"
+              "title": "Lakes_cci"
             }
           }
         ],
@@ -203,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFEL – Project 1.md"
+                "file": "Inbox/Lakes_cci.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WFEL – Project 1"
+              "title": "File properties for Lakes_cci"
             }
           },
           {
@@ -236,9 +236,9 @@
   },
   "active": "f88c8fd1023ce3b0",
   "lastOpenFiles": [
-    "Inbox/netCDF4.md",
-    "Inbox/Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Inbox/Lakes_cci.md",
+    "Inbox/netCDF4.md",
     "Inbox/WFEL – Project 1.md",
     "Pivot tables.md",
     "Learn a few tools well.md",
