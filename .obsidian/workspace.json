@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFEL – Project 1.md",
+                "file": "Inbox/netCDF4.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WFEL – Project 1"
+              "title": "netCDF4"
             }
           }
         ],
@@ -227,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFEL – Project 1.md"
+                "file": "Inbox/netCDF4.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WFEL – Project 1"
+              "title": "File properties for netCDF4"
             }
           },
           {
@@ -260,6 +260,7 @@
   },
   "active": "c6b997a66fa3c0f5",
   "lastOpenFiles": [
+    "Inbox/WFEL – Project 1.md",
     "Inbox/netCDF4.md",
     "Inbox/Python.md",
     "Inbox/Lakes_cci.md",
@@ -267,7 +268,6 @@
     "Pathos.md",
     "C3S.md",
     "EUMESTAT.md",
-    "Inbox/WFEL – Project 1.md",
     "Pivot tables.md",
     "Learn a few tools well.md",
     "Don't optimise prematurely.md",
