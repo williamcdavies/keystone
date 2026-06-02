@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Python.md",
+                "file": "Inbox/WFEL – Project 1.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "WFEL – Project 1"
             }
           }
         ],
@@ -227,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Python.md"
+                "file": "Inbox/WFEL – Project 1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Python"
+              "title": "File properties for WFEL – Project 1"
             }
           },
           {
