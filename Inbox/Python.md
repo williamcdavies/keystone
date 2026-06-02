@@ -1,0 +1,17 @@
+---
+tags:
+  - Personal
+---
+
+## `__main__.py`
+
+```python
+# Standard Library Imports
+import sys
+
+def main() -> int:
+	return 0
+
+if __name__ == '__main__':
+    sys.exit(main())
+```
