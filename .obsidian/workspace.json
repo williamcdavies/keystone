@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/netCDF4.md",
+                "file": "Inbox/Python.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "netCDF4"
+              "title": "Python"
             }
           }
         ],
@@ -227,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/netCDF4.md"
+                "file": "Inbox/Python.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for netCDF4"
+              "title": "File properties for Python"
             }
           },
           {
@@ -260,8 +260,8 @@
   },
   "active": "c6b997a66fa3c0f5",
   "lastOpenFiles": [
-    "Inbox/WFEL – Project 1.md",
     "Inbox/netCDF4.md",
+    "Inbox/WFEL – Project 1.md",
     "Inbox/Python.md",
     "Inbox/Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
