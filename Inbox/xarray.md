@@ -9,7 +9,7 @@ tags:
 
 ```python
 >>> import xarray
+>>> filename = "example.nc"
 >>> ds.to_netcdf(filename)
-reopened = xr.open_dataset(filename)
-reopened
+>>> reopened = xr.open_dataset(filename)
 ```
