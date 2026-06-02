@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/xarray.md",
+                "file": "Inbox/Python.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "xarray"
+              "title": "Python"
             }
           }
         ],
@@ -251,10 +251,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/xarray.md"
+                "file": "Inbox/Python.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for xarray"
+              "title": "File properties for Python"
             }
           },
           {
@@ -284,8 +284,8 @@
   },
   "active": "74d9a9c2585af70a",
   "lastOpenFiles": [
-    "Inbox/netCDF4.md",
     "Inbox/xarray.md",
+    "Inbox/netCDF4.md",
     "Inbox/Python.md",
     "Inbox/WFEL – Project 1.md",
     "Inbox/Lakes_cci.md",
