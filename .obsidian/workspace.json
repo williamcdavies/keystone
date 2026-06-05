@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "netCDF4"
             }
+          },
+          {
+            "id": "ba7e6e7bb919b91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Photosynthetically active radiation.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Photosynthetically active radiation"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,10 +275,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "netCDF4.md"
+                "file": "Inbox/Photosynthetically active radiation.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for netCDF4"
+              "title": "File properties for Photosynthetically active radiation"
             }
           },
           {
@@ -293,11 +317,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f8265783be32293",
+  "active": "ba7e6e7bb919b91e",
   "lastOpenFiles": [
+    "netCDF4.md",
+    "Inbox/Photosynthetically active radiation.md",
     "xarray.md",
     "Airsheds.md",
-    "netCDF4.md",
     "Python.md",
     "Primary productivity.md",
     "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
@@ -320,7 +345,6 @@
     "Spurious relationship.md",
     "Missing at random (MAR).md",
     "Unstacked data.md",
-    "Sparklines.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
