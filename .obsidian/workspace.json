@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Lakes_cci.md",
+                "file": "Inbox/Python.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lakes_cci"
+              "title": "Python"
             }
           }
         ],
@@ -251,10 +251,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Lakes_cci.md"
+                "file": "Inbox/Python.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Lakes_cci"
+              "title": "File properties for Python"
             }
           },
           {
@@ -284,11 +284,11 @@
   },
   "active": "74d9a9c2585af70a",
   "lastOpenFiles": [
+    "Inbox/Lakes_cci.md",
     "Inbox/netCDF4.md",
     "Inbox/WFEL – Project 1.md",
     "Inbox/Python.md",
     "Inbox/xarray.md",
-    "Inbox/Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Pathos.md",
     "C3S.md",
