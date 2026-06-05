@@ -1,6 +1,6 @@
 ---
 tags:
-  - WFEL
+  - WFSEL
 ---
 EUMETSAT is the European operational satellite agency for monitoring weather, climate and the environment from space.
 

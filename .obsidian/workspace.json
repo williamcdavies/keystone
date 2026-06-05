@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a9ed53e3bd280544",
+        "id": "176793d7fa7cf13d",
         "type": "tabs",
         "children": [
           {
-            "id": "6b4fd54cfaeec2b0",
+            "id": "024c54132b7f848c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lakes_cci.md",
+                "file": "Morphometry.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lakes_cci"
-            }
-          },
-          {
-            "id": "423ceb614b67ca2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lakes_cci.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Lakes_cci"
-            }
-          },
-          {
-            "id": "f88c8fd1023ce3b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "netCDF4.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "netCDF4"
-            }
-          },
-          {
-            "id": "c6b997a66fa3c0f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "netCDF4.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "netCDF4"
-            }
-          },
-          {
-            "id": "74d9a9c2585af70a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/WFSEL – Project 1.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WFSEL – Project 1"
-            }
-          },
-          {
-            "id": "1b812acc0dd6ac0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Untitled.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Morphometry"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"## References\"",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -275,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Morphometry.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Morphometry"
             }
           },
           {
@@ -296,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,18 +185,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b812acc0dd6ac0d",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
     "Inbox/WFSEL – Project 1.md",
-    "Inbox/Untitled.md",
+    "EUMESTAT.md",
+    "C3S.md",
     "Lakes_cci.md",
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
+    "Morphometry.md",
     "netCDF4.md",
+    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "xarray.md",
     "Python.md",
     "Pathos.md",
-    "C3S.md",
-    "EUMESTAT.md",
     "Pivot tables.md",
     "Learn a few tools well.md",
     "Don't optimise prematurely.md",
