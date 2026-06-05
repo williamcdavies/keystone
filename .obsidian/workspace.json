@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Airsheds.md",
+                "file": "Airsheds.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -251,7 +251,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Airsheds.md"
+                "file": "Airsheds.md"
               },
               "icon": "lucide-info",
               "title": "File properties for Airsheds"
@@ -266,13 +266,24 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "cc32b99f87ed2061",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,10 +293,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6f8265783be32293",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
     "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
-    "Inbox/Airsheds.md",
+    "Airsheds.md",
     "Primary productivity.md",
     "Stoichiometry.md",
     "Morphometry.md",
