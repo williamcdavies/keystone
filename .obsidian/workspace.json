@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Photosynthetically active radiation.md",
+                "file": "Photosynthetically active radiation.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "Photosynthetically active radiation"
             }
+          },
+          {
+            "id": "ff9d9df67d2928d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Electromagnetic spectrum.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Electromagnetic spectrum"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -275,10 +299,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Photosynthetically active radiation.md"
+                "file": "Inbox/Electromagnetic spectrum.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Photosynthetically active radiation"
+              "title": "File properties for Electromagnetic spectrum"
             }
           },
           {
@@ -302,7 +326,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -317,10 +341,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba7e6e7bb919b91e",
+  "active": "ff9d9df67d2928d7",
   "lastOpenFiles": [
+    "Photosynthetically active radiation.md",
+    "Inbox/Electromagnetic spectrum.md",
     "netCDF4.md",
-    "Inbox/Photosynthetically active radiation.md",
     "xarray.md",
     "Airsheds.md",
     "Python.md",
@@ -344,7 +369,6 @@
     "Predictive analytics.md",
     "Spurious relationship.md",
     "Missing at random (MAR).md",
-    "Unstacked data.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
