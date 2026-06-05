@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "Morphometry"
             }
+          },
+          {
+            "id": "3f06d7541068fe0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stoichiometry.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Stoichiometry"
+            }
+          },
+          {
+            "id": "9bb42b68accf1ced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Morphometry.md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Morphometry"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -185,13 +234,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e01f5969e17b9b7",
+  "active": "9bb42b68accf1ced",
   "lastOpenFiles": [
+    "Stoichiometry.md",
+    "Inbox/Untitled.md",
+    "Morphometry.md",
     "Inbox/WFSEL – Project 1.md",
     "EUMESTAT.md",
     "C3S.md",
     "Lakes_cci.md",
-    "Morphometry.md",
     "netCDF4.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
     "xarray.md",
@@ -211,8 +262,6 @@
     "Sparklines.md",
     "Argument forms.md",
     "Arguments.md",
-    "Quantification.md",
-    "System specifications should be consistent.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
