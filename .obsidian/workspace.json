@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Primary productivity.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,11 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Primary productivity"
+            }
+          },
+          {
+            "id": "a974db854730a060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood"
             }
           },
           {
@@ -234,10 +258,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9bb42b68accf1ced",
+  "active": "a974db854730a060",
   "lastOpenFiles": [
+    "Primary productivity.md",
+    "Inbox/The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
     "Stoichiometry.md",
-    "Inbox/Untitled.md",
     "Morphometry.md",
     "Inbox/WFSEL – Project 1.md",
     "EUMESTAT.md",
@@ -261,7 +286,6 @@
     "Unstacked data.md",
     "Sparklines.md",
     "Argument forms.md",
-    "Arguments.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
