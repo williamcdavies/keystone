@@ -1,6 +1,6 @@
 ---
 tags:
-  - Personal
+  - Python
 ---
 
 ## `__main__.py`

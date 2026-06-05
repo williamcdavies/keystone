@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Airsheds.md",
+                "file": "netCDF4.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Airsheds"
+              "title": "netCDF4"
             }
           }
         ],
@@ -160,7 +160,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,10 +251,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Airsheds.md"
+                "file": "netCDF4.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Airsheds"
+              "title": "File properties for netCDF4"
             }
           },
           {
@@ -293,21 +293,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e01f5969e17b9b7",
+  "active": "6f8265783be32293",
   "lastOpenFiles": [
-    "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
+    "xarray.md",
     "Airsheds.md",
+    "netCDF4.md",
+    "Python.md",
     "Primary productivity.md",
+    "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
     "Stoichiometry.md",
     "Morphometry.md",
     "Inbox/WFSEL – Project 1.md",
     "EUMESTAT.md",
     "C3S.md",
     "Lakes_cci.md",
-    "netCDF4.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
-    "xarray.md",
-    "Python.md",
     "Pathos.md",
     "Pivot tables.md",
     "Learn a few tools well.md",
