@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Combustion efficiency decreases as fuel moisture increases.md",
+                "file": "Combustion efficiency decreases as fuel moisture increases.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -323,10 +323,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Combustion efficiency decreases as fuel moisture increases.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Combustion efficiency decreases as fuel moisture increases"
             }
           },
           {
@@ -350,7 +350,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -364,10 +364,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ffce2da96345b49",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
     "Inbox/Untitled.md",
-    "Inbox/Combustion efficiency decreases as fuel moisture increases.md",
+    "Combustion efficiency decreases as fuel moisture increases.md",
     "Inbox/Electromagnetic spectrum.md",
     "Photosynthetically active radiation.md",
     "netCDF4.md",
