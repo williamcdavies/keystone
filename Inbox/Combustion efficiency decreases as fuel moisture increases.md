@@ -1,0 +1,1 @@
+Energy is diverted from pyrolysis () 
