@@ -174,9 +174,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "9ffce2da96345b49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled 1.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -340,10 +364,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad96ddc75853dff2",
+  "active": "9ffce2da96345b49",
   "lastOpenFiles": [
-    "Inbox/Electromagnetic spectrum.md",
     "Inbox/Untitled.md",
+    "Inbox/Untitled 1.md",
+    "Inbox/Electromagnetic spectrum.md",
     "Photosynthetically active radiation.md",
     "netCDF4.md",
     "xarray.md",
@@ -367,7 +392,6 @@
     "Distributions.md",
     "Univariate analysis.md",
     "Predictive analytics.md",
-    "Spurious relationship.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
