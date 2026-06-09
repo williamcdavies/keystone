@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFSEL – Project 1.md",
-                "mode": "preview",
+                "file": "Leetcode/2..md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WFSEL – Project 1"
+              "title": "2."
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFSEL – Project 1.md"
+                "file": "Leetcode/2..md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WFSEL – Project 1"
+              "title": "File properties for 2."
             }
           },
           {
@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,11 +199,12 @@
   },
   "active": "cf3acda2847963f4",
   "lastOpenFiles": [
+    "Leetcode/1. Two Sum.md",
+    "Leetcode/2..md",
+    "Inbox/WFSEL – Project 1.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
     "Improper integration.md",
-    "Leetcode/1. Two Sum.md",
-    "Inbox/WFSEL – Project 1.md",
     "Morphometry.md",
     "Stoichiometry.md",
     "Primary productivity.md",
@@ -224,7 +226,6 @@
     "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Pathos.md",
     "Pivot tables.md",
-    "Learn a few tools well.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
