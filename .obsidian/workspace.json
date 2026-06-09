@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/c++.md",
+                "file": "c++.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -222,9 +222,33 @@
               "icon": "lucide-file",
               "title": "c++"
             }
+          },
+          {
+            "id": "91fef666210ad6bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Leetcode.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Leetcode"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -347,10 +371,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/c++.md"
+                "file": "Inbox/Leetcode.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for c++"
+              "title": "File properties for Leetcode"
             }
           },
           {
@@ -388,11 +412,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec9e4fea522e7912",
+  "active": "91fef666210ad6bd",
   "lastOpenFiles": [
+    "c++.md",
+    "Inbox/Leetcode.md",
     "netCDF4.md",
     "Python.md",
-    "Inbox/c++.md",
     "xarray.md",
     "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
@@ -415,7 +440,6 @@
     "Kernel.md",
     "When in doubt, use brute force.md",
     "Distributions.md",
-    "Univariate analysis.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
