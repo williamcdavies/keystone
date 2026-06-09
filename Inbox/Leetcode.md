@@ -47,9 +47,11 @@ class Solution {
 				int key = target - nums[i];
 				
 				if (size_t val = u.find(key); val != nums.end()) {
-					return {i, }
+					return {i, val};
 				}
 			}
+			
+			return {};
 		}
 };
 ```
