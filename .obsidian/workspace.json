@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "176793d7fa7cf13d",
+        "id": "c5b5a615b4dfd524",
         "type": "tabs",
         "children": [
           {
-            "id": "024c54132b7f848c",
+            "id": "cf3acda2847963f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Morphometry.md",
+                "file": "Leetcode/1. Two Sum.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,189 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Morphometry"
-            }
-          },
-          {
-            "id": "3f06d7541068fe0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stoichiometry.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Stoichiometry"
-            }
-          },
-          {
-            "id": "9bb42b68accf1ced",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Primary productivity.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Primary productivity"
-            }
-          },
-          {
-            "id": "a974db854730a060",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood"
-            }
-          },
-          {
-            "id": "6f8265783be32293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "netCDF4.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "netCDF4"
-            }
-          },
-          {
-            "id": "ba7e6e7bb919b91e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Photosynthetically active radiation.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Photosynthetically active radiation"
-            }
-          },
-          {
-            "id": "9ffce2da96345b49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Combustion efficiency decreases as fuel moisture increases.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Combustion efficiency decreases as fuel moisture increases"
-            }
-          },
-          {
-            "id": "ec9e4fea522e7912",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "c++.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "c++"
-            }
-          },
-          {
-            "id": "91fef666210ad6bd",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "1. Two Sum"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -332,9 +153,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Leetcode/1. Two Sum.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for 1. Two Sum"
             }
           },
           {
@@ -373,25 +196,25 @@
       "graph:Open graph view": false
     }
   },
-  "active": "91fef666210ad6bd",
+  "active": "cf3acda2847963f4",
   "lastOpenFiles": [
+    "Inbox/WFSEL – Project 1.md",
+    "Morphometry.md",
+    "Stoichiometry.md",
+    "Primary productivity.md",
+    "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
+    "netCDF4.md",
+    "Photosynthetically active radiation.md",
+    "Combustion efficiency decreases as fuel moisture increases.md",
+    "c++.md",
     "Python.md",
     "xarray.md",
-    "Inbox/WFSEL – Project 1.md",
     "Leetcode/1. Two Sum.md",
     "Inbox/Untitled.md",
     "Inbox/Leetcode.md",
     "Leetcode",
-    "c++.md",
-    "netCDF4.md",
-    "Photosynthetically active radiation.md",
-    "Combustion efficiency decreases as fuel moisture increases.md",
     "Inbox/Electromagnetic spectrum.md",
     "Airsheds.md",
-    "Primary productivity.md",
-    "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
-    "Stoichiometry.md",
-    "Morphometry.md",
     "EUMESTAT.md",
     "C3S.md",
     "Lakes_cci.md",
