@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/1. Two Sum.md",
+                "file": "Inbox/WFSEL – Project 1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Two Sum"
+              "title": "WFSEL – Project 1"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#MATH182  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Leetcode/1. Two Sum.md"
+                "file": "Inbox/WFSEL – Project 1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 1. Two Sum"
+              "title": "File properties for WFSEL – Project 1"
             }
           },
           {
@@ -198,6 +198,10 @@
   },
   "active": "cf3acda2847963f4",
   "lastOpenFiles": [
+    "Geometric series.md",
+    "Partial fraction decomposition.md",
+    "Improper integration.md",
+    "Leetcode/1. Two Sum.md",
     "Inbox/WFSEL – Project 1.md",
     "Morphometry.md",
     "Stoichiometry.md",
@@ -209,7 +213,6 @@
     "c++.md",
     "Python.md",
     "xarray.md",
-    "Leetcode/1. Two Sum.md",
     "Inbox/Untitled.md",
     "Inbox/Leetcode.md",
     "Leetcode",
@@ -222,9 +225,6 @@
     "Pathos.md",
     "Pivot tables.md",
     "Learn a few tools well.md",
-    "Don't optimise prematurely.md",
-    "Kernel.md",
-    "When in doubt, use brute force.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
