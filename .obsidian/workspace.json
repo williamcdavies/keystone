@@ -152,36 +152,12 @@
             }
           },
           {
-            "id": "ad96ddc75853dff2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Untitled.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "9ffce2da96345b49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Combustion efficiency decreases as fuel moisture increases.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -196,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Combustion efficiency decreases as fuel moisture increases"
             }
           },
           {
@@ -227,28 +203,14 @@
             "id": "91fef666210ad6bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Leetcode.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Leetcode"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -291,8 +253,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -371,11 +332,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Inbox/Leetcode.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "File properties for Leetcode"
+              "title": "File properties"
             }
           },
           {
@@ -410,18 +369,21 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Open graph view": false
     }
   },
   "active": "91fef666210ad6bd",
   "lastOpenFiles": [
-    "c++.md",
-    "Inbox/Leetcode.md",
-    "netCDF4.md",
     "Python.md",
     "xarray.md",
-    "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
+    "Leetcode/1. Two Sum.md",
+    "Inbox/Untitled.md",
+    "Inbox/Leetcode.md",
+    "Leetcode",
+    "c++.md",
+    "netCDF4.md",
     "Photosynthetically active radiation.md",
     "Combustion efficiency decreases as fuel moisture increases.md",
     "Inbox/Electromagnetic spectrum.md",
@@ -440,12 +402,10 @@
     "Don't optimise prematurely.md",
     "Kernel.md",
     "When in doubt, use brute force.md",
-    "Distributions.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
     "~",
-    "Untitled",
     "Screenshot 2025-11-08 160512.png",
     "Screenshot 2025-11-08 142002.png",
     "Screenshot 2025-11-02 125615.png",
