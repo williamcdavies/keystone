@@ -37,15 +37,18 @@ You can return the answer in any order.
 class Solution {
 	public:
 		vector<int> twoSum(vector<int>& nums, int target) {
-			unordered_map<size_t, int> u;
+			unordered_map<int, size_t> u;
 			
 			for (size_t i = 0; i < nums.size(); ++i) {
-				u.insert({i, nums[i]});
+				u.insert({nums[i], i});
 			}
 			
 			for (size_t i = 0; i < nums.size(); ++ i) {
-				int difference = target - nums[i];
-				u.find() 
+				int key = target - nums[i];
+				
+				if (size_t val = u.find(key); val != nums.end()) {
+					return {i, }
+				}
 			}
 		}
 };
