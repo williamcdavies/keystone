@@ -44,7 +44,8 @@ class Solution {
 			}
 			
 			for (size_t i = 0; i < nums.size(); ++ i) {
-				int subt
+				int difference = target - nums[i];
+				u.find() 
 			}
 		}
 };
