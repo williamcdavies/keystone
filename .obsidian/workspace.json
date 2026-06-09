@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Combustion efficiency decreases as fuel moisture increases.md",
+                "file": "Inbox/Untitled.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -196,11 +196,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Combustion efficiency decreases as fuel moisture increases"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "ec9e4fea522e7912",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/c++.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "c++"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -323,10 +347,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Combustion efficiency decreases as fuel moisture increases.md"
+                "file": "Inbox/c++.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Combustion efficiency decreases as fuel moisture increases"
+              "title": "File properties for c++"
             }
           },
           {
@@ -364,21 +388,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e01f5969e17b9b7",
+  "active": "ec9e4fea522e7912",
   "lastOpenFiles": [
+    "netCDF4.md",
+    "Python.md",
+    "Inbox/c++.md",
+    "xarray.md",
     "Inbox/Untitled.md",
+    "Inbox/WFSEL – Project 1.md",
+    "Photosynthetically active radiation.md",
     "Combustion efficiency decreases as fuel moisture increases.md",
     "Inbox/Electromagnetic spectrum.md",
-    "Photosynthetically active radiation.md",
-    "netCDF4.md",
-    "xarray.md",
     "Airsheds.md",
-    "Python.md",
     "Primary productivity.md",
     "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
     "Stoichiometry.md",
     "Morphometry.md",
-    "Inbox/WFSEL – Project 1.md",
     "EUMESTAT.md",
     "C3S.md",
     "Lakes_cci.md",
@@ -391,7 +416,6 @@
     "When in doubt, use brute force.md",
     "Distributions.md",
     "Univariate analysis.md",
-    "Predictive analytics.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
