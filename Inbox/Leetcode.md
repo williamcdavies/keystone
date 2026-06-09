@@ -1,6 +1,8 @@
 ## Problems
 
 ### 1. Two Sum
+> [!success]
+Solved: {{date}}
 
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
 
@@ -37,21 +39,21 @@ You can return the answer in any order.
 class Solution {
 	public:
 		vector<int> twoSum(vector<int>& nums, int target) {
-			unordered_map<int, size_t> u;
+			unordered_map<int, int> u;
 			
-			for (size_t i = 0; i < nums.size(); ++i) {
+			for (int i = 0; i < nums.size(); ++i) {
 				u.insert({nums[i], i});
 			}
 			
-			for (size_t i = 0; i < nums.size(); ++ i) {
+			for (int i = 0; i < nums.size(); ++i) {
 				int key = target - nums[i];
 				
-				if (size_t val = u.find(key); val != nums.end()) {
-					return {i, val};
+				if (auto search = u.find(key); search != u.end() && u[key] != i) {
+					return {i, search->second};
 				}
 			}
 			
 			return {};
-		}
+	}
 };
 ```
