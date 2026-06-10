@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/2. Add Two Numbers.md",
+                "file": "Inbox/3..md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Add Two Numbers"
+              "title": "3."
             }
           }
         ],
@@ -223,9 +223,9 @@
   },
   "active": "d39c8ae833569588",
   "lastOpenFiles": [
+    "Leetcode/2. Add Two Numbers.md",
     "Leetcode/1. Two Sum.md",
     "Inbox/3..md",
-    "Leetcode/2. Add Two Numbers.md",
     "Inbox/WFSEL – Project 1.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
