@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Leetcode/3. Longest Substring Without Repeating Characters.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -223,9 +223,10 @@
   },
   "active": "d39c8ae833569588",
   "lastOpenFiles": [
+    "Leetcode/4. Median of Two Sorted Arrays.md",
+    "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/1. Two Sum.md",
     "Leetcode/2. Add Two Numbers.md",
-    "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Inbox/WFSEL – Project 1.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
@@ -249,7 +250,6 @@
     "Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
     "Pathos.md",
-    "Pivot tables.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
