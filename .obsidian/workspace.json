@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/3..md",
+                "file": "Inbox/3. Longest Substring Without Repeating Characters.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3."
+              "title": "3. Longest Substring Without Repeating Characters"
             }
           }
         ],
@@ -224,8 +224,8 @@
   "active": "d39c8ae833569588",
   "lastOpenFiles": [
     "Leetcode/1. Two Sum.md",
+    "Inbox/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/2. Add Two Numbers.md",
-    "Inbox/3..md",
     "Inbox/WFSEL – Project 1.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
