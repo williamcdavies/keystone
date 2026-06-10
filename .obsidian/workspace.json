@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/3. Longest Substring Without Repeating Characters.md",
+                "file": "Leetcode/4. Median of Two Sorted Arrays.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3. Longest Substring Without Repeating Characters"
+              "title": "4. Median of Two Sorted Arrays"
             }
           }
         ],
@@ -223,8 +223,8 @@
   },
   "active": "d39c8ae833569588",
   "lastOpenFiles": [
-    "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
+    "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/1. Two Sum.md",
     "Leetcode/2. Add Two Numbers.md",
     "Inbox/WFSEL – Project 1.md",
