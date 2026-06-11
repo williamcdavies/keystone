@@ -70,4 +70,9 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- a. what is landing in the waterbody (size, chem, comp)?
 	- b. how much mass remains as smoke? 
 	- we would like a model (or two) for short-scale smoke deposition and long-scale smoke coverage
-- 
+- how does turbulence affect firebrands?
+- why do our models model particles as spheres and other simple shapes?
+	- the more complex the shape, the computational complexity increases
+- we are in good shape for modeling small particles. large particles just aren't being measured. we need more lab studies looking into how we model particles $> 10 \mu$m. how do we measure the flux of these particles.
+	- the best way to do this is to combine radar sensing and in situ sampling
+	- 
