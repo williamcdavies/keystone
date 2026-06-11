@@ -178,4 +178,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 - fungi in smoke retain virulence and can cause disease
 - what is the difference between smoke and dust in regards to microbial transportation?
 - are microbes attached to particles? we don't know. not a consistent correlation between PM2.5. some correlation between the larger particulates.
+- temperature is not consistent across the combustion zone -> smoke is not sterile
+- no one has yet to look at the long distance sustainability of microbial systems within smoke emissions
+- active gene expression? 
 - 
