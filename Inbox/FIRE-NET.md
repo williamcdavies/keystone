@@ -256,3 +256,9 @@ why do cyanobacteria respond so well to changes in lake parameters?
 urban fire particles -> does collection capture particle emissions sourced from urban fuels. yes, but only if the subject lake is in proximity to an urban fire. more heavy metals + plastics. we havn't seen an understanding a study on the chemical profile of ash at certain distances. 
 
 we expect to see large quantities of heavy metals in smoke sourced from urban fires.
+
+depending on the percentage burn, what is the output?
+
+there is some relationship between the smoldering ability of a particle and maximum distance it can travel.
+
+you get enrichment of inorganic ash 
