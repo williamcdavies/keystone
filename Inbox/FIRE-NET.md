@@ -89,3 +89,6 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - how do we present this problem in such a way that we can fund / innovate in this field? -> regulations. clear air act. 
 - can we acquire filters from sampling sites? 
 - can we establish requirements to store / analyse filters? 
+- depending on the particle size, the type of light penetration will change the dynamic of the CA
+- what happens to large particles that settle at lake beds? 
+- how far can particles really travel? have we really tested what is being deposited relative to distance?
