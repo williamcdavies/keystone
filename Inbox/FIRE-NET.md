@@ -129,4 +129,9 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - temporal resolution. how might deposition or atmospheric attenuation of light change throughout the lifetime of the fire. what are the long term affects? two different kinds of models. primary model and redistribution model
 - detailed information on deposition characteristics under various conditions
 - topographical affects. do we have smoke shadow affects and things like that?
-- question: we want to model all the... we want to know how much was emitted and depending on the particle size... can a Lagrangian model accommodate the total mass of a wildfire?
+- question: we want to model all the... we want to know how much was emitted and depending on the particle size... can a Lagrangian model accommodate the total mass of a wildfire? -> should be able to under many assumptions.
+- question: particle shape. in the models we run now they are spheres. we need to model the microphysics for different shapes. is it worth doing? do we know enough to switch from a sphere or a disk to other shapes? 
+
+#### Group 3
+what processes do we think are important in terms of smoke emissions and lake impacts?
+- 
