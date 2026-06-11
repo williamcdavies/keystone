@@ -167,7 +167,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 - methods:
 1. fly, UAS, sample ambient air and smoke
 2. remove filters, preserve under sterile conditions
-3. lab: stain epifluorescence microscopy to countr cells
+3. lab: stain epifluorescence microscopy to count cells
 4. lab: dna extraction, pcr, rRNA...
 - greater bacterial flux produced by fire
 - can we trace microbes back the combustion zone?
@@ -181,4 +181,4 @@ what processes do we think are important in terms of smoke emissions and lake im
 - temperature is not consistent across the combustion zone -> smoke is not sterile
 - no one has yet to look at the long distance sustainability of microbial systems within smoke emissions
 - active gene expression? 
-- 
+- do we know if microbes are in the emissions depending upon burning material, the microbes are different? lacking the spatial range of effectiveness.
