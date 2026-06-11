@@ -63,3 +63,6 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- uncertain particle properties: fixed effective density does not capture variability in composition and combustion state affecting settling and transport
 	- simplified fire energetics: assumes 100% fuel consumption and fixed energy partitioning, ignoring spatial/temporal variability in fire intensity and emissions
 	- coarse atmospheric and plume representation: uses simplified wind scaling, capped plume height, and idealised deposition geometry, limiting realism of long-range transport and spatial deposition patterns.
+
+### Breakout Session 1
+- whya re we aunable to implement sophisticated models for cross-field 
