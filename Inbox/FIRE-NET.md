@@ -270,3 +270,5 @@ we only have data from one fire that is highly characterized.
 how much variability would there be from fire to fire in terms of micro nutrients? there was about 9-30% of the mass of the tree is inorganic.
 
 do models need to account for the transport accounted for by the fire and also the transport accounted for by the default
+
+i think from our deposition data, looking at size distribution, we can get information about source information
