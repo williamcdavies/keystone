@@ -112,4 +112,15 @@ How do we distribute high resolution domains for two separate domains (fields) w
 
 #### Group 1
 - we need particle distribution datasets
-- we need to model pyrome microphysics
+- we need to model pyrometeors microphysics
+- how can we couple models?
+- how do present the assumptions of smoke modeling and how do we disambiguate models for those who aren't familiar with their use
+- maybe we need two different frameworks
+	- pyrometeors
+	- smaller particles
+- to what extend are people willing to participate in scientific advancement? 
+
+#### Group 2
+- no modeler -> expansive questions
+- list of what ideal models can provide
+	- spatial resolution at lake and watershed scale. we could potential get greater spatial resolut
