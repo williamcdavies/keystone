@@ -34,4 +34,8 @@ One-hundred open questions to advance understanding of wildland fire emissions, 
 	- 2. wet deposition (rain can remove particles from the atmosphere)
 - large smoke plumes can alter the weather beneath the smoke plume
 - a lot of unknowns regarding particles $> 10 \mu$m (most research regards particles $< 10 \mu$m)
-- ejected pyrometeors and firebrands can be lofted ahead of the burn perimeter to start new fires 
+- ejected pyrometeors and firebrands can be lofted ahead of the burn perimeter to start new fires or land in lakes
+- pyrocumulonimbus clouds
+- tools
+	- lagrangian transport models
+	- 
