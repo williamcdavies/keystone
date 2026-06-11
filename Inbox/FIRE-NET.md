@@ -121,6 +121,12 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - to what extend are people willing to participate in scientific advancement? 
 
 #### Group 2
-- no modeler -> expansive questions
+- no model-er -> expansive questions
 - list of what ideal models can provide
-	- spatial resolution at lake and watershed scale. we could potential get greater spatial resolut
+	- spatial resolution at lake and watershed scale. we could potential get greater spatial resolution closer to the file. can you downscale from larger scale models if we wanted to understand how topography can impact deposution
+	- chemical composition specific to ash. how morphology and size can impact differing chemical reactions
+- micronutrients and contaminants
+- temporal resolution. how might deposition or atmospheric attenuation of light change throughout the lifetime of the fire. what are the long term affects? two different kinds of models. primary model and redistribution model
+- detailed information on deposition characteristics under various conditions
+- topographical affects. do we have smoke shadow affects and things like that?
+- question: we want to model all the... we want to know how much was emitted and depending on the particle size... can a Lagrangian model accommodate the total mass of a wildfire?
