@@ -271,4 +271,10 @@ how much variability would there be from fire to fire in terms of micro nutrient
 
 do models need to account for the transport accounted for by the fire and also the transport accounted for by the default
 
-i think from our deposition data, looking at size distribution, we can get information about source information
+"i think from our deposition data, looking at size distribution, we can get information about source information"
+
+
+### Group Discussion 2
+
+#### Group C
+- Why do smaller particles have more bioavailability? 
