@@ -148,10 +148,15 @@ what processes do we think are important in terms of smoke emissions and lake im
 - algae blooms
 - emissions and plume rise
 - surface energy budget
-
-time-space matrix
-
-many processes span across different spatial-temporal scales
-
-experiment design: 
-- what data is available
+- time-space matrix
+- many processes span across different spatial-temporal scales
+- experiment design: 
+	- what data is available? at what frequency?
+	- how do we classify lakes?
+	- do we have a better handle on lakes further from the fire since there are less uncertainties?
+	- do we need a field experiment
+	- do we need to forecast the plume to sample the lake before and after
+- think about the lake ecosystem outcome we are interested in and accommodate temporal scales appropriately.
+- how are lakes that are enclosed by geographic features impacted differently over time than lakes that are open to direct deposition?
+- fire season is extending into the wet season? how does this change how we model particle diffusion?
+- 
