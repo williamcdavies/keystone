@@ -227,4 +227,6 @@ studies have shown that it takes about 90 days for ash (inorganic deposits that 
 
 categorically question the notion that individual cells are being updrafted. 
 
-i wonder if in smoke we have a lot of that uv attenuation. does that allow them to stay viable longer and transfer in the atmosp
+i wonder if in smoke we have a lot of that uv attenuation. does that allow them to stay viable longer and transfer in the atmosphere. are they proliferating because of their conditions
+
+how much of the microbiome in the atmosphere is being scrubbed?
