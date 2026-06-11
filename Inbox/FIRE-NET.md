@@ -182,3 +182,15 @@ what processes do we think are important in terms of smoke emissions and lake im
 - no one has yet to look at the long distance sustainability of microbial systems within smoke emissions
 - active gene expression? 
 - do we know if microbes are in the emissions depending upon burning material, the microbes are different? lacking the spatial range of effectiveness.
+
+### Lightning Talk 2 ()
+why do we need to study deposition of all particle sizes? the bulk of the mass in a dust plume is > 10 microns.
+
+capture wet and dry deposition independent of each other. measure the full spectrum of dust composition.
+
+2017 - 2025
+
+what is atmospheric deposition made of?
+- charcoal/ash (every sample)
+
+Dong et al. 2012 Mtn Sci
