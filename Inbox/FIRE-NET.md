@@ -237,4 +237,12 @@ when microbes re-enter traditional environments, how do they affect existing mic
 
 soil temperatures in a fire don't get hot enough to sterilise soil (some exceptions). in a fire, you have a changing composition, but not complete sterilisation. 
 
-how does the amount of cells represent the amount of cells in the water?
+how does the amount of cells represent the amount of cells in the water? in waterbodies it could be 5 or 6 orders of magnitude less than soil/sediment. 
+
+how does the density of microbes compare between ash and dust?
+
+introduced microbes to lake ecosystems remain until the lake mixes? up to a 1.5 years in tahoe. 
+
+cyanobacteria are populated surface of soils. they form the biocrust. the would be the first to be lifted off during updraft. 
+
+we need to disaggregate samp
