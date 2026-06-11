@@ -245,4 +245,10 @@ introduced microbes to lake ecosystems remain until the lake mixes? up to a 1.5 
 
 cyanobacteria are populated surface of soils. they form the biocrust. the would be the first to be lifted off during updraft. 
 
-we need to disaggregate samp
+we need to disaggregate samples by cyanobacteria species to understand of the deposition of cyanobacteria into lake ecosystems propagate.
+
+if its not the same cyanobacteria then _ changes.
+
+we saw bigger responses in Cla lakes that had an existing community of cyanobacteria
+
+why do cyanobacteria respond so well to changes in lake parameters? 
