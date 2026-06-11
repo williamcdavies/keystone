@@ -98,3 +98,4 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- ularian models: only care about densities, not particle numbers, so we can model bulk particle transportation
 - how can we further classify pyrometeors? subsets of pyrometeors may fit different models?
 - existing atmospheric models don't model the physicality of wildfire plumes. what changes need to be made to integrate this into existing atmospheric models? 
+- can we run enough small scale studies for different vegetation to generate generalisations for updrafting particles of differing size and composition?
