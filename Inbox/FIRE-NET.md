@@ -107,3 +107,9 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - can we, knowing the isotopic signature, where those particles came from -> no, but we may be able to use microbes as bio-tracers because they are so distinct?
 - can we categorise all of these problems using two variables: complexity, importance? need to prioritise our gaps. 
 - sampling vs modelling vs monitoring.
+
+### Group Discussion 1
+
+#### Group 1
+- we need particle distribution datasets
+- we need to model pyrome microphysics
