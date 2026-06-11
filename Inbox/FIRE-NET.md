@@ -201,6 +201,16 @@ how might topography influence ash deposition?
 dust may be adding micronutrients 
 
 brown ash > grey ash > ground ash in terms of bioavailable phosphorus
+brown ash has stronger effect in terms of ClA than other types of ash
+
+how much does ash in the atmosphere matter for rain composition?
+
+data opportunities
+- dry deposition data/samples 20217-2025
+- wet deposition 2017-2019
+- throughfall + rainfall
 
 Dong et al. 2012 Mtn Sci
 Wen et al. In review
+
+### Lightning Talk 3 (Jeff Nielson)
