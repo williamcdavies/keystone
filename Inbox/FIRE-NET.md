@@ -262,3 +262,7 @@ depending on the percentage burn, what is the output?
 there is some relationship between the smoldering ability of a particle and maximum distance it can travel.
 
 you get enrichment of inorganic ash 
+
+it sounds like ecological work is characterising. can we fractionate the different materials to see what kind of surface functionality and reactivity they had? yes, 
+
+we only have data from one fire that is highly characterized. 
