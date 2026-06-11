@@ -192,5 +192,13 @@ capture wet and dry deposition independent of each other. measure the full spect
 
 what is atmospheric deposition made of?
 - charcoal/ash (every sample)
+- large particles being transported quite far
+- potential long term affect of ash getting reemitted
+
+how might topography influence ash deposition?
+- as we increase elevation we see a larger fraction of nitrous, phosphorus, and carbon in the deposition
+
+dust may be adding micronutrients 
 
 Dong et al. 2012 Mtn Sci
+Wen et al. In review
