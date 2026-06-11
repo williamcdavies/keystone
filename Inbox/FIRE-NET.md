@@ -87,4 +87,5 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- can we link particle samples to fires?
 	- what are the observations we can use in the near term and how what do we need to build to get observations for the long term? time frames for different tools? 
 - how do we present this problem in such a way that we can fund / innovate in this field? -> regulations. clear air act. 
-- 
+- can we acquire filters from sampling sites? 
+- can we establish requirements to store / analyse filters? 
