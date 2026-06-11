@@ -175,3 +175,4 @@ what processes do we think are important in terms of smoke emissions and lake im
 - air quality index reflects microbial diversity
 - smoke contains biological ice-nucleating particles
 - we don't know if microbes have interactivity or if we are just seeing a mix of what the plumes are producing. what are the functional roles of microbial ecosystems within smoke plumes?
+- fungi in smoke retain virulence and can cause disease
