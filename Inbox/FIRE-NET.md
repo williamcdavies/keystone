@@ -93,3 +93,4 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - what happens to large particles that settle at lake beds? 
 - how far can particles really travel? have we really tested what is being deposited relative to distance?
 - can we use volunteers to form an impromptu sampling network?
+- radar as a solution for sampling firebrands $> 10 \mu$m
