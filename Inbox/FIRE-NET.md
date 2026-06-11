@@ -172,4 +172,5 @@ what processes do we think are important in terms of smoke emissions and lake im
 - greater bacterial flux produced by fire
 - can we trace microbes back the combustion zone?
 - 70% of what we can trace in the smoke, we can trace back to a source (42% in ambient)
-
+- air quality index reflects microbial diversity
+- smoke contains biological ice-nucleating particles
