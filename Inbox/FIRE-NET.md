@@ -163,9 +163,13 @@ what processes do we think are important in terms of smoke emissions and lake im
 ## Thursday Part 2
 
 ### Lightning Talk 1 ()
-biological emissions -> smoke ecology -> transport -> deposition and dispersal
-
-methods:
+- biological emissions -> smoke ecology -> transport -> deposition and dispersal
+- methods:
 1. fly, UAS, sample ambient air and smoke
 2. remove filters, preserve under sterile conditions
-3. lab: stain e
+3. lab: stain epifluorescence microscopy to countr cells
+4. lab: dna extraction, pcr, rRNA...
+- greater bacterial flux produced by fire
+- can we trace microbes back the combustion zone?
+- 70% of what we can trace in the smoke, we can trace back to a source (42% in ambient)
+
