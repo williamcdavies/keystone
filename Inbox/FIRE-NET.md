@@ -230,3 +230,11 @@ categorically question the notion that individual cells are being updrafted.
 i wonder if in smoke we have a lot of that uv attenuation. does that allow them to stay viable longer and transfer in the atmosphere. are they proliferating because of their conditions
 
 how much of the microbiome in the atmosphere is being scrubbed?
+
+we need more data, more data from more fires to categorise chemical and biological composition. 
+
+when microbes re-enter traditional environments, how do they affect existing microbiomes?
+
+soil temperatures in a fire don't get hot enough to sterilise soil (some exceptions). in a fire, you have a changing composition, but not complete sterilisation. 
+
+how does the amount of cells represent the amount of cells in the water?
