@@ -215,3 +215,10 @@ Wen et al. In review
 
 ### Lightning Talk 3 (Jeff Nielson)
 can wildfire dust composition be predicted? 
+
+### Breakout Session 2
+assess the chemical and biological composition of wildland fire emissions
+
+cannot imagine physically detaching a microbe from its community into the air. we need a conceptual image of how microorganisms become airborne. 
+
+conductive forces pick up dust and soil material. 
