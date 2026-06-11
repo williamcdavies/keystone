@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode/4. Median of Two Sorted Arrays.md",
+                "file": "Leetcode/3. Longest Substring Without Repeating Characters.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "4. Median of Two Sorted Arrays"
+              "title": "3. Longest Substring Without Repeating Characters"
+            }
+          },
+          {
+            "id": "4c71c2eabfb7c6c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/FIRE-NET.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "FIRE-NET"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,9 +221,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d39c8ae833569588",
+  "active": "4c71c2eabfb7c6c2",
   "lastOpenFiles": [
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
+    "Inbox/FIRE-NET.md",
     "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/1. Two Sum.md",
     "Leetcode/2. Add Two Numbers.md",
@@ -224,7 +250,6 @@
     "C3S.md",
     "Lakes_cci.md",
     "Inbox/Conversation with Dr. Facundo Scordo.md",
-    "Pathos.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
