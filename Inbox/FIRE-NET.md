@@ -101,3 +101,4 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - can we run enough small scale studies for different vegetation to generate generalisations for updrafting particles of differing size and composition?
 - what size of pyrometeor is most common? and which has the biggest impact? spatially? 
 - solve many sub-problems at different pyrometeor sizes instead of a single classification
+- why have we been ignoring this class of particles and heres why it is important
