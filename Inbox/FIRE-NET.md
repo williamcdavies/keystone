@@ -159,4 +159,3 @@ what processes do we think are important in terms of smoke emissions and lake im
 - think about the lake ecosystem outcome we are interested in and accommodate temporal scales appropriately.
 - how are lakes that are enclosed by geographic features impacted differently over time than lakes that are open to direct deposition?
 - fire season is extending into the wet season? how does this change how we model particle diffusion?
-- 
