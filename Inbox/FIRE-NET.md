@@ -65,4 +65,9 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- coarse atmospheric and plume representation: uses simplified wind scaling, capped plume height, and idealised deposition geometry, limiting realism of long-range transport and spatial deposition patterns.
 
 ### Breakout Session 1
-- whya re we aunable to implement sophisticated models for cross-field 
+- why are we unable to implement sophisticated models for cross-field procedures?
+- what is needed to implement sophisticated models for wildfire analyses?
+	- a. what is landing in the waterbody (size, chem, comp)?
+	- b. how much mass remains as smoke? 
+	- we would like a model (or two) for short-scale smoke deposition and long-scale smoke coverage
+- 
