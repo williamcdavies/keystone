@@ -38,4 +38,11 @@ One-hundred open questions to advance understanding of wildland fire emissions, 
 - pyrocumulonimbus clouds
 - tools
 	- lagrangian transport models
-	- 
+- we need new rules for modeling particles $> 10 \mu$m
+- current gaps in smoke modeling
+	- particles larger tan PM_10 are not accounted by most smoke modeling frameworks
+	- computing hourly smoke emissions is especially difficult
+	- smoke emissions factors can vary substantially by fuel type, fire temp, and are highly uncertain especially for volatile organic compounds
+	- smoke transport can be very sensitive to the smoke injection height, and there are limited observations of plume top heights
+	- smoke chemistry is a fundamentally messy problem due to complex chemical reactions, uncertain smoke emissions, secondary organic aerosol formation
+	- near-source dynamics: rapid entrainment, strong turbulence, interaction between multiple smoke columns, subgrid plume structure
