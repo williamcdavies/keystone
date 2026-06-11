@@ -200,5 +200,7 @@ how might topography influence ash deposition?
 
 dust may be adding micronutrients 
 
+brown ash > grey ash > ground ash in terms of bioavailable phosphorus
+
 Dong et al. 2012 Mtn Sci
 Wen et al. In review
