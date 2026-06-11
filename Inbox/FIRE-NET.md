@@ -55,4 +55,10 @@ How do we distribute high resolution domains for two separate domains (fields) w
 -  physics based model
 	- predict where these particles were going to land
 	- can be tested via in situ sampling 
-	- 
+	- we assume different sized particles will be updrafted at differing heights
+- limitations
+	- simplified particle geometry: assumes spherical particles, neglecting irregular shapes that influence drag, lofting, and deposition distances
+	- simplified particle behaviour: treats pyrometeors as passive (extinguished) and excludes smoldering/combustion effects that can alter buoyancy and residence time.
+	- size distribution bias: particle size data are derived from high-altitude sampling (~5 km) likely underrepresenting larger particles that fial to reach those elevatations. 
+	- uncertain particle properties: fixed effective density does not capture variability in composition and combustion state affecting settling and transport
+	- simplified fire energetics: assumes 100% fuel consumption and fixed energy partitioning, ignoring spatial/temporal variability in fire intensity and emissions
