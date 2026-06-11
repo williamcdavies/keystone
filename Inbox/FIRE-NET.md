@@ -46,3 +46,13 @@ One-hundred open questions to advance understanding of wildland fire emissions, 
 	- smoke transport can be very sensitive to the smoke injection height, and there are limited observations of plume top heights
 	- smoke chemistry is a fundamentally messy problem due to complex chemical reactions, uncertain smoke emissions, secondary organic aerosol formation
 	- near-source dynamics: rapid entrainment, strong turbulence, interaction between multiple smoke columns, subgrid plume structure
+
+##### Questions
+How do we distribute high resolution domains for two separate domains (fields) within the same working solution?
+
+### Lightning Talk #2: _ (Facundo Scordo, Ph.D.)
+- in additiona to smoke and firebrands, wildfires emit vast amounts of pyrometearos (10-2000 $\mu$m) that can influence ecosystem processes
+-  physics based model
+	- predict where these particles were going to land
+	- can be tested via in situ sampling 
+	- 
