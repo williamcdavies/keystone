@@ -221,4 +221,10 @@ assess the chemical and biological composition of wildland fire emissions
 
 cannot imagine physically detaching a microbe from its community into the air. we need a conceptual image of how microorganisms become airborne. 
 
-conductive forces pick up dust and soil material. 
+conductive forces pick up dust and soil material. expecting some relationship between the organism and _ would be a bit of a stretch. maybe the microbes are mobilised by the physical processes that the fire generate but connecting the microbe with certain particle size is a focus.
+
+studies have shown that it takes about 90 days for ash (inorganic deposits that you get when forests burn) to be removed from the atmosphere.
+
+categorically question the notion that individual cells are being updrafted. 
+
+i wonder if in smoke we have a lot of that uv attenuation. does that allow them to stay viable longer and transfer in the atmosp
