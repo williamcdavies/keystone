@@ -1,4 +1,4 @@
-## Thursday Part 1.
+## Thursday Part 1
 
 ### Intro - Sudeep Chandra
 - Emplace scientific information into the policy making process. 
@@ -159,3 +159,13 @@ what processes do we think are important in terms of smoke emissions and lake im
 - think about the lake ecosystem outcome we are interested in and accommodate temporal scales appropriately.
 - how are lakes that are enclosed by geographic features impacted differently over time than lakes that are open to direct deposition?
 - fire season is extending into the wet season? how does this change how we model particle diffusion?
+
+## Thursday Part 2
+
+### Lightning Talk 1 ()
+biological emissions -> smoke ecology -> transport -> deposition and dispersal
+
+methods:
+1. fly, UAS, sample ambient air and smoke
+2. remove filters, preserve under sterile conditions
+3. lab: stain e
