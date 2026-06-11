@@ -58,7 +58,7 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- we assume different sized particles will be updrafted at differing heights
 - limitations
 	- simplified particle geometry: assumes spherical particles, neglecting irregular shapes that influence drag, lofting, and deposition distances
-	- simplified particle behaviour: treats pyrometeors as passive (extinguished) and excludes smoldering/combustion effects that can alter buoyancy and residence time.
+	- simplified particle behaviour: treats pyrometeors as passive (extinguished) and excludes smolder/combustion effects that can alter buoyancy and residence time.
 	- size distribution bias: particle size data are derived from high-altitude sampling (~5 km) likely underrepresenting larger particles that fial to reach those elevations. 
 	- uncertain particle properties: fixed effective density does not capture variability in composition and combustion state affecting settling and transport
 	- simplified fire energetics: assumes 100% fuel consumption and fixed energy partitioning, ignoring spatial/temporal variability in fire intensity and emissions
@@ -73,10 +73,10 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - how does turbulence affect firebrands?
 - why do our models model particles as spheres and other simple shapes?
 	- the more complex the shape, the computational complexity increases
-- we are in good shape for modeling small particles. large particles just aren't being measured. we need more lab studies looking into how we model particles $> 10 \mu$m. how do we measure the flux of these particles.
+- we are in good shape for modelling small particles. large particles just aren't being measured. we need more lab studies looking into how we model particles $> 10 \mu$m. how do we measure the flux of these particles.
 	- the best way to do this is to combine radar sensing and in situ sampling
 - we need more in situ measurements. when we use a radar to remotely sense, we don't know exactly what we need to be looking at.
-	- its difficult to identify particles amongst water vapor
+	- its difficult to identify particles amongst water vapour
 	- generalisations can be made
 	- moisture absorption will completely change how radar detects particles
 		- wetter particles will detect a smaller particle as a larger particle
@@ -101,4 +101,6 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - can we run enough small scale studies for different vegetation to generate generalisations for updrafting particles of differing size and composition?
 - what size of pyrometeor is most common? and which has the biggest impact? spatially? 
 - solve many sub-problems at different pyrometeor sizes instead of a single classification
-- why have we been ignoring this class of particles and heres why it is important
+- why have we been ignoring this class of particles and heres why it is important.
+- heterogeneous smoke modelling 
+- how much of a fire particle is left by the time it is deposited? what is the lifetime of a particle? what does it look like at each stage of life? 
