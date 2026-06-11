@@ -134,4 +134,24 @@ How do we distribute high resolution domains for two separate domains (fields) w
 
 #### Group 3
 what processes do we think are important in terms of smoke emissions and lake impacts?
-- 
+- big vs. small particles
+	- structure
+	- surface area
+	- availability of nutrients based upon particle combustion completeness. what is the chemical makeup of these particles
+	- particle can be hydrophobic. does this affect how long they break down in a water body
+- proximity of the fire to the lake. hetero- vs homo-geneous plume types
+- shapes
+- lake properties
+- connecting lake with atmosphere. how does the lake interact with a highly local plume vs a plume that are further downwind but exposed over a much longer period of time
+- dose response function
+- food web integration
+- algae blooms
+- emissions and plume rise
+- surface energy budget
+
+time-space matrix
+
+many processes span across different spatial-temporal scales
+
+experiment design: 
+- what data is available
