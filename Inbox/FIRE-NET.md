@@ -23,3 +23,8 @@
 
 #### Outcome
 One-hundred open questions to advance understanding of wildland fire emissions, and their impacts on lake ecosystems
+
+### Lightning Talk #1: Modeling wildfire smoke transport and unresolved processes (Derel Mallia, Ph. D.)
+- problem: satellite resolution
+- wildfire plume rise (can be up to lower stratosphere)
+- 
