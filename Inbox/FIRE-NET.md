@@ -27,4 +27,11 @@ One-hundred open questions to advance understanding of wildland fire emissions, 
 ### Lightning Talk #1: Modeling wildfire smoke transport and unresolved processes (Derel Mallia, Ph. D.)
 - problem: satellite resolution
 - wildfire plume rise (can be up to lower stratosphere)
-- 
+- pyroconduction (cloud over fire)
+- chemistry in the atmosphere depends upon what is burning (uncertainties within uncertainties)
+- two types of deposition: 
+	- 1. dry deposition (particles fall due to gravity)
+	- 2. wet deposition (rain can remove particles from the atmosphere)
+- large smoke plumes can alter the weather beneath the smoke plume
+- a lot of unknowns regarding particles $> 10 \mu$m (most research regards particles $< 10 \mu$m)
+- ejected pyrometeors and firebrands can be lofted ahead of the burn perimeter to start new fires 
