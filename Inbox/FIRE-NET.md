@@ -105,5 +105,5 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - heterogeneous smoke modelling 
 - how much of a fire particle is left by the time it is deposited? what is the lifetime of a particle? what does it look like at each stage of life? at what point does a particle become so diffused that it is no longer treated as a smoke particle?
 - can we, knowing the isotopic signature, where those particles came from -> no, but we may be able to use microbes as bio-tracers because they are so distinct?
-- can we categorise all of these problems using two variables: complexity, importance?
+- can we categorise all of these problems using two variables: complexity, importance? need to prioritise our gaps. 
 - sampling vs modelling vs monitoring.
