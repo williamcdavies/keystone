@@ -283,4 +283,7 @@ do models need to account for the transport accounted for by the fire and also t
 
 ### Lightning Talk #1 
 - is there a way we can look at smoke at its position in the column? NOAA HMS disregards column position
-- 
+- differences in ash, smoke, and lake size can alter the magnitude of ecological response
+- does smoke over inland waters matter?
+	- although depositions of as hand aerosols can provide nutrients for phytoplankton and algae, it affects heat fluxes and temperature dependent processes
+- do responses to smoke vary across different types of lakes?
