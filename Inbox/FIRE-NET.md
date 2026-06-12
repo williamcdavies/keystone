@@ -315,4 +315,6 @@ do models need to account for the transport accounted for by the fire and also t
 - we haven't looked into the affect of ash on zytoplankton
 - we need higher resolution temporal data
 
-### Lightning Talk #4: Smoke on the Water: Wildfire 
+### Lightning Talk #4: Smoke on the Water: Wildfire Impact on Cyanobacterial Bloom Proliferation (Teso Coker)
+- when fire exposure is present in a spatial grid cell and year, the odds of observign a cyanoHAB increase by about 22%
+- average trigger coincidence rate - areas where the fraction of wildfires that triggered cyanoHAB events divided by the number of cyanoHAB events was high
