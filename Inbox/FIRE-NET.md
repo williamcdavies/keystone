@@ -329,3 +329,4 @@ do models need to account for the transport accounted for by the fire and also t
 - how does smoke cover compare to cloud cover (impacts)?
 - wavelength specific impacts of smoke vs clouds?
 - is smoke having a unique impact on these lakes? 
+- can we look at antomony in downwind samples?
