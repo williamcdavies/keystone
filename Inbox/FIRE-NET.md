@@ -308,4 +308,8 @@ do models need to account for the transport accounted for by the fire and also t
 - why tahoe?
 	- mega-fire (>200,000 acres)
 - during the caldor fire there was a large increase in atmospheric deposition
-- 
+- post-wildfire: greater quantiles of lepotlynbya were discovered 
+- how do wildfire disturbances compare to other biological disturbances?
+	- bray-kurtis similarity index?
+	- it took ~1 year to return for the phytoplankton count to return to a pre-fire state
+- we haven't looked into the affect of ash on zytoplankton 
