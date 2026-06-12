@@ -319,7 +319,7 @@ do models need to account for the transport accounted for by the fire and also t
 - when fire exposure is present in a spatial grid cell and year, the odds of observign a cyanoHAB increase by about 22%
 - average trigger coincidence rate - areas where the fraction of wildfires that triggered cyanoHAB events divided by the number of cyanoHAB events was high
 
-### Group Discussion #1 
+### Breakout Session #1 
 - wildfires occur during anomalous atmospheric conditions
 - are the increasing number of smoke days producing stronger warming trends?
 - do we need to place additional emphasis on the thermal impact of wildfires?
@@ -339,6 +339,8 @@ do models need to account for the transport accounted for by the fire and also t
 - maybe there are wildfire behaviours that can make a lake more susceptible...
 - topographic impact on the settling of particles
 
+### Group Discussion #1 
+
 ### Lightning Talk #5: INSPYRE ()
 - characterize physical links between pyroCb development and wildfire behaviour
 - weather radars are an ideal tool for seeing pyrometeor loading/fall out
@@ -346,7 +348,7 @@ do models need to account for the transport accounted for by the fire and also t
 - don't currently take active measurements in the air. would love to come up with a way to measure deposition (video disdrometers?)
 - has anyone looked at gas phase and black carbon measurements. less pertaining to PM10 particles
 
-### Group Discussion #2
+### Breakout Session #2
 - are there other particle datasets at sizes excluding PM2.5 and PM10?
 - should we define a better protocol for classifying pyrometeor size?
 - lots of false-positives with citizen science? is it worth the resources?
@@ -369,4 +371,12 @@ do models need to account for the transport accounted for by the fire and also t
 - characterize deposition under different types of sources?
 - some evidence that larger particles come from tree bark. in grasslands, large particles may be grass or needles
 - hook up with a prescribed fire and find out what works and what doesn't
+
+### Group Discussion #2
+- UW drone training?
+- university student competition?
+- camera based measurements? 
+- safe separation distance evaluation? stay safe as you approach fire fighters?
+- can we adopt fire fighter frameworks and procedures?
+- could we get fire fighters to gather samples for us? or to set up sampling methods? 
 
