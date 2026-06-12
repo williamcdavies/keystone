@@ -349,4 +349,6 @@ do models need to account for the transport accounted for by the fire and also t
 ### Group Discussion #2
 - are there other particle datasets at sizes excluding PM2.5 and PM10?
 - should we define a better protocol for classifying pyrometeor size?
+- lots of false-positives with citizen science? is it worth the resources?
+- we need to understand how particle parameters impact the effective mean distance of dry deposition
 - 
