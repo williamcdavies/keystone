@@ -325,3 +325,4 @@ do models need to account for the transport accounted for by the fire and also t
 - do we need to place additional emphasis on the thermal impact of wildfires?
 - heat budget?
 - huge open space for thermal modelling 
+- statistical matching to find lakes that experience sharp temperature increases following smoke exposure
