@@ -360,4 +360,8 @@ do models need to account for the transport accounted for by the fire and also t
 
 1. forcast smoke plume
 2. choose spatial distribution at several distances downwind based upon plume shape
-3. 
+3. choose three likely directions
+4. how many sites in each direction?
+
+- need to have more coupled conversations.
+- blue sky -> anyone can run -> good for labs w/ no modeller
