@@ -387,4 +387,5 @@ Facundo idea!
 
 do we want to recategorize our topics? 
 should we request questions what we need to request?
+two more people to write abstracts for each topic
 
