@@ -356,3 +356,8 @@ do models need to account for the transport accounted for by the fire and also t
 	- 3, 5, 7, 10, 20, 40
 	- leave for at least a week
 	- how do we know if thats enough?
+- is it important that particles have extractable metals? size fractionation? if yes, we need a lot of mass
+
+1. forcast smoke plume
+2. choose spatial distribution at several distances downwind based upon plume shape
+3. 
