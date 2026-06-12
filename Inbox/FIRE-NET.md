@@ -64,7 +64,7 @@ How do we distribute high resolution domains for two separate domains (fields) w
 	- simplified fire energetics: assumes 100% fuel consumption and fixed energy partitioning, ignoring spatial/temporal variability in fire intensity and emissions
 	- coarse atmospheric and plume representation: uses simplified wind scaling, capped plume height, and idealised deposition geometry, limiting realism of long-range transport and spatial deposition patterns.
 
-### Breakout Session 1
+### Breakout Session #1
 - why are we unable to implement sophisticated models for cross-field procedures?
 - what is needed to implement sophisticated models for wildfire analyses?
 	- a. what is landing in the waterbody (size, chem, comp)?
@@ -108,7 +108,7 @@ How do we distribute high resolution domains for two separate domains (fields) w
 - can we categorise all of these problems using two variables: complexity, importance? need to prioritise our gaps. 
 - sampling vs modelling vs monitoring.
 
-### Group Discussion 1
+### Group Discussion #1
 
 #### Group 1
 - we need particle distribution datasets
@@ -162,7 +162,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 
 ## Thursday Part 2
 
-### Lightning Talk 1 ()
+### Lightning Talk #3 ()
 - biological emissions -> smoke ecology -> transport -> deposition and dispersal
 - methods:
 1. fly, UAS, sample ambient air and smoke
@@ -183,7 +183,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 - active gene expression? 
 - do we know if microbes are in the emissions depending upon burning material, the microbes are different? lacking the spatial range of effectiveness.
 
-### Lightning Talk 2 ()
+### Lightning Talk #4 ()
 why do we need to study deposition of all particle sizes? the bulk of the mass in a dust plume is > 10 microns.
 
 capture wet and dry deposition independent of each other. measure the full spectrum of dust composition.
@@ -213,10 +213,10 @@ data opportunities
 Dong et al. 2012 Mtn Sci
 Wen et al. In review
 
-### Lightning Talk 3 (Jeff Nielson)
+### Lightning Talk #5 (Jeff Nielson)
 can wildfire dust composition be predicted? 
 
-### Breakout Session 2
+### Breakout Session #2
 assess the chemical and biological composition of wildland fire emissions
 
 cannot imagine physically detaching a microbe from its community into the air. we need a conceptual image of how microorganisms become airborne. 
@@ -273,8 +273,14 @@ do models need to account for the transport accounted for by the fire and also t
 
 "i think from our deposition data, looking at size distribution, we can get information about source information"
 
-### Group Discussion 2
+### Group Discussion #2
 - what happens when particles hit the lake is a black box
 - long plume duration measurements need to happen
 - what can we predict about plume composition based upon behaviour of the source fire
 - is there a threshold for certain chemical or biological impacts for source fires? (distance)
+
+## Friday Part 1
+
+### Lightning Talk #1 
+- is there a way we can look at smoke at its position in the column? NOAA HMS disregards column position
+- 
