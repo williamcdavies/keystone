@@ -305,5 +305,7 @@ do models need to account for the transport accounted for by the fire and also t
 - wildfire emissions introduce nutrients, reduce ultraviolet light and promote algal growth
 
 ### Lightning Talk #3: Caldor Fire Ecosystem Response ()
-- mega-fire (>200,000 acres)
+- why tahoe?
+	- mega-fire (>200,000 acres)
+- during the caldor fire there was a large increase in atmospheric deposition
 - 
