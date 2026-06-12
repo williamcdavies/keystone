@@ -385,3 +385,6 @@ Facundo idea!
 100 Qs about what are we missing about understanding wildfire emissions and their impacts on lakes.
 - send to everyone
 
+do we want to recategorize our topics? 
+should we request questions what we need to request?
+
