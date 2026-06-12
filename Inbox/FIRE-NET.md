@@ -326,3 +326,6 @@ do models need to account for the transport accounted for by the fire and also t
 - heat budget?
 - huge open space for thermal modelling 
 - statistical matching to find lakes that experience sharp temperature increases following smoke exposure
+- how does smoke cover compare to cloud cover (impacts)?
+- wavelength specific impacts of smoke vs clouds?
+- is smoke having a unique impact on these lakes? 
