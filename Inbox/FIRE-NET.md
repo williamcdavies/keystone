@@ -273,5 +273,8 @@ do models need to account for the transport accounted for by the fire and also t
 
 "i think from our deposition data, looking at size distribution, we can get information about source information"
 
-
 ### Group Discussion 2
+- what happens when particles hit the lake is a black box
+- long plume duration measurements need to happen
+- what can we predict about plume composition based upon behaviour of the source fire
+- is there a threshold for certain chemical or biological impacts for source fires? (distance)
