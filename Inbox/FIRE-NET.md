@@ -343,4 +343,5 @@ do models need to account for the transport accounted for by the fire and also t
 - characterize physical links between pyroCb development and wildfire behaviour
 - weather radars are an ideal tool for seeing pyrometeor loading/fall out
 - does it make sense to try and collect pyrometeors falling from these plumes during INSPRE
-- don't currently take active measurements in the air. would love to come up with a way to measure deposition (video distrometors?)
+- don't currently take active measurements in the air. would love to come up with a way to measure deposition (video disdrometers?)
+- has anyone looked at gas phase and black carbon measurements. less pertaining to PM10 particles
