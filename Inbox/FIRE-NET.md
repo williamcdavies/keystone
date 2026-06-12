@@ -390,3 +390,6 @@ should we request questions what we need to request?
 two more people to write abstracts for each topic
 
 what are the questions we should be thinking about in the next five/ten years?
+we need higher frequency data
+
+are there regions where data collection would still be useful without a baseline?
