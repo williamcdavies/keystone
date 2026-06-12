@@ -369,3 +369,4 @@ do models need to account for the transport accounted for by the fire and also t
 - characterize deposition under different types of sources?
 - some evidence that larger particles come from tree bark. in grasslands, large particles may be grass or needles
 - hook up with a prescribed fire and find out what works and what doesn't
+
