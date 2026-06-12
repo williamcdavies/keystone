@@ -351,4 +351,8 @@ do models need to account for the transport accounted for by the fire and also t
 - should we define a better protocol for classifying pyrometeor size?
 - lots of false-positives with citizen science? is it worth the resources?
 - we need to understand how particle parameters impact the effective mean distance of dry deposition
-- 
+- perfect dry deposition collection device:
+	- we need to model wind to see what are the providing wind conditions
+	- 3, 5, 7, 10, 20, 40
+	- leave for at least a week
+	- how do we know if thats enough?
