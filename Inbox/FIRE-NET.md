@@ -297,3 +297,6 @@ do models need to account for the transport accounted for by the fire and also t
 - smoke reduces daily heat gain
 - same sites respond differently depending upon the type of smoke they experience
 - high frequency temperature and dissolved O loggers inform metabolism estimates
+- smoke changes ecosystem metabolic rates
+- waterbody size may be an...
+- 
