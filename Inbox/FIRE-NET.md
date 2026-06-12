@@ -288,3 +288,4 @@ do models need to account for the transport accounted for by the fire and also t
 	- although depositions of as hand aerosols can provide nutrients for phytoplankton and algae, it affects heat fluxes and temperature dependent processes
 - do responses to smoke vary across different types of lakes? yes, effects will be larger in nutrient-limited systems
 - extent of smoke has increased linearly since 2006
+- 
