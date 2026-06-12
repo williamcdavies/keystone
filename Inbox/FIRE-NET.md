@@ -275,6 +275,3 @@ do models need to account for the transport accounted for by the fire and also t
 
 
 ### Group Discussion 2
-
-#### Group C
-- 
