@@ -338,3 +338,5 @@ do models need to account for the transport accounted for by the fire and also t
 - beyond the working idea that lakes are the endpoint. aquatic continuum. wildfire signal as it moves from lakes, streams, to the ocean. lakes as a scrubber? are lakes providing a service?
 - maybe there are wildfire behaviours that can make a lake more susceptible...
 - topographic impact on the settling of particles
+
+### Lightning Talk #5: INSPYR
