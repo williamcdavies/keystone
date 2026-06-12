@@ -320,3 +320,5 @@ do models need to account for the transport accounted for by the fire and also t
 - average trigger coincidence rate - areas where the fraction of wildfires that triggered cyanoHAB events divided by the number of cyanoHAB events was high
 
 ### Group Discussion #1 
+- wildfires occur during anomalous atmospheric conditions
+- 
