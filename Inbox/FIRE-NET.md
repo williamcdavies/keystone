@@ -378,5 +378,8 @@ do models need to account for the transport accounted for by the fire and also t
 - camera based measurements? 
 - safe separation distance evaluation? stay safe as you approach fire fighters?
 - can we adopt fire fighter frameworks and procedures?
-- could we get fire fighters to gather samples for us? or to set up sampling methods? 
+- could we get fire fighters to gather samples for us? or to set up sampling methods?
+
+### Problems
+
 
