@@ -381,5 +381,7 @@ do models need to account for the transport accounted for by the fire and also t
 - could we get fire fighters to gather samples for us? or to set up sampling methods?
 
 ### Problems
-
+Facundo idea!
+100 Qs about what are we missing about understanding wildfire emissions and their impacts on lakes.
+- send to everyone
 
