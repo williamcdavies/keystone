@@ -336,3 +336,5 @@ do models need to account for the transport accounted for by the fire and also t
 - in soil science->settling experiment: use that to say "we have this range of PM2.5 pyrometeor firebrand" this is how fast it settles. we can have a settling rate. might be easier to make connections
 - we should highlight the particles. could testing ash vs ash.. measuring ambient nutrient concentration to see how microbes are extracting those beyond the water soluble stuff
 - beyond the working idea that lakes are the endpoint. aquatic continuum. wildfire signal as it moves from lakes, streams, to the ocean. lakes as a scrubber? are lakes providing a service?
+- maybe there are wildfire behaviours that can make a lake more susceptible...
+- topographic impact on the settling of particles
