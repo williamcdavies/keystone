@@ -321,4 +321,7 @@ do models need to account for the transport accounted for by the fire and also t
 
 ### Group Discussion #1 
 - wildfires occur during anomalous atmospheric conditions
-- 
+- are the increasing number of smoke days producing stronger warming trends?
+- do we need to place additional emphasis on the thermal impact of wildfires?
+- heat budget?
+- huge open space for thermal modelling 
