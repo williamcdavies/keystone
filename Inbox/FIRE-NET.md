@@ -292,4 +292,8 @@ do models need to account for the transport accounted for by the fire and also t
 	- site are distributed within a single watershed
 	- smoke in 2020 and 2021 covered sites for an average of 49 days between august and october
 	- measured high frequency temp and dissolved O in 2 lakes and 4 ponds
-	- sites span a size gradient (depth from 1m to 10m) -
+	- sites span a size gradient (depth from 1m to 10m)
+- immediate response in water temperature to smoke exposure
+- smoke reduces daily heat gain
+- same sites respond differently depending upon the type of smoke they experience
+- high frequency temperature and dissolved O loggers inform metabolism estimates
