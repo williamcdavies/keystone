@@ -162,7 +162,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 
 ## Thursday Part 2
 
-### Lightning Talk #3 ()
+### Lightning Talk #3: _ ()
 - biological emissions -> smoke ecology -> transport -> deposition and dispersal
 - methods:
 1. fly, UAS, sample ambient air and smoke
@@ -183,7 +183,7 @@ what processes do we think are important in terms of smoke emissions and lake im
 - active gene expression? 
 - do we know if microbes are in the emissions depending upon burning material, the microbes are different? lacking the spatial range of effectiveness.
 
-### Lightning Talk #4 ()
+### Lightning Talk #4: _ ()
 why do we need to study deposition of all particle sizes? the bulk of the mass in a dust plume is > 10 microns.
 
 capture wet and dry deposition independent of each other. measure the full spectrum of dust composition.
@@ -213,7 +213,7 @@ data opportunities
 Dong et al. 2012 Mtn Sci
 Wen et al. In review
 
-### Lightning Talk #5 (Jeff Nielson)
+### Lightning Talk #5: _ (Jeff Nielson)
 can wildfire dust composition be predicted? 
 
 ### Breakout Session #2
@@ -281,14 +281,14 @@ do models need to account for the transport accounted for by the fire and also t
 
 ## Friday Part 1
 
-### Lightning Talk #1 
+### Lightning Talk #1: _ ()
 - is there a way we can look at smoke at its position in the column? NOAA HMS disregards column position
 - differences in ash, smoke, and lake size can alter the magnitude of ecological response
 - does smoke over inland waters matter?
 	- although depositions of as hand aerosols can provide nutrients for phytoplankton and algae, it affects heat fluxes and temperature dependent processes
 - do responses to smoke vary across different types of lakes? yes, effects will be larger in nutrient-limited systems
 - extent of smoke has increased linearly since 2006
-- studied the affects of smoke on lakes/ponds experiencing the same smoke evetns at the same time
+- studied the affects of smoke on lakes/ponds experiencing the same smoke events at the same time
 	- site are distributed within a single watershed
 	- smoke in 2020 and 2021 covered sites for an average of 49 days between august and october
 	- measured high frequency temp and dissolved O in 2 lakes and 4 ponds
@@ -300,5 +300,10 @@ do models need to account for the transport accounted for by the fire and also t
 - smoke changes ecosystem metabolic rates
 - waterbody size may be an...
 
-### Lightning Talk #2 
+### Lightning Talk #2: _ (Facundo Scordo, Ph.D.)
 - uv light has a bleaching affect in the first meter of the water column
+- wildfire emissions introduce nutrients, reduce ultraviolet light and promote algal growth
+
+### Lightning Talk #3: Caldor Fire Ecosystem Response ()
+- mega-fire (>200,000 acres)
+- 
