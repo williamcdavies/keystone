@@ -340,3 +340,6 @@ do models need to account for the transport accounted for by the fire and also t
 - topographic impact on the settling of particles
 
 ### Lightning Talk #5: INSPYR
+- characterize physical links between pyroCb development and wildfire behaviour
+- weather radars are an ideal tool for seeing pyrometeor loading/fall out
+- 
