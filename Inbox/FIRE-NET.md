@@ -330,3 +330,5 @@ do models need to account for the transport accounted for by the fire and also t
 - wavelength specific impacts of smoke vs clouds?
 - is smoke having a unique impact on these lakes? 
 - can we look at antomony in downwind samples?
+- do heavy metals and toxicants fit into the...
+- we want a distance vs magnitude + different pathways and see how they stack. multi-pathway disturbance
