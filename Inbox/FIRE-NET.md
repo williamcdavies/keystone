@@ -299,4 +299,6 @@ do models need to account for the transport accounted for by the fire and also t
 - high frequency temperature and dissolved O loggers inform metabolism estimates
 - smoke changes ecosystem metabolic rates
 - waterbody size may be an...
-- 
+
+### Lightning Talk #2 
+- uv light has a bleaching affect in the first meter of the water column
