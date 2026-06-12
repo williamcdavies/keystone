@@ -312,4 +312,5 @@ do models need to account for the transport accounted for by the fire and also t
 - how do wildfire disturbances compare to other biological disturbances?
 	- bray-kurtis similarity index?
 	- it took ~1 year to return for the phytoplankton count to return to a pre-fire state
-- we haven't looked into the affect of ash on zytoplankton 
+- we haven't looked into the affect of ash on zytoplankton
+- we need higher resolution temporal data
