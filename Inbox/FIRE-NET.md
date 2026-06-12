@@ -288,4 +288,8 @@ do models need to account for the transport accounted for by the fire and also t
 	- although depositions of as hand aerosols can provide nutrients for phytoplankton and algae, it affects heat fluxes and temperature dependent processes
 - do responses to smoke vary across different types of lakes? yes, effects will be larger in nutrient-limited systems
 - extent of smoke has increased linearly since 2006
-- 
+- studied the affects of smoke on lakes/ponds experiencing the same smoke evetns at the same time
+	- site are distributed within a single watershed
+	- smoke in 2020 and 2021 covered sites for an average of 49 days between august and october
+	- measured high frequency temp and dissolved O in 2 lakes and 4 ponds
+	- sites span a size gradient (depth from 1m to 10m) -
