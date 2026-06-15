@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "FIRE-NET"
             }
+          },
+          {
+            "id": "5b90ea18bc886923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,10 +245,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c71c2eabfb7c6c2",
+  "active": "5b90ea18bc886923",
   "lastOpenFiles": [
-    "Leetcode/4. Median of Two Sorted Arrays.md",
     "Inbox/FIRE-NET.md",
+    "Inbox/Untitled.md",
+    "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/1. Two Sum.md",
     "Leetcode/2. Add Two Numbers.md",
@@ -249,7 +274,6 @@
     "EUMESTAT.md",
     "C3S.md",
     "Lakes_cci.md",
-    "Inbox/Conversation with Dr. Facundo Scordo.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
