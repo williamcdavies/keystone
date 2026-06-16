@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/FIRE-NET.md",
-                "mode": "source",
+                "file": "Leetcode/2. Add Two Numbers.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,35 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "FIRE-NET"
-            }
-          },
-          {
-            "id": "5b90ea18bc886923",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Untitled.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "2. Add Two Numbers"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -246,15 +221,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b90ea18bc886923",
+  "active": "4c71c2eabfb7c6c2",
   "lastOpenFiles": [
+    "Leetcode/3. Longest Substring Without Repeating Characters.md",
+    "Leetcode/4. Median of Two Sorted Arrays.md",
+    "Leetcode/2. Add Two Numbers.md",
+    "Leetcode/1. Two Sum.md",
+    "Inbox/WFSEL – Project 1.md",
     "Inbox/FIRE-NET.md",
     "Inbox/Untitled.md",
-    "Leetcode/4. Median of Two Sorted Arrays.md",
-    "Leetcode/3. Longest Substring Without Repeating Characters.md",
-    "Leetcode/1. Two Sum.md",
-    "Leetcode/2. Add Two Numbers.md",
-    "Inbox/WFSEL – Project 1.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
     "Improper integration.md",
