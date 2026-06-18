@@ -9,3 +9,5 @@ Requested modifications:
 	- exponentially
 - move result 1 to result 3.
 	- split into 
+- lake CCI
+- "Use remote sensing product like **Lake CCI** to analyse water quality variables responses to different ranges of direct burn and emission exposure"
