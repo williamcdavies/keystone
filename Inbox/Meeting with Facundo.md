@@ -3,3 +3,9 @@ Requested modifications:
 - need header text
 - replace introduction text w/ problem statement
 - move result 2 to result 1. 
+	- burn area is slightly increasing
+	- more important: fires in northern latitudes and forested areas
+- move result 3 to result 2.
+	- exponentially
+- move result 1 to result 3.
+	- split into 
