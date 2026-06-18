@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "2. Add Two Numbers"
             }
+          },
+          {
+            "id": "b66f8805d92404fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Meeting with Facundo.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Meeting with Facundo"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,15 +245,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4c71c2eabfb7c6c2",
+  "active": "b66f8805d92404fc",
   "lastOpenFiles": [
+    "Leetcode/2. Add Two Numbers.md",
+    "Inbox/Meeting with Facundo.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/4. Median of Two Sorted Arrays.md",
-    "Leetcode/2. Add Two Numbers.md",
     "Leetcode/1. Two Sum.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/FIRE-NET.md",
-    "Inbox/Untitled.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
     "Improper integration.md",
