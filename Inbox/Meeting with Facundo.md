@@ -11,3 +11,6 @@ Requested modifications:
 	- split into 
 - lake CCI
 - "Use remote sensing product like **Lake CCI** to analyse water quality variables responses to different ranges of direct burn and emission exposure"
+
+## Next Steps
+- 
