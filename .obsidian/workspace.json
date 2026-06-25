@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFSEL – Project 1.md",
+                "file": "Inbox/Untitled.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "WFSEL – Project 1"
+              "title": "Untitled"
             }
           }
         ],
@@ -247,13 +247,13 @@
   },
   "active": "6d0f70f625d8c169",
   "lastOpenFiles": [
+    "Inbox/WFSEL – Project 1.md",
     "Inbox/Untitled.md",
     "Inbox/Meeting with Facundo.md",
     "Leetcode/2. Add Two Numbers.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/1. Two Sum.md",
-    "Inbox/WFSEL – Project 1.md",
     "Inbox/FIRE-NET.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
