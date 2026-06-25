@@ -27,14 +27,14 @@ The Candidate Set comprises 667 North American lakes.
 ### Introduction
 
 ### Dependencies
-The program depends upon the following packages:
+The software depends upon the following packages:
 - `geopandas >= 1.1.3`
 - `netcdf4   >= 1.7.4`
 - `pytest    >= 9.1.1`
 - `rasterio  >= 1.5.0`
 - `xarray    >= 2026.4.0`
 
-A 
+This list can also in `pyproject.toml`. Furthermore, a complete list of all dependencies and sub-dependencies can be found in `requirements.txt` (it is recommended that the build-system (Hatchling) handles dependency resolution).
 
 ### Input
 The program (`main.py`) takes four inputs:
