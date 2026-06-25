@@ -34,7 +34,10 @@ The software depends upon the following packages:
 - [`rasterio  >= 1.5.0`](https://pypi.org/project/rasterio/)
 - [`xarray    >= 2026.4.0`](https://pypi.org/project/xarray/)
 
-This list is reflected in `pyproject.toml`. A complete list of dependencies and sub-dependencies can be found in `requirements.txt`. It is recommended that dependancy resolution be handled by the build-system ([Hatchling](https://pypi.org/project/hatchling/)).
+This list is reflected in `pyproject.toml`. A complete list of dependencies and sub-dependencies can be found in `requirements.txt`. 
+
+> [!note]
+> It is recommended that dependency resolution be handled by the build-system ([Hatchling](https://pypi.org/project/hatchling/)).
 
 ### Input
 The program (`main.py`) takes four inputs:
