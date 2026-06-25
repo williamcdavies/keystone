@@ -30,3 +30,8 @@ The program (`main.py`) takes four inputs:
 2. `lakes_cci_stat_mask_nc_path`
 3. `csv_path`
 4. `dst_path`
+
+> [!example]
+> ```sh
+> >>> python main.py ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-20230101-fv3.0.0.nc ESA_CCI_static_lake_mask.nc lakescci_v2.1.0_metadata_filtered ./ESACCI-LAKES-L3S-OUTPUT-20230101.csv
+> ```
