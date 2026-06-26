@@ -38,8 +38,8 @@ The Candidate Set comprises 667 North American lakes.
 
 ### Input
 `main.py` takes four arguments:
-1. `lakes_cci_merg_prod_nc_path`: The path to an [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file
-2. `lakes_cci_stat_mask_nc_path`: The path to the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file
+1. `lakes_cci_merg_prod_nc_path`: The path to an [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) file
+2. `lakes_cci_stat_mask_nc_path`: The path to the [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc) file
 3. `csv_path`: The path to the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file.
 4. `dst_path`: The destination path. This path must point to a .csv file.
 
@@ -61,3 +61,5 @@ A `668x41` .csv file with the following structure:
 | 667      | `float64` | `float64`   | `float64` | `float64` | `float64` | $\cdots$ | `float64`                     |
 
 ### Procedure
+`main.py`'s main program loop is as follows:
+
