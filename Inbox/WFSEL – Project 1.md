@@ -46,7 +46,7 @@ The program strategy is as follows:
 		2. Copy all Lakes ECV values to an unsorted one-dimensional array
 		3. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
 		4. Store the mean, median, variance, maximum, and minimum
-	5. 
+	5. Write 
 
 #### Input
 main.py takes four arguments:
