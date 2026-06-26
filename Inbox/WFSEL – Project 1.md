@@ -25,7 +25,7 @@ The Candidate Set comprises 667 North American lakes.
 ## Program Strategy
 
 ### Introduction
-The purpose of `main.py` is to produce a (667x40) .csv
+
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
@@ -50,5 +50,12 @@ The purpose of `main.py` is to produce a (667x40) .csv
 > ```
 
 ### Output
+A 667 by 41 .csv file of the following format:
+
+| id  | chla_mean | ... | tsm_mean | ... | acdom440_mean | ... | Kd490 | ... | KdPAR | ... | phycocyanin | ... | lake_surface_water_temperature | ... | lake_surface_water_extent | ... |     |     |
+|:--- |:--------- |:--- |:-------- |:--- | ------------- | --- | ----- | --- | ----- | --- | ----------- | --- | ------------------------------ | --- | ------------------------- | --- | --- | --- |
+| 1   |           |     |          |     |               |     |       |     |       |     |             |     |                                |     |                           |     |     |     |
+
+`['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`
 
 ### Procedure

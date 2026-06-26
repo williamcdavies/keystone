@@ -203,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Leetcode/2. Add Two Numbers.md"
+                "file": "Inbox/WFSEL – Project 1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for 2. Add Two Numbers"
+              "title": "File properties for WFSEL – Project 1"
             }
           },
           {
@@ -230,12 +230,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d0f70f625d8c169",
+  "active": "68d30faa5c70e5e0",
   "lastOpenFiles": [
     "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
