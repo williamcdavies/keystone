@@ -25,11 +25,10 @@ The candidate set comprises 667 North American lakes.
 ## Code
 
 ### Introduction
-The project repository can be found [here](https://github.com/williamcdavies/WFSEL/tree/main) and has the following structure:
+The project repository can be found [here](https://github.com/williamcdavies/WFSEL/tree/main). The program entry point is `main.py`.
 
-```
-
-```
+> [!note]
+> `main.py` is atomic. It is intended to produce a single output upon a minimum working set of inputs. As such, if many 
 
 For each lake within the candidate set, `main.py` derives a bounding box via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) and [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc) to a relevant spatial extent. The clipped datasets 
 
