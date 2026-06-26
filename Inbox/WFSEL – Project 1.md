@@ -37,19 +37,19 @@ The purpose of main.py is to produce a .csv file containing mean, median, varian
 
 #### Strategy
 The program strategy is as follows:
-1. Establish a link to the ESA_CCI_static_lake_mask.nc dataset
-2. Establish a link to the ESA Lakes_cci v3.0 dataset
-3. Load lakescci_v2.1_metadata.csv into memory
-4. For each lake in the candidate set:
-	1. Read `lat_max_box`, `lat_min_box`, `lon_max_box`, and `lon_min_box` from lakescci_v2.1_metadata.csv to establish the lake's bounding box
-	2. Clip the ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets to the extent of the bounding box
-	3. Load the clipped datasets into memory
-	4. Use the clipped ESA_CCI_static_lake_mask.nc dataset to create a geometry mask of the lake
+1. Establish links to the ESA_CCI_static_lake_mask.nc the ESA Lakes_cci v3.0 datasets
+2. Load lakescci_v2.1_metadata.csv into memory
+3. For each lake in the candidate set:
+	1. Read `lat_max_box`, `lat_min_box`, `lon_max_box`, and `lon_min_box` from lakescci_v2.1_metadata.csv to establish the lake's spatial extent (bounding box)
+	2. Clip the ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets to the lake's spatial extent
+	3. Load the clipped ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets into memory
+	4. Use the clipped ESA_CCI_static_lake_mask.nc dataset and the lake's `id` to create a geometry_mask of the lake
 	5. For each of the Lakes ECV in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`:
-		1. Use the geometry mask to identify the clipped ESA Lakes_cci v3.0 dataset pixels within the lake boundary
-		2. Read the Lakes ECV values for each pixel into an unsorted one-dimensional array
-		3. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
-		4. Append the Lakes ECV mean, median, variance, maximum, and minimum to the current record
+		1. Use the lake's geometry mask to identify p
+		2. Use the lakegeometry mask to identify the clipped ESA Lakes_cci v3.0 dataset pixels within the lake boundary
+		3. Read the Lakes ECV values for each pixel into an unsorted one-dimensional array
+		4. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
+		5. Append the Lakes ECV mean, median, variance, maximum, and minimum to the current record
 	6. Write the record to the output destination
 
 #### Input
