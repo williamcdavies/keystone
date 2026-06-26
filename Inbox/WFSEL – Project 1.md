@@ -22,10 +22,11 @@ The Candidate Set comprises 667 North American lakes.
 > [!note]
 > Although the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file was published alongside the [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 2.1](https://catalogue.ceda.ac.uk/uuid/7fc9df8070d34cacab8092e45ef276f1/), its use extends to [Version 3.0](https://catalogue.ceda.ac.uk/uuid/a56dba09df8a42ec9fba8b8c7a5e1f69/).
 
-## Strategy
+## Program Strategy
 
 ### Introduction
-
+- Iterate over each daily netcdf file
+- 
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
