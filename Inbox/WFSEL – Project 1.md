@@ -25,14 +25,13 @@ The Candidate Set comprises 667 North American lakes.
 ## Strategy
 
 ### Introduction
-In order to produce 
+
 
 ### Dependencies
-The software depends upon the following packages:
-- [`geopandas >= 1.1.3`](https://pypi.org/project/geopandas/)
-- [`netcdf4   >= 1.7.4`](https://pypi.org/project/netCDF4/)
-- [`pytest    >= 9.1.1`](https://pypi.org/project/pytest/)
-- [`rasterio  >= 1.5.0`](https://pypi.org/project/rasterio/)
+The program depends upon the following packages:
+- [`numpy  >= 1.1.3`](https://pypi.org/project/geopandas/)
+- [`pandas >= 3.0.3`](https://pypi.org/project/netCDF4/)
+- [`tqdm   >= 4.68.3`](https://pypi.org/project/rasterio/)
 - [`xarray    >= 2026.4.0`](https://pypi.org/project/xarray/)
 
 This list is reflected in `pyproject.toml`. A complete list of dependencies and sub-dependencies can be found in `requirements.txt`. 
