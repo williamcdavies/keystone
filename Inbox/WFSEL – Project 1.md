@@ -38,10 +38,13 @@ The Candidate Set comprises 667 North American lakes.
 
 ### Input
 `main.py` takes four arguments:
-1. `lakes_cci_merg_prod_nc_path`: The path to an ESA Lakes_cci L3S v3.0 merge_product .nc file. These files can be downloaded from [here](https://data.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product).
-2. `lakes_cci_stat_mask_nc_path`: The path to the ESA Lakes_cci L3S v3.0 static_lake_mask .nc file. This file can be downloaded from [here](https://data.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0).
-3. `csv_path`: The path to the ESA Lakes_cci v2.1.0 metadata .csv file. This file can be downloaded from [here](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)
+1. `lakes_cci_merg_prod_nc_path`: The path to an [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file
+2. `lakes_cci_stat_mask_nc_path`: The path to the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file
+3. `csv_path`: The path to the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file.
 4. `dst_path`: The destination path. This path must point to a .csv file.
+
+> [!note]
+> `main.py` is compatible with any subset of `lakescci_v2.1.0_metadata.csv`.
 
 > [!example]
 > ```sh
@@ -49,7 +52,7 @@ The Candidate Set comprises 667 North American lakes.
 > ```
 
 ### Output
-A `668x41` .csv file of the following structure:
+A `668x41` .csv file with the following structure:
 
 | id       | chla_mean | chla_median | chla_var  | chla_max  | chla_min  | $\cdots$ | lake_surface_water_extent_min |
 |:-------- |:--------- |:----------- |:--------- |:--------- |:--------- |:-------- |:----------------------------- |
