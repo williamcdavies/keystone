@@ -25,7 +25,11 @@ The candidate set comprises 667 North American lakes.
 ## Program Strategy
 
 ### Introduction
-The idea is to use the lake metadata to establish the bounding box of each lake, clip both .nc files by the established boundary extent, load the clipped datasets into memory, create a geometry mask from the the static mask .nc file, use the mask to determine which pixels from the other .nc file are within the immediate lake boundary, then for each of the listed data variables (r)
+The program, `main.py`, is contained within a repository with the following file structure:
+
+
+
+`main.py`
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
