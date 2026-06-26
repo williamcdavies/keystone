@@ -25,7 +25,7 @@ The candidate set comprises 667 North American lakes.
 ## Program Strategy
 
 ### Introduction
-For each lake within the candidate set, `main.py` derives a lake boundary extend via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip 
+For each lake within the candidate set, `main.py` derives a bounding box via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) and [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc). The clipped datasets are loaded into memory, ESA_CCI_static_lake_mask.nc is used to create a geometry mask, and pixels 
 
 For each lake in the candidate set, the program derives its bounding box from the lake metadata and uses it to clip both the merged product `.nc` file and the static lake mask `.nc` file to the relevant spatial extent. The clipped datasets are then loaded into memory, and a geometry mask is constructed from the static mask file to identify which pixels fall within the immediate lake boundary. This mask is applied to the merged product data to isolate the inner pixels for analysis.
 
