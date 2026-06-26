@@ -22,14 +22,16 @@ The candidate set comprises 667 North American lakes.
 > [!note]
 > Although the [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) file was published alongside the [ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 2.1](https://catalogue.ceda.ac.uk/uuid/7fc9df8070d34cacab8092e45ef276f1/), its use extends to [Version 3.0](https://catalogue.ceda.ac.uk/uuid/a56dba09df8a42ec9fba8b8c7a5e1f69/).
 
-## Program Strategy
+## Code
 
 ### Introduction
-For each lake within the candidate set, `main.py` derives a bounding box via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) and [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc). The clipped datasets are loaded into memory, ESA_CCI_static_lake_mask.nc is used to create a geometry mask, and pixels 
+The project repository can be found [here](https://github.com/williamcdavies/WFSEL/tree/main) and has the following structure:
 
-For each lake in the candidate set, the program derives its bounding box from the lake metadata and uses it to clip both the merged product `.nc` file and the static lake mask `.nc` file to the relevant spatial extent. The clipped datasets are then loaded into memory, and a geometry mask is constructed from the static mask file to identify which pixels fall within the immediate lake boundary. This mask is applied to the merged product data to isolate the inner pixels for analysis.
+```
 
-For each of the eight data variables — each corresponding to a raster layer in the merged product file — the program computes the mean, median, variance, minimum, and maximum values across all inner pixels. The resulting statistics are written as a single record to the output `.csv` file. This process is repeated independently for every lake in the candidate set.
+```
+
+For each lake within the candidate set, `main.py` derives a bounding box via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) and [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc) to a relevant spatial extent. The clipped datasets 
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
