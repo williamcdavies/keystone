@@ -26,7 +26,6 @@ The Candidate Set comprises 667 North American lakes.
 
 ### Introduction
 
-
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
 - [`numpy  >= 2.5.0`](https://pypi.org/project/geopandas/)
@@ -38,11 +37,11 @@ The Candidate Set comprises 667 North American lakes.
 > This list specifies program dependencies for [`main.py`](https://github.com/williamcdavies/WFSEL/blob/main/main.py). For a list of repository dependencies, see [`pyproject.toml`](https://github.com/williamcdavies/WFSEL/blob/main/pyproject.toml). For a complete list of repository dependencies and sub-dependencies, see [`requirements.txt`](https://github.com/williamcdavies/WFSEL/blob/main/requirements.txt).
 
 ### Input
-`main.py` takes four inputs:
+`main.py` takes four arguments:
 1. `lakes_cci_merg_prod_nc_path`: The path to an ESA Lakes_cci L3S v3.0 merge_product .nc file. These files can be downloaded from [here](https://data.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product).
 2. `lakes_cci_stat_mask_nc_path`: The path to the ESA Lakes_cci L3S v3.0 static_lake_mask .nc file. This file can be downloaded from [here](https://data.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0).
-3. `csv_path`: The path to the ESA Lakes_cci 
-4. `dst_path`: 
+3. `csv_path`: The path to the ESA Lakes_cci v2.1.0 metadata .csv file. This file can be downloaded from [here](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv)
+4. `dst_path`: The destination path. This path must point to a .csv file.
 
 > [!example]
 > ```sh
