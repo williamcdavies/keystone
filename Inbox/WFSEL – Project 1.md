@@ -28,22 +28,17 @@ The Candidate Set comprises 667 North American lakes.
 
 
 ### Dependencies
-The program depends upon `Python >= 3.14` and the following packages:
+`main.py`  depends upon `Python >= 3.14` and the following packages:
 - [`numpy  >= 2.5.0`](https://pypi.org/project/geopandas/)
 - [`pandas >= 3.0.3`](https://pypi.org/project/netCDF4/)
 - [`tqdm   >= 4.68.3`](https://pypi.org/project/rasterio/)
 - [`xarray >= 2026.4.0`](https://pypi.org/project/xarray/)
 
 > [!note]
-> This list specifies the program dependencies for [`main.py`](https://github.com/williamcdavies/WFSEL/blob/main/main.py). For a list of repository dependencies, see [`pyproject.toml`](). For a complete list of repository dependencies and sub-dependencies, see [`requirements.txt`]().
-
-This list is reflected in `pyproject.toml`. A complete list of dependencies and sub-dependencies can be found in `requirements.txt`. 
-
-> [!note]
-> It is recommended that dependency resolution be handled by the build-system ([Hatchling](https://pypi.org/project/hatchling/)).
+> This list specifies program dependencies for [`main.py`](https://github.com/williamcdavies/WFSEL/blob/main/main.py). For a list of repository dependencies, see [`pyproject.toml`](https://github.com/williamcdavies/WFSEL/blob/main/pyproject.toml). For a complete list of repository dependencies and sub-dependencies, see [`requirements.txt`](https://github.com/williamcdavies/WFSEL/blob/main/requirements.txt).
 
 ### Input
-The program (`main.py`) takes four inputs:
+`main.py` takes four inputs:
 1. `lakes_cci_merg_prod_nc_path`
 2. `lakes_cci_stat_mask_nc_path`
 3. `csv_path`
