@@ -38,19 +38,19 @@ The purpose of main.py is to produce a .csv file containing mean, median, varian
 #### Strategy
 The program strategy is as follows:
 1. Establish links to the ESA_CCI_static_lake_mask.nc the ESA Lakes_cci v3.0 datasets
-2. Load lakescci_v2.1_metadata.csv into memory
+2. Load the lakescci_v2.1_metadata.csv file into memory
 3. For each lake in the candidate set:
-	1. Read `lat_max_box`, `lat_min_box`, `lon_max_box`, and `lon_min_box` from lakescci_v2.1_metadata.csv to establish the lake's spatial extent (bounding box)
-	2. Clip the ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets to the lake's spatial extent
-	3. Load the clipped ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets into memory
-	4. Use the clipped ESA_CCI_static_lake_mask.nc dataset and the lake's `id` to create a geometry_mask of the lake
-	5. For each of the Lakes ECV in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`:
-		1. Use the lake's geometry mask to identify p
-		2. Use the lakegeometry mask to identify the clipped ESA Lakes_cci v3.0 dataset pixels within the lake boundary
-		3. Read the Lakes ECV values for each pixel into an unsorted one-dimensional array
-		4. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
-		5. Append the Lakes ECV mean, median, variance, maximum, and minimum to the current record
-	6. Write the record to the output destination
+	1. Create a record containing the lake's `id`
+	2. Read the lake's `lat_max_box`, `lat_min_box`, `lon_max_box`, and `lon_min_box` from lakescci_v2.1_metadata.csv to establish the lake's spatial extent (bounding box)
+	3. Clip the ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets to the lake's spatial extent
+	4. Load the clipped ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets into memory
+	5. Use the clipped ESA_CCI_static_lake_mask.nc dataset and the lake's `id` to create a geometry_mask of the lake
+	6. For each of the Lakes ECV in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`:
+		1. Use the clipped ESA Lakes_cci v3.0 dataset and the lake's geometry mask to identify Lakes ECV values within the lake
+		2. Read the Lakes ECV values within the lake into an unsorted `numpy.ndarray`
+		3. Calculate the `numpy.nanmean`, `numpy.nanmedian`, `numpy.nanvar`, `numpy.nanmax`, and `numpy.nanmin` of the unsorted `numpy.ndarray`
+		4. Append the `numpy.nanmean`, `numpy.nanmedian`, `numpy.nanvar`, `numpy.nanmax`, and `numpy.nanmin` to the current record
+	7. Write the record to the output destination
 
 #### Input
 main.py takes four arguments:
