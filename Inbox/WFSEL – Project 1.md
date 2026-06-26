@@ -39,10 +39,10 @@ The Candidate Set comprises 667 North American lakes.
 
 ### Input
 `main.py` takes four inputs:
-1. `lakes_cci_merg_prod_nc_path`
-2. `lakes_cci_stat_mask_nc_path`
-3. `csv_path`
-4. `dst_path`
+1. `lakes_cci_merg_prod_nc_path`: The path to ESA Lakes_cci L3S v3.0 merge_
+2. `lakes_cci_stat_mask_nc_path`:
+3. `csv_path`: 
+4. `dst_path`: 
 
 > [!example]
 > ```sh
