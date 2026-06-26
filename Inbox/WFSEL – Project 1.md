@@ -60,7 +60,7 @@ A `668x41` .csv file with the following structure:
 | 667      | `float64` | `float64`   | `float64` | `float64` | `float64` | $\cdots$ | `float64`                     |
 
 #### Walkthrough
-1. 
+1. Check the argument count. If the argument count does not equal the expected argument count, exit the program.
 ```python
 if len(sys.argv) != 5:
 	print(f'fatal: unexpected argument count: {sys.argv}')
@@ -68,8 +68,8 @@ if len(sys.argv) != 5:
 	return RETURN_FAILURE
 ```
 
+2. Create `pathlib.Path` objects from arguments. If any of the provided paths, excluding the destination path, do not exist, exit the program.
 ```python
-
 paths = [pathlib.Path(p) for p in sys.argv[1:5]]
 
 for path in paths[0:3]:
@@ -79,15 +79,15 @@ for path in paths[0:3]:
 		return RETURN_FAILURE
 
 lakes_cci_merg_prod_nc_path, lakes_cci_stat_mask_nc_path, csv_path, dst_path = paths
+```
 
+3. Declare `records`. `records` will be written to the output .csv file at the 
+```python
 records = []
+```
 
+```python
 try:
-
-# Open Datasets specified by `lakes_cci_merg_prod_nc_path` and
-
-# `lakes_cci_stat_mask_nc_path`
-
 with xarray.open_dataset(lakes_cci_merg_prod_nc_path) as merg_prod_ds, xarray.open_dataset(lakes_cci_stat_mask_nc_path) as stat_mask_ds:
 
 # Open DataFrame specified by `csv_path`
