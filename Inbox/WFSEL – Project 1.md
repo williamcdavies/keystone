@@ -25,11 +25,11 @@ The candidate set comprises 667 North American lakes.
 ## Program Strategy
 
 ### Introduction
-The program, `main.py`, is contained within a repository with the following file structure:
+For each lake within the candidate set, `main.py` derives a lake boundary extend via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip 
 
+For each lake in the candidate set, the program derives its bounding box from the lake metadata and uses it to clip both the merged product `.nc` file and the static lake mask `.nc` file to the relevant spatial extent. The clipped datasets are then loaded into memory, and a geometry mask is constructed from the static mask file to identify which pixels fall within the immediate lake boundary. This mask is applied to the merged product data to isolate the inner pixels for analysis.
 
-
-`main.py`
+For each of the eight data variables — each corresponding to a raster layer in the merged product file — the program computes the mean, median, variance, minimum, and maximum values across all inner pixels. The resulting statistics are written as a single record to the output `.csv` file. This process is repeated independently for every lake in the candidate set.
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
