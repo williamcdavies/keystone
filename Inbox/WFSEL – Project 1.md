@@ -59,11 +59,3 @@ A `668x41` .csv file with the following structure:
 | 1        | `float64` | `float64`   | `float64` | `float64` | `float64` | $\cdots$ | `float64`                     |
 | $\vdots$ | $\vdots$  | $\vdots$    | $\vdots$  | $\vdots$  | $\vdots$  | $\ddots$ | $\vdots$                      |
 | 667      | `float64` | `float64`   | `float64` | `float64` | `float64` | $\cdots$ | `float64`                     |
-
-### Procedure
-`main.py`'s lifetime is as follows:
-1. Read arguments into `pathlib.Path` objects
-2. Establish links to the ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc and ESA_CCI_static_lake_mask.nc files via 
-3. For each lake in the candidate set:
-	1. Clip the ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc and ESA_CCI_static_lake_mask.nc files to the lake boundary extent
-	2. 
