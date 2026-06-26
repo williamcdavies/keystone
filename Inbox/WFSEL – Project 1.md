@@ -31,7 +31,8 @@ The project repository can be found [here](https://github.com/williamcdavies/WFS
 > `main.py` is atomic. It produces a single output from a minimum working set of inputs. For workflows that require multiple outputs, batch processing is recommended.
 
 ### `main.py` Description
-The pur
+The purpose of `main.py` is to produce a .csv file containing mean, median, variance, maximum, and minimum values for each Lakes ECVs in`['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']` for each lake within the candidate set given an ESA Lakes_cci v3.0 dataset, the ESA Lakes_cci v3.0 static lake mask, the ESA Lakes_cci v2.1 lake metadata, and an output destination.
+
 For each lake within the candidate set, `main.py` derives a bounding box via [lakescci_v2.1_metadata](https://climate.esa.int/documents/2607/lakescci_v2.1.0_metadata.csv) to clip [ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-YYYYMMDD-fv3.0.0.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/merged_product/) and [ESA_CCI_static_lake_mask.nc](https://dap.ceda.ac.uk/neodc/esacci/lakes/data/lake_products/L3S/v3.0/ESA_CCI_static_lake_mask.nc) to a relevant spatial extent. The clipped datasets 
 
 ### Dependencies
