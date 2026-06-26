@@ -81,15 +81,18 @@ for path in paths[0:3]:
 lakes_cci_merg_prod_nc_path, lakes_cci_stat_mask_nc_path, csv_path, dst_path = paths
 ```
 
-3. Declare `records`. `records` will be written to the output .csv file at the 
+3. Declare `records`. `records` will be written to the output .csv file at the conclusion of the program.
 ```python
 records = []
 ```
 
+
 ```python
 try:
-with xarray.open_dataset(lakes_cci_merg_prod_nc_path) as merg_prod_ds, xarray.open_dataset(lakes_cci_stat_mask_nc_path) as stat_mask_ds:
+	with xarray.open_dataset(lakes_cci_merg_prod_nc_path) as merg_prod_ds, xarray.open_dataset(lakes_cci_stat_mask_nc_path) as stat_mask_ds:
+```
 
+```python
 # Open DataFrame specified by `csv_path`
 
 csv = pandas.read_csv(csv_path, delimiter=';')
