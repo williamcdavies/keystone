@@ -50,15 +50,13 @@ The Candidate Set comprises 667 North American lakes.
 > ```
 
 ### Output
-A 668x41 .csv file of the following format:
+A `668x41` .csv file of the following structure:
 
-| id  | chla... | tsm... | acdom440... | Kd490... | KdPAR... | phycocyanin... | lake_surface_water_temperature... | lake_surface_water_extent... |
-|:--- |:------- |:------ |:----------- |:-------- |:-------- |:-------------- |:--------------------------------- |:---------------------------- |
-| 1   |         |        |             |          |          |                |                                   |                              |
-| .   |         |        |             |          |          |                |                                   |                              |
-| .   |         |        |             |          |          |                |                                   |                              |
-| .   |         |        |             |          |          |                |                                   |                              |
-| 667 |         |        |             |          |          |                |                                   |                              |
+| id       | chla_mean | chla_median | chla_var  | chla_max  | chla_min  | $\cdots$ | lake_surface_water_extent_min |
+|:-------- |:--------- |:----------- |:--------- |:--------- |:--------- |:-------- |:----------------------------- |
+| 1        | `float64` | `float64`   | `float64` | `float64` | `float64` | $\cdots$ | `float64`                     |
+| $\vdots$ |           |             |           |           |           |          |                               |
+| 667      |           |             |           |           |           |          | $\ddots$                      |
 
 `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`
 
