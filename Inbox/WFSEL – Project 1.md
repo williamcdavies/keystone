@@ -25,8 +25,7 @@ The Candidate Set comprises 667 North American lakes.
 ## Program Strategy
 
 ### Introduction
-- Iterate over each daily netcdf file
-- 
+The purpose of `main.py` is to produce a (667x40) .csv
 
 ### Dependencies
 `main.py`  depends upon `Python >= 3.14` and the following packages:
