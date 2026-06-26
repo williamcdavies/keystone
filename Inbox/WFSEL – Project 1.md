@@ -33,15 +33,20 @@ The project repository can be found [here](https://github.com/williamcdavies/WFS
 ### main.py
 
 #### Description
-The purpose of main.py is to produce a .csv file containing mean, median, variance, maximum, and minimum values for each Lakes ECVs in`['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']` for each lake within the candidate set given an ESA Lakes_cci v3.0 dataset, ESA_CCI_static_lake_mask.nc, lakescci_v2.1_metadata.csv, and an output destination.
+The purpose of main.py is to produce a .csv file containing mean, median, variance, maximum, and minimum values for each Lakes ECVs in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']` for each lake within the candidate set given an ESA Lakes_cci v3.0 dataset, ESA_CCI_static_lake_mask.nc, lakescci_v2.1_metadata.csv, and an output destination.
 
 #### Strategy
 The program strategy is as follows:
-1. For each lake in the candidate set
-	1. Use lakescci_v2.1_metadata.csv to identify a bounding box
-	2. Clip ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 dataset to the bounding box extent
-	3. Use the clipped ESA_CCI_static_lake_mask.nc to create a geometry mask
-	4. Use 
+1. For each lake in the candidate set:
+	1. Use lakescci_v2.1_metadata.csv to identify the lake's bounding box
+	2. Clip the ESA_CCI_static_lake_mask.nc and the ESA Lakes_cci v3.0 datasets to the extent of the bounding box
+	3. Use the clipped ESA_CCI_static_lake_mask.nc dataset to create a geometry mask of the lake
+	4. For each of the Lakes ECV in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`:
+		1. Use the geometry mask to identify the Lakes ECV values within the lake boundary
+		2. Copy all Lakes ECV values to an unsorted one-dimensional array
+		3. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
+		4. Store the mean, median, variance, maximum, and minimum
+	5. 
 
 #### Input
 main.py takes four arguments:
