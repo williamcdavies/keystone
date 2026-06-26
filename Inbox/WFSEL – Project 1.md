@@ -45,10 +45,9 @@ The program strategy is as follows:
 	5. For each of the Lakes ECV in `['chla', 'tsm', 'acdom440', 'Kd490', 'KdPAR', 'phycocyanin', 'lake_surface_water_temperature', 'lake_surface_water_extent']`:
 		1. Use the geometry mask to identify the clipped ESA Lakes_cci v3.0 dataset pixels within the lake boundary
 		2. Read the Lakes ECV values for each pixel into an unsorted one-dimensional array
-		3. Copy all Lakes ECV values to an unsorted one-dimensional array
-		4. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
-		5. Store the mean, median, variance, maximum, and minimum
-	6. Write 
+		3. Calculate the mean, median, variance, maximum, and minimum of the unsorted one-dimensional array
+		4. Append the Lakes ECV mean, median, variance, maximum, and minimum to the current record
+	6. Write the record to the output destination
 
 #### Input
 main.py takes four arguments:
