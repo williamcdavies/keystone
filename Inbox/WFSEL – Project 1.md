@@ -28,11 +28,14 @@ The Candidate Set comprises 667 North American lakes.
 
 
 ### Dependencies
-The program depends upon the following packages:
-- [`numpy  >= 1.1.3`](https://pypi.org/project/geopandas/)
+The program depends upon `Python >= 3.14` and the following packages:
+- [`numpy  >= 2.5.0`](https://pypi.org/project/geopandas/)
 - [`pandas >= 3.0.3`](https://pypi.org/project/netCDF4/)
 - [`tqdm   >= 4.68.3`](https://pypi.org/project/rasterio/)
-- [`xarray    >= 2026.4.0`](https://pypi.org/project/xarray/)
+- [`xarray >= 2026.4.0`](https://pypi.org/project/xarray/)
+
+> [!note]
+> This list specifies the program dependencies for [`main.py`](https://github.com/williamcdavies/WFSEL/blob/main/main.py). For a list of repository dependencies, see [`pyproject.toml`](). For a complete list of repository dependencies and sub-dependencies, see [`requirements.txt`]().
 
 This list is reflected in `pyproject.toml`. A complete list of dependencies and sub-dependencies can be found in `requirements.txt`. 
 
