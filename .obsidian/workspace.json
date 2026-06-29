@@ -11,10 +11,24 @@
             "id": "f4a65597f861bd15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/WFSEL – Project 1.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "WFSEL – Project 1"
             }
           }
         ]
@@ -139,9 +153,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Inbox/WFSEL – Project 1.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for WFSEL – Project 1"
             }
           },
           {
