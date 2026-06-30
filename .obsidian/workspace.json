@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Splines.md",
+                "file": "Inbox/Runge's phonomenon.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Splines"
+              "title": "Runge's phonomenon"
             }
           }
         ],
@@ -203,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Splines.md"
+                "file": "Inbox/Runge's phonomenon.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Splines"
+              "title": "File properties for Runge's phonomenon"
             }
           },
           {
@@ -247,8 +247,9 @@
   },
   "active": "a29ad4ce092c2f8b",
   "lastOpenFiles": [
-    "Inbox/Untitled.md",
     "Inbox/Splines.md",
+    "Inbox/Runge's phonomenon.md",
+    "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/Meeting with Facundo.md",
     "Leetcode/2. Add Two Numbers.md",
@@ -273,7 +274,6 @@
     "Leetcode",
     "Inbox/Electromagnetic spectrum.md",
     "Airsheds.md",
-    "EUMESTAT.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",

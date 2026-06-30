@@ -1,1 +1,1 @@
-A spline is a function defined piecewise by polynomials. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when useing low degree poly
+A spline is a function defined piecewise by polynomials. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding [[Runge's phonomenon]] for higher degrees.
