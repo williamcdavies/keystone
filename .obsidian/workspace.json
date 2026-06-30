@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Runge's phonomenon"
             }
+          },
+          {
+            "id": "19a237cb6288c7ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/numpy.arange vs. numpy.linespace.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "numpy.arange vs. numpy.linespace"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Runge's phonomenon.md"
+                "file": "Inbox/numpy.arange vs. numpy.linespace.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Runge's phonomenon"
+              "title": "File properties for numpy.arange vs. numpy.linespace"
             }
           },
           {
@@ -245,10 +269,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a29ad4ce092c2f8b",
+  "active": "19a237cb6288c7ff",
   "lastOpenFiles": [
-    "Inbox/Splines.md",
     "Inbox/Runge's phonomenon.md",
+    "Inbox/numpy.arange vs. numpy.linespace.md",
+    "Inbox/Splines.md",
     "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/Meeting with Facundo.md",
@@ -273,7 +298,6 @@
     "Inbox/Leetcode.md",
     "Leetcode",
     "Inbox/Electromagnetic spectrum.md",
-    "Airsheds.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
