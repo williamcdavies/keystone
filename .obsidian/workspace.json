@@ -203,10 +203,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Runge's phonomenon.md"
+                "file": "Inbox/Untitled 1.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Runge's phonomenon"
+              "title": "File properties for Untitled 1"
             }
           },
           {
@@ -246,9 +246,10 @@
   },
   "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
+    "Runge's phonomenon.md",
+    "Inbox/Untitled 1.md",
     "Splines.md",
     "Inbox/numpy.arange vs. numpy.linespace.md",
-    "Runge's phonomenon.md",
     "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/Meeting with Facundo.md",
@@ -272,7 +273,6 @@
     "xarray.md",
     "Inbox/Leetcode.md",
     "Leetcode",
-    "Inbox/Electromagnetic spectrum.md",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
