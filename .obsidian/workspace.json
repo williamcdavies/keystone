@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "Runge's phonomenon"
             }
+          },
+          {
+            "id": "c1d3115b407c21c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/chmod.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "chmod"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Runge's phonomenon.md"
+                "file": "Inbox/chmod.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Runge's phonomenon"
+              "title": "File properties for chmod"
             }
           },
           {
@@ -230,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -244,13 +268,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7e01f5969e17b9b7",
+  "active": "68d30faa5c70e5e0",
   "lastOpenFiles": [
     "Runge's phonomenon.md",
+    "Inbox/chmod.md",
     "Inbox/Untitled 1.md",
     "Splines.md",
     "Inbox/numpy.arange vs. numpy.linespace.md",
-    "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/Meeting with Facundo.md",
     "Leetcode/2. Add Two Numbers.md",
