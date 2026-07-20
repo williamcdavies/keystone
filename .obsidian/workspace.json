@@ -254,7 +254,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -268,7 +268,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68d30faa5c70e5e0",
+  "active": "f622b379d2860eee",
   "lastOpenFiles": [
     "Runge's phonomenon.md",
     "Inbox/chmod.md",
