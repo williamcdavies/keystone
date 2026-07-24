@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "9824ad6ff2b42e79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Forest Transpiration.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Forest Transpiration"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -251,10 +275,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/Forest Transpiration.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Forest Transpiration"
             }
           },
           {
@@ -292,12 +316,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8205034092fa5a27",
+  "active": "9824ad6ff2b42e79",
   "lastOpenFiles": [
-    "chmod.md",
     "Inbox/Untitled.md",
+    "Inbox/Forest Transpiration.md",
+    "chmod.md",
     "Runge's phonomenon.md",
-    "Inbox/Untitled 1.md",
     "Splines.md",
     "Inbox/numpy.arange vs. numpy.linespace.md",
     "Inbox/WFSEL – Project 1.md",
