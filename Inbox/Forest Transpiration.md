@@ -8,11 +8,15 @@ Transpiration is the loss of water in the form of vapor from living tissue of th
 - cuticular transpiration
 
 ### Activity 1
-- plants transpire because
+- plants transpire to allow CO2
 - benefits
 	- 
 - costs
-	- loss of water that could be used for somethin'
+	- loss of water that could be used for something
+
+is transpiration a **voluntary** process or an involuntary process?
+
+transpiration is a necessary evil
 
 ## Notes for Facundo
 - slow down
