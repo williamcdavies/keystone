@@ -1,0 +1,1 @@
+A generalised linear model (GLM) is a flexible generalisation of ordinary [[Linear regression]]

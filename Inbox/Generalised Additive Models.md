@@ -1,0 +1,1 @@
+A generalised additive model (GAM) is a generalised linear model
