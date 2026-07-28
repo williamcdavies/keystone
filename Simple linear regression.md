@@ -7,7 +7,7 @@ Simple linear regression is a linear regression model that concerns two-dimensio
 Under simple linear regression, the relationship between the independent $x_i$ and the dependent variable $y_i$ is described by the line
 $$y_i = \alpha + \beta x_i + \epsilon_i$$
 
-with $\epsilon_i$ serving as an error term approximated by a [[Normal distribution]].
+with $\epsilon_i$ serving as an error term approximated by a [[Normal distributions|Normal distribution]].
 
 To find the line which best approximates $y_i = \alpha + \beta x_i + \epsilon_i$, estimates for $\alpha$ and $\beta$ must be found which best minimise $\epsilon_i$. These estimates, denoted $\widehat{ \alpha }$ and $\widehat{ \beta }$ respectively, are given by the following equations:
 $$\widehat{ \alpha } = \overline{y} - ( \widehat{ \beta } \overline{x} )$$

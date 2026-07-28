@@ -4,7 +4,7 @@ tags:
 ---
 A continuity correction is an adjustment made when a [[Discrete random variables|Discrete random variable]] is approximated using a [[Continuous random variables|Continuous random variable]].
 
-## [[Binomial distribution]]
+## [[Binomial distributions|Binomial distribution]]
 If a discrete random variable $X$ has a binomial distribution with parameters $n$ and $p$, then
 $$P(X \leq x) = P(X < x + 1)$$
 

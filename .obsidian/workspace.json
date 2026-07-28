@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linear combin",
+                "query": "poisson ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,9 +198,15 @@
   },
   "active": "35d90eea3a8a2f38",
   "lastOpenFiles": [
-    "Inbox/Additive models.md",
+    "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
+    "Binomial distributions.md",
+    "Continuity correction.md",
     "Generalised linear models.md",
+    "Normal distributions.md",
+    "Z-tests.md",
+    "Simple linear regression.md",
+    "Inbox/Additive models.md",
     "Natural numbers.md",
     "Link functions.md",
     "Bernoulli's principle.md",
@@ -211,18 +218,12 @@
     "Inbox/WFSEL – Project 1.md",
     "Linear regression.md",
     "Statistical units.md",
-    "Simple linear regression.md",
     "Access modifiers.md",
     "Photosynthetically active radiation.md",
     "Inbox/Dependent variables.md",
     "Inbox/Independent variables.md",
     "chmod.md",
     "Inbox/Forest Transpiration.md",
-    "Splines.md",
-    "Inbox/numpy.arange vs. numpy.linespace.md",
-    "Inbox/Meeting with Facundo.md",
-    "Leetcode/2. Add Two Numbers.md",
-    "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",

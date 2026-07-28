@@ -1,6 +1,8 @@
 ---
 tags:
   - STAT352
+aliases:
+  - Binomial distribution
 ---
 The binomial distribution is the discrete probability distribution of the number of successes in a sequence of $n$ independent [[Bernoulli trials]].
 

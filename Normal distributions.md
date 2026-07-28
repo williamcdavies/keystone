@@ -1,6 +1,8 @@
 ---
 tags:
   - STAT352
+aliases:
+  - Normal distribution
 ---
 The normal distribution is the continuous probability distribution of a real-valued random variable.
 
