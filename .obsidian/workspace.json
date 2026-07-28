@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear regression.md",
+                "file": "Inbox/Generalised linear models.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Linear regression"
+              "title": "Generalised linear models"
+            }
+          },
+          {
+            "id": "42cf80a3dd83f741",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Link functions.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Link functions"
             }
           },
           {
@@ -80,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +123,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -203,10 +227,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Linear regression.md"
+                "file": "Inbox/Link functions.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Linear regression"
+              "title": "File properties for Link functions"
             }
           },
           {
@@ -244,14 +268,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e1c8cc4aa041657",
+  "active": "42cf80a3dd83f741",
   "lastOpenFiles": [
+    "Inbox/Generalised additive Models.md",
+    "Inbox/Link functions.md",
     "Inbox/Generalised linear models.md",
-    "Statistical units.md",
     "Linear regression.md",
+    "Statistical units.md",
     "Simple linear regression.md",
     "Inbox/Untitled.md",
-    "Inbox/Generalised Additive Models.md",
     "Access modifiers.md",
     "Lakes_cci.md",
     "Inbox/WFSEL – Project 1.md",
@@ -271,7 +296,6 @@
     "Inbox/FIRE-NET.md",
     "Geometric series.md",
     "Partial fraction decomposition.md",
-    "Improper integration.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",

@@ -1,0 +1,1 @@
+A link function in a generalised linear model maps a non-linear relationship to a linear one, which means you can fit a linear model to the data. More specifically, it connects the predictors in a model with the expected value of the response variable in a linear way. The link function connects r
