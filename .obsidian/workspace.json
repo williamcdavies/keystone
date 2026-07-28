@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Generalised linear models.md",
+                "file": "Bernoulli's principle.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generalised linear models"
+              "title": "Bernoulli's principle"
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Generalised linear models.md"
+                "file": "Bernoulli's principle.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Generalised linear models"
+              "title": "File properties for Bernoulli's principle"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "35d90eea3a8a2f38",
   "lastOpenFiles": [
-    "Linear combinations.md",
     "Inbox/Generalised linear models.md",
+    "Linear combinations.md",
     "Inbox/Natural numbers.md",
     "Lakes_cci.md",
     "Inbox/Cardinal numerals.md",

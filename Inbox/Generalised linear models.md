@@ -1,4 +1,4 @@
 A generalised linear model (GLM) is a flexible generalisation of ordinary [[Linear regression]]. The GLM generalises linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value.
 
 ## Intuition
-Ordinary linear regression predicts the expected value of a given unknown quantity (the response variable, a random variable) as a [[Linear combinations|Linear combination]] of a set of observed values (predictors).
+Ordinary linear regression predicts the expected value of a given unknown quantity (the response variable, a random variable) as a [[Linear combinations|Linear combination]] of a set of observed values (predictors). This implies that a constant change in a predictor leads to a constant change in the response variable. This is appropriate when the response variable can vary, to a good approximation indefinitely in either direction, or more generally for any quantity that only varies by a relatively small amount compared to the variation in the predictive variables.
