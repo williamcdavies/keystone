@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/Generalised linear models.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Generalised linear models"
             }
           },
           {
-            "id": "551f575688857a70",
+            "id": "6e1c8cc4aa041657",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Generalised Additive Models.md",
+                "file": "Inbox/Generalised linear models.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,59 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generalised Additive Models"
-            }
-          },
-          {
-            "id": "4de942145de4478d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear regression.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear regression"
-            }
-          },
-          {
-            "id": "9e754bd6997177d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear regression.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Linear regression"
+              "title": "Generalised linear models"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Linear regression.md"
+                "file": "Inbox/Generalised linear models.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Linear regression"
+              "title": "File properties for Generalised linear models"
             }
           },
           {
@@ -268,13 +220,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e754bd6997177d0",
+  "active": "6e1c8cc4aa041657",
   "lastOpenFiles": [
     "Simple linear regression.md",
     "Linear regression.md",
     "Inbox/Generalised linear models.md",
-    "Inbox/Generalised Additive Models.md",
     "Inbox/Untitled.md",
+    "Inbox/Generalised Additive Models.md",
     "Access modifiers.md",
     "Lakes_cci.md",
     "Inbox/WFSEL – Project 1.md",
