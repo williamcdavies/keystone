@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Generalised linear models.md",
-                "mode": "source",
+                "file": "Linear regression.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Generalised linear models"
+              "title": "Linear regression"
             }
           }
         ],
@@ -179,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Generalised linear models.md"
+                "file": "Linear regression.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Generalised linear models"
+              "title": "File properties for Linear regression"
             }
           },
           {
@@ -222,9 +222,9 @@
   },
   "active": "6e1c8cc4aa041657",
   "lastOpenFiles": [
+    "Inbox/Generalised linear models.md",
     "Simple linear regression.md",
     "Linear regression.md",
-    "Inbox/Generalised linear models.md",
     "Inbox/Untitled.md",
     "Inbox/Generalised Additive Models.md",
     "Access modifiers.md",
