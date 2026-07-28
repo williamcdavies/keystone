@@ -128,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -251,10 +251,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Natural numbers.md"
+                "file": "Inbox/Cardinal numerals.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Natural numbers"
+              "title": "File properties for Cardinal numerals"
             }
           },
           {
@@ -292,10 +292,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a110fb26b686a3c7",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
-    "Lakes_cci.md",
     "Inbox/Natural numbers.md",
+    "Inbox/Cardinal numerals.md",
+    "Lakes_cci.md",
     "Python.md",
     "Runge's phonomenon.md",
     "Link functions.md",
@@ -319,7 +320,6 @@
     "Leetcode/4. Median of Two Sorted Arrays.md",
     "Leetcode/1. Two Sum.md",
     "Inbox/FIRE-NET.md",
-    "Geometric series.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
