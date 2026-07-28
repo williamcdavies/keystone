@@ -1,3 +1,7 @@
+---
+tags:
+  - Mathematics
+---
 A link function in a generalised linear model maps a non-linear relationship to a linear one, which means you can fit a linear model to the data. More specifically, it connects the predictors in a model with the expected value of the response variable in a linear way. The link function connects the random and systematic components of a GLM: the random components specifies a probability distribution for $X \mid Y$ while the systematic components relates a parameter $\nu$ to predictors $X$. The link function "links" these components.
 
 ## Examples

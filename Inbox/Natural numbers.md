@@ -1,0 +1,1 @@
+The natural numbers are the numbers 0, 1, 2, 3, and so on, possibly excluding 0.
