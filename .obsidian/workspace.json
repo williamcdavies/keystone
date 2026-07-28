@@ -136,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "file:distribution",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -268,7 +269,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42cf80a3dd83f741",
+  "active": "438ee4dd00c7f96d",
   "lastOpenFiles": [
     "Inbox/Link functions.md",
     "Inbox/Generalised additive Models.md",
