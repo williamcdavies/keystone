@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linear regression.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -53,6 +53,30 @@
               },
               "icon": "lucide-file",
               "title": "Linear regression"
+            }
+          },
+          {
+            "id": "35d90eea3a8a2f38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Generalised linear models.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Generalised linear models"
             }
           }
         ],
@@ -223,8 +247,9 @@
   "active": "6e1c8cc4aa041657",
   "lastOpenFiles": [
     "Inbox/Generalised linear models.md",
-    "Simple linear regression.md",
+    "Statistical units.md",
     "Linear regression.md",
+    "Simple linear regression.md",
     "Inbox/Untitled.md",
     "Inbox/Generalised Additive Models.md",
     "Access modifiers.md",
@@ -247,7 +272,6 @@
     "Geometric series.md",
     "Partial fraction decomposition.md",
     "Improper integration.md",
-    "Morphometry.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
