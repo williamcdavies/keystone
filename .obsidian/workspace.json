@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poisson ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Generalised additive Models.md"
+                "file": "Inbox/Parametric equations.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Generalised additive Models"
+              "title": "File properties for Parametric equations"
             }
           },
           {
@@ -196,10 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35d90eea3a8a2f38",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
-    "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
+    "Inbox/Parametric equations.md",
+    "Poisson distributions.md",
     "Binomial distributions.md",
     "Continuity correction.md",
     "Generalised linear models.md",
@@ -223,7 +223,6 @@
     "Inbox/Dependent variables.md",
     "Inbox/Independent variables.md",
     "chmod.md",
-    "Inbox/Forest Transpiration.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
