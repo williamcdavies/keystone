@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Linear regression.md",
+                "file": "Linear regression.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Linear regression.md",
+                "file": "Linear regression.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -227,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Linear regression.md"
+                "file": "Linear regression.md"
               },
               "icon": "lucide-info",
               "title": "File properties for Linear regression"
@@ -268,15 +268,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f622b379d2860eee",
+  "active": "9e754bd6997177d0",
   "lastOpenFiles": [
-    "Inbox/Generalised Additive Models.md",
+    "Simple linear regression.md",
+    "Linear regression.md",
     "Inbox/Generalised linear models.md",
-    "Inbox/Linear regression.md",
+    "Inbox/Generalised Additive Models.md",
     "Inbox/Untitled.md",
+    "Access modifiers.md",
+    "Lakes_cci.md",
+    "Inbox/WFSEL – Project 1.md",
+    "Photosynthetically active radiation.md",
     "Inbox/Dependent variables.md",
     "Inbox/Independent variables.md",
-    "Inbox/WFSEL – Project 1.md",
     "Runge's phonomenon.md",
     "chmod.md",
     "Inbox/Forest Transpiration.md",
@@ -292,10 +296,6 @@
     "Partial fraction decomposition.md",
     "Improper integration.md",
     "Morphometry.md",
-    "Stoichiometry.md",
-    "Primary productivity.md",
-    "The pathways through which wildland fire emissions affect aquatic ecosystems remain poorly understood.md",
-    "netCDF4.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
