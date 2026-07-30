@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Poisson distributions"
             }
+          },
+          {
+            "id": "896483365e415263",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +99,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Poisson distributions.md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Poisson distributions"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -196,11 +220,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35d90eea3a8a2f38",
+  "active": "896483365e415263",
   "lastOpenFiles": [
+    "Poisson distributions.md",
+    "Inbox/Untitled.md",
     "Inbox/Generalised additive Models.md",
     "Inbox/Parametric equations.md",
-    "Poisson distributions.md",
     "Binomial distributions.md",
     "Continuity correction.md",
     "Generalised linear models.md",
@@ -223,7 +248,6 @@
     "Photosynthetically active radiation.md",
     "Inbox/Dependent variables.md",
     "Inbox/Independent variables.md",
-    "chmod.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",

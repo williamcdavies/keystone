@@ -1,0 +1,3 @@
+- trophic state
+- start of smoke season
+- depth of lake
