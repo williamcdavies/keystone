@@ -13,3 +13,8 @@ chla classification. defined by non-smoke years
 depth
 - lower 10 m
 - high 10 m
+
+from all the time series
+- 10 lakes that has the most smoke days
+	- keep tahoe and erie
+	- for those lakes. instead of plotting all the smoke years, just plot the data for that smoke year.
