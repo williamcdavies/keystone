@@ -17,4 +17,6 @@ depth
 from all the time series
 - 10 lakes that has the most smoke days
 	- keep tahoe and erie
-	- for those lakes. instead of plotting all the smoke years, just plot the data for that smoke year.
+	- for those lakes. instead of plotting all the smoke years, just plot the data for that smoke year. compare to ALL non-smoke years
+	- on the background: all the smoke days
+	- put in slideshow (1 lake per slide 3 variables per lake)
