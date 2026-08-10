@@ -1,3 +1,6 @@
+filter lakes from P=7 to P-42
+reduce x-axis to 121 (1 May) to 273 (30 Sept.)
+
 - trophic state
 - start of smoke season
 - depth of lake
