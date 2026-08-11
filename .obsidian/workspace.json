@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Entity component system (ECS).md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Entity component system (ECS)"
             }
           }
         ],
@@ -88,18 +88,19 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pois",
+                "query": "tag:#CS381  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byCreatedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -179,10 +180,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Entity component system (ECS).md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Entity component system (ECS)"
             }
           },
           {
@@ -220,10 +221,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "68d30faa5c70e5e0",
+  "active": "438ee4dd00c7f96d",
   "lastOpenFiles": [
-    "Poisson distributions.md",
     "Inbox/Untitled.md",
+    "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
     "Inbox/Parametric equations.md",
     "Binomial distributions.md",
