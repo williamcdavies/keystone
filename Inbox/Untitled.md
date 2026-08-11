@@ -1,6 +1,12 @@
 filter lakes from P=7 to P-42
 reduce x-axis to 121 (1 May) to 273 (30 Sept.)
 
+| esacci_lakes_id | 2011     | $\cdots$ | 2023     |
+|:--------------- |:-------- |:-------- |:-------- |
+| $i_1$           | $d_{11}$ | $\cdots$ | $d_{1n}$ |
+| $\vdots$        | $\vdots$ | $\ddots$ | $\vdots$ |
+| $i_m$           | $d_{m1}$ | $\cdots$ | $d_{mn}$ |
+
 - trophic state
 - start of smoke season
 - depth of lake

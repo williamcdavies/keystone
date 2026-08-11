@@ -206,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -220,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "896483365e415263",
+  "active": "68d30faa5c70e5e0",
   "lastOpenFiles": [
     "Poisson distributions.md",
     "Inbox/Untitled.md",
