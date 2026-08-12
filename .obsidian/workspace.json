@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entity component system (ECS).md",
+                "file": "Inbox/Untitled.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Entity component system (ECS)"
+              "title": "Untitled"
             }
           }
         ],
@@ -99,8 +99,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,10 +179,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Entity component system (ECS).md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Entity component system (ECS)"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -221,8 +220,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "438ee4dd00c7f96d",
+  "active": "896483365e415263",
   "lastOpenFiles": [
+    "Entity component system (ECS).md",
     "Inbox/Untitled.md",
     "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
@@ -248,7 +248,6 @@
     "Access modifiers.md",
     "Photosynthetically active radiation.md",
     "Inbox/Dependent variables.md",
-    "Inbox/Independent variables.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",

@@ -1,3 +1,7 @@
+10 lakes with 5 non-smoke years and 1 smoke year > 42 days
+check centroid with kdpar? equation
+
+
 filter lakes from P=7 to P-42
 reduce x-axis to 121 (1 May) to 273 (30 Sept.)
 
