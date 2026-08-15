@@ -8,37 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35d90eea3a8a2f38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Poisson distributions.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Poisson distributions"
-            }
-          },
-          {
             "id": "896483365e415263",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Inbox/Untitled.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -55,8 +31,7 @@
               "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,8 +197,12 @@
   },
   "active": "896483365e415263",
   "lastOpenFiles": [
-    "Entity component system (ECS).md",
+    "Linear regression.md",
+    "Runge's phonomenon.md",
+    "Splines.md",
+    "Combustion efficiency decreases as fuel moisture increases.md",
     "Inbox/Untitled.md",
+    "Entity component system (ECS).md",
     "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
     "Inbox/Parametric equations.md",
@@ -241,13 +220,9 @@
     "Lakes_cci.md",
     "Inbox/Cardinal numerals.md",
     "Python.md",
-    "Runge's phonomenon.md",
     "Inbox/WFSEL – Project 1.md",
-    "Linear regression.md",
     "Statistical units.md",
     "Access modifiers.md",
-    "Photosynthetically active radiation.md",
-    "Inbox/Dependent variables.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",

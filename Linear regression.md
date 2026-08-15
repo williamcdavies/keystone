@@ -10,4 +10,4 @@ $$y_i = \beta_0 + \beta_1 x_{i1} + \cdots + \beta_p x_{ip} + \epsilon_i = \mathb
 
 where $^T$ denotes the transpose, so that $\mathbf{x}_i^T \boldsymbol{ \beta }$ is the inner product between vectors $\mathbf{x}_i$ and $\boldsymbol{ \beta }$.
 
-Often these $n$ equations are stacked together and written in matrix notation as $\mathbf{y} = \mathbf{X} \boldsymbol{ \beta } + \boldsymbol{ \epsilon }$.
+Often these $n$ equations are stacked together and written in matrix notation as $\mathbf{y} = \mathbf{X} \boldsymbol{ \beta } + \boldsymbol{ \epsilon }$
