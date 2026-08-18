@@ -6,4 +6,5 @@ Big O is a notation used to describe the "computational complexity" of an [[Algo
 
 Consider functions $f(n)$ and $g(n)$ such that $0 \leq f(n) \leq c \cdot g(n)$ for all $n \geq n_0$, where $c$ and $n_0$ are positive constants. This relationship can be expressed in Big-O notation as $f(n) = O(g(n))$. $O(g(n))$ can be understood as the set of functions with a growth rate equal to or less than $g(n)$.
 
-## Calculating Complexity
+## Rules
+1. Ignore constants. That means $O(8n) = O(n) = O( \frac{n}{500} )$. Why do we do this? Imagine you had two algorithms. Algorithm $A$ uses $~n$ operations and algorithm $B$ uses $~5n$ operations. We don't care that algorithm $B$ is $$
