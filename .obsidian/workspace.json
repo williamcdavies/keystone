@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/Generalised additive Models.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Generalised additive Models"
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/Generalised additive Models.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Generalised additive Models"
             }
           },
           {
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,13 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "896483365e415263",
+  "active": "f622b379d2860eee",
   "lastOpenFiles": [
+    "Inbox/Untitled.md",
     "Linear regression.md",
     "Runge's phonomenon.md",
     "Splines.md",
     "Combustion efficiency decreases as fuel moisture increases.md",
-    "Inbox/Untitled.md",
     "Entity component system (ECS).md",
     "Poisson distributions.md",
     "Inbox/Generalised additive Models.md",
