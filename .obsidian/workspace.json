@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms.md",
-                "mode": "source",
+                "file": "Surjective functions.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Algorithms"
+              "title": "Surjective functions"
             }
           }
         ],
@@ -180,10 +180,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Algorithms.md"
+                "file": "Surjective functions.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Algorithms"
+              "title": "File properties for Surjective functions"
             }
           },
           {
@@ -223,6 +223,8 @@
   },
   "active": "7c4d153b59978f4e",
   "lastOpenFiles": [
+    "Injective functions.md",
+    "Algorithms.md",
     "Big-O notation.md",
     "Inbox/Untitled.md",
     "Inbox/WFSEL.md",
@@ -247,8 +249,6 @@
     "Bernoulli's principle.md",
     "Linear combinations.md",
     "Lakes_cci.md",
-    "Inbox/Cardinal numerals.md",
-    "Python.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
