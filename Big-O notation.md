@@ -7,4 +7,17 @@ Big O is a notation used to describe the "computational complexity" of an [[Algo
 Consider functions $f(n)$ and $g(n)$ such that $0 \leq f(n) \leq c \cdot g(n)$ for all $n \geq n_0$, where $c$ and $n_0$ are positive constants. This relationship can be expressed in Big-O notation as $f(n) = O(g(n))$. $O(g(n))$ can be understood as the set of functions with a growth rate equal to or less than $g(n)$.
 
 ## Rules
-1. Ignore constants. That means $O(8n) = O(n) = O( \frac{n}{500} )$. Why do we do this? Imagine you had two algorithms. Algorithm $A$ uses $~n$ operations and algorithm $B$ uses $~5n$ operations. We don't care that algorithm $B$ is $$
+1. First, ignore constants. That means $O(8n) = O(n)$.
+2. Second, consider the complexity as the variables tend to infinity. That means $O(2^n + n^2 - 500n) = O(2^n)$.
+
+> [!note]
+> The best complexity possible is $O(1)$, called "constant time" or "constant space". It means that the algorithm always uses the same amount of resources, regardless of the input. 
+> 
+> Note that a constant time complexity doesn't necessarily mean that the algorithm is fast (for example $O( \infty ) = O(1)$), it just means that its runtime is independent of the input size.
+
+When talking about complexity, there are normally three cases:
+1. Best case
+2. Average case
+3. Worst case
+
+For most algorithms, all three of these will be equal, but some algorithms wil
