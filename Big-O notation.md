@@ -32,15 +32,3 @@ for (int num: arr) {
 ```
 
 This algorithm has a time complexity of $O(n)$. In each for loop iteration, we are performing a print, which costs $O(1)$. The for loop iterates $n$ times, which gives a time complexity of $O(1 \cdot n) = O(n)$.
-
-Consider:
-
-```
-for (int num: arr) {
-	for (int i = 0; i < 500_000; i++) {
-		print(num)
-	}
-}
-```
-
-This algorithm has a time complexity of $O(n)$. In each inner for loop iteration, we are performing a print, which costs $O(1)$
