@@ -20,4 +20,27 @@ When talking about complexity, there are normally three cases:
 2. Average case
 3. Worst case
 
-For most algorithms, all three of these will be equal, but some algorithms wil
+For most algorithms, all three of these will be equal, but some algorithms will have them differ. If you have to choose only one to represent the algorithm's time or space complexity, never choose the best case scenario. It is most correct to use the worst case scenario, but you should be able to talk about the difference between the cases.
+
+## Analysing time complexity
+Consider:
+
+```
+for (int num: arr) {
+	print(num)
+}
+```
+
+This algorithm has a time complexity of $O(n)$. In each for loop iteration, we are performing a print, which costs $O(1)$. The for loop iterates $n$ times, which gives a time complexity of $O(1 \cdot n) = O(n)$.
+
+Consider:
+
+```
+for (int num: arr) {
+	for (int i = 0; i < 500_000; i++) {
+		print(num)
+	}
+}
+```
+
+This algorithm has a time complexity of $O(n)$. In each inner for loop iteration, we are performing a print, which costs $O(1)$
