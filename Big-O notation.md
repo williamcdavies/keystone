@@ -45,4 +45,13 @@ for (int i = 0; i < arr.length; i++) {
 
 This algorithm has a time complexity of $O(n^2)$. The inner for loop is dependent on what iteration the outer for loop is currently on. The first time the inner for loop is run, it runs $n$ times. The second time, it runs $n - 1$ times, then $n - 2$, $n - 3$, and so on.
 
-That means the total iterations is $1 + 2 + 3 + 4 + \dots + n$, which is equal to $\frac{n^2 + n}{2}$. In big O, this is $O(n^2)$ because the addition term i the numerator and the constant te
+That means the total iterations is $1 + 2 + 3 + 4 + \dots + n$, which is equal to $\frac{n^2 + n}{2}$. In big O, this is $O(n^2)$ because the addition term i the numerator and the constant term in the denominator are both ignored.
+
+### Logarithmic Time
+The time complexity $O( \log{n} )$ is called logarithmic time and is extremely fast. A common time complexity is $O(n \cdot \log{n} )$, which is reasonably fast for most problems and also the time complexity of efficient sorting algorithms.
+
+Typically, the base of the logarithm will be $2$. However, the base of the logarithm doesn't actually matter for big O, since all logarithms are related by a constant factor.
+
+$O( \log{n} )$ means that somewhere in your algorithm, the input is being reduced by a percentage at every step. A good example of this is a binary search, which is a searching algorithm that runs in $O( \log{n} )$ time. WIth binary search, we initially consider the entire input. After the first step, we only consider $\frac{n}{2}$ elements. After the second step, we only consider $\frac{n}{4}$ elements, and so on. At each step, we are reducing our search space by 50%, which gives us a logarithmic time complexity.
+
+## Analysing Space Complexity
