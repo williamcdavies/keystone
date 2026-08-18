@@ -1,5 +1,6 @@
 ---
 tags:
+  - Statistics
 ---
 A generalised additive model (GAM) is a [[Generalised linear models|Generalised linear model]] in which the linear response variable depends linearly on unknown smooth functions of some predictor variables.
 
