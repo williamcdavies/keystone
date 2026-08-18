@@ -32,3 +32,17 @@ for (int num: arr) {
 ```
 
 This algorithm has a time complexity of $O(n)$. In each for loop iteration, we are performing a print, which costs $O(1)$. The for loop iterates $n$ times, which gives a time complexity of $O(1 \cdot n) = O(n)$.
+
+Consider:
+
+```
+for (int i = 0; i < arr.length; i++) {
+    for (int j = i; j < arr.length; j++) {
+        print(arr[i] + arr[j])
+    }
+}
+```
+
+This algorithm has a time complexity of $O(n^2)$. The inner for loop is dependent on what iteration the outer for loop is currently on. The first time the inner for loop is run, it runs $n$ times. The second time, it runs $n - 1$ times, then $n - 2$, $n - 3$, and so on.
+
+That means the total iterations is $1 + 2 + 3 + 4 + \dots + n$, which is equal to $\frac{n^2 + n}{2}$. In big O, this is $O(n^2)$ because the addition term i the numerator and the constant te
