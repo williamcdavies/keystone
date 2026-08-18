@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Algorithms.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Algorithms"
             }
           }
         ],
@@ -103,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -179,10 +180,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Algorithms.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for Algorithms"
             }
           },
           {
@@ -222,8 +223,9 @@
   },
   "active": "7c4d153b59978f4e",
   "lastOpenFiles": [
-    "Inbox/WFSEL.md",
+    "Big-O notation.md",
     "Inbox/Untitled.md",
+    "Inbox/WFSEL.md",
     "Inbox/WFSEL – Project 1.md",
     "Generalised additive Models.md",
     "Linear regression.md",
@@ -247,7 +249,6 @@
     "Lakes_cci.md",
     "Inbox/Cardinal numerals.md",
     "Python.md",
-    "Statistical units.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
