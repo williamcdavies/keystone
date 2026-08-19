@@ -65,3 +65,4 @@ for (int num: arr) {
 }
 ```
 
+This algorithm has a space complexity of $O(1)$. The only space allocated is an integer variable `num`, which is constant relative to $n$.

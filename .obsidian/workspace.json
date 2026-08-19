@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big-O notation.md",
+                "file": "Recursion.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Big-O notation"
+              "title": "Recursion"
             }
           }
         ]
@@ -155,10 +155,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Big-O notation.md"
+                "file": "Recursion.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Big-O notation"
+              "title": "File properties for Recursion"
             }
           },
           {
@@ -198,12 +198,12 @@
   },
   "active": "896483365e415263",
   "lastOpenFiles": [
+    "Big-O notation.md",
     "Inbox/WFSEL.md",
     "Generalised additive Models.md",
     "Linear regression.md",
     "Conditional convergence.md",
     "Matrix multiplication.md",
-    "Big-O notation.md",
     "Algorithms.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/Untitled.md",
