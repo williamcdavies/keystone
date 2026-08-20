@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursion.md",
+                "file": "Inbox/Untitled.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Recursion"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -155,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Recursion.md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Recursion"
+              "title": "File properties for Untitled"
             }
           },
           {
@@ -198,6 +197,7 @@
   },
   "active": "896483365e415263",
   "lastOpenFiles": [
+    "Recursion.md",
     "Big-O notation.md",
     "Inbox/WFSEL.md",
     "Generalised additive Models.md",
@@ -223,7 +223,6 @@
     "Simple linear regression.md",
     "Inbox/Additive models.md",
     "Natural numbers.md",
-    "Link functions.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
