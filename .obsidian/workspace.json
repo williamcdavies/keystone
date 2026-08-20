@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/WFSEL.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "WFSEL"
             }
           }
         ]
@@ -154,10 +154,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/WFSEL.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Untitled"
+              "title": "File properties for WFSEL"
             }
           },
           {
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "896483365e415263",
+  "active": "68d30faa5c70e5e0",
   "lastOpenFiles": [
+    "Inbox/Untitled.md",
     "Recursion.md",
     "Big-O notation.md",
     "Inbox/WFSEL.md",
@@ -206,7 +207,6 @@
     "Matrix multiplication.md",
     "Algorithms.md",
     "Inbox/WFSEL – Project 1.md",
-    "Inbox/Untitled.md",
     "Surjective functions.md",
     "Injective functions.md",
     "Runge's phonomenon.md",
