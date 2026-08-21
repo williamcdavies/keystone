@@ -37,5 +37,5 @@ lets work with temperature
 do the following
 - divide between shallow and deep lakes
 - lakes < 10 m (shallow): > 50m (deep)
-
-
+	- for simple purpose:
+		- weekly values of temperature. plot the difference between the smoke and non-smoke year. repeat for all lakes lower than a certain depth. plot when the smoke season starts in each of the lake
