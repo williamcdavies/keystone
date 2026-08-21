@@ -22,3 +22,11 @@ Deep: > 10m
 
 ## Products
 
+## Lakes
+- Lake Tahoe
+- Crater Lake
+- Lake Champlain
+- Pyramid Lake
+- Flathead Lake
+- 
+
