@@ -28,5 +28,11 @@ Deep: > 10m
 - Lake Champlain
 - Pyramid Lake
 - Flathead Lake
-- 
+- Lake Oroville
+- Salt Lake
+- All Great Lakes
+- Lake Winnipeg
+
+lets work with temperature
+
 
