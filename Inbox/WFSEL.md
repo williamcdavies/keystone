@@ -33,7 +33,6 @@ Deep: > 10m
 - All Great Lakes
 - Lake Winnipeg
 
-lets work with temperature
 do the following
 - divide between shallow and deep lakes
 - lakes < 10 m (shallow): > 50m (deep)
