@@ -39,3 +39,9 @@ do the following
 	- for simple purpose:
 		- weekly values of temperature. plot the difference between the smoke and non-smoke year. repeat for all lakes lower than a certain depth. plot when the smoke season starts in each of the lake
 		- define the beginning of the smoke season as the first week >= 4 of smoke. non-smoke <= 7. smoke >= 42.
+
+
+Notes
+- Shallow lakes, on average, are warmer than deep lakes at the start of the smoke season by ~$12.004 - 9.917 = 2.087$ degrees Celsius. 
+- Shallow lakes, on average, reach their peak seasonal temperature sooner than deep lakes by ~$8 - 6 = 2$ weeks.
+- Shallow lakes, 
