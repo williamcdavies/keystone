@@ -35,10 +35,24 @@
             "id": "448195d4a10502dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Bayes Classification.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Bayes Classification"
             }
           }
         ],
@@ -76,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:",
+                "query": "tag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -212,6 +226,22 @@
   },
   "active": "438ee4dd00c7f96d",
   "lastOpenFiles": [
+    "Bayesian belief networks.md",
+    "Neural networks.md",
+    "Linear seperability.md",
+    "Gradient descent.md",
+    "Support vector machines.md",
+    "k-itemsets.md",
+    "Hash trees.md",
+    "Closed itemsets.md",
+    "Maximal itemsets.md",
+    "Lift.md",
+    "Frequent itemsets.md",
+    "Association rules.md",
+    "Heaviside step function.md",
+    "Kernel trick.md",
+    "Ensemble averaging.md",
+    "Apriori principle.md",
     "Sets.md",
     "Subsets.md",
     "Orthogonal sets.md",
@@ -222,22 +252,6 @@
     "Generalised additive Models.md",
     "Linear regression.md",
     "Conditional convergence.md",
-    "Matrix multiplication.md",
-    "Algorithms.md",
-    "Inbox/WFSEL – Project 1.md",
-    "Surjective functions.md",
-    "Injective functions.md",
-    "Runge's phonomenon.md",
-    "Splines.md",
-    "Combustion efficiency decreases as fuel moisture increases.md",
-    "Entity component system (ECS).md",
-    "Poisson distributions.md",
-    "Inbox/Parametric equations.md",
-    "Binomial distributions.md",
-    "Continuity correction.md",
-    "Generalised linear models.md",
-    "Normal distributions.md",
-    "Z-tests.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
