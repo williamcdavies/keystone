@@ -35,24 +35,10 @@
             "id": "448195d4a10502dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/WFSEL.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "WFSEL"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
@@ -90,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS381  ",
+                "query": "tag:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +87,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -219,15 +206,19 @@
       "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "448195d4a10502dc",
+  "active": "438ee4dd00c7f96d",
   "lastOpenFiles": [
+    "Sets.md",
+    "Subsets.md",
+    "Orthogonal sets.md",
+    "Inbox/WFSEL.md",
     "Inbox/Untitled.md",
     "Recursion.md",
     "Big-O notation.md",
-    "Inbox/WFSEL.md",
     "Generalised additive Models.md",
     "Linear regression.md",
     "Conditional convergence.md",
@@ -247,9 +238,6 @@
     "Generalised linear models.md",
     "Normal distributions.md",
     "Z-tests.md",
-    "Simple linear regression.md",
-    "Inbox/Additive models.md",
-    "Natural numbers.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
