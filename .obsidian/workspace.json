@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Max-flow problems.md",
+                "file": "EOQ.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Max-flow problems"
+              "title": "EOQ"
             }
           }
         ],
@@ -91,7 +91,7 @@
               "type": "search",
               "state": {
                 "query": "tag:#MATH487  ",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -226,6 +226,9 @@
   },
   "active": "448195d4a10502dc",
   "lastOpenFiles": [
+    "Critical paths.md",
+    "Critical arcs.md",
+    "Max-flow problems.md",
     "Linear programming.md",
     "Integer programming.md",
     "Strong duality theorem.md",
@@ -249,9 +252,6 @@
     "Maximal itemsets.md",
     "Lift.md",
     "Frequent itemsets.md",
-    "Association rules.md",
-    "Heaviside step function.md",
-    "Kernel trick.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
