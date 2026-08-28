@@ -30,7 +30,7 @@ Since the number of decision variables is $\leq 3$, the linear program can be so
 
 ## General Form
 A linear program is said to be in general form if it is written as:
-$$\text{ max \text{ | } min } \quad c_1x_1 + \dots + c_nx_n = Z$$
+$$\text{ max | min } \quad c_1x_1 + \dots + c_nx_n = Z$$
 $$\begin{align}
 \text{ S.T. } &\quad a_{11}x_1+ a_{12}x_2 + \dots + a_{1n}x_n &\quad \geq \text{ | } \leq \text{ | } = &\quad b_1 \\\\
 &\quad a_{21}x_1 + a_{22}x_2 + \dots + a_{2n}x_n &\quad \geq \text{ | } \leq \text{ | } = &\quad b_2 \\\\

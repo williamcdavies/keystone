@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayes Classification.md",
+                "file": "Max-flow problems.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Bayes Classification"
+              "title": "Max-flow problems"
             }
           }
         ],
@@ -90,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag",
+                "query": "tag:#MATH487  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,8 +224,20 @@
       "graph:Open graph view": false
     }
   },
-  "active": "438ee4dd00c7f96d",
+  "active": "448195d4a10502dc",
   "lastOpenFiles": [
+    "Linear programming.md",
+    "Integer programming.md",
+    "Strong duality theorem.md",
+    "Shadow prices.md",
+    "Simplex method.md",
+    "Linear functions.md",
+    "Convex sets.md",
+    "EOQ.md",
+    "Crosstabulation.md",
+    "Logos.md",
+    "Big associated number (BAN).md",
+    "Bayes Classification.md",
     "Bayesian belief networks.md",
     "Neural networks.md",
     "Linear seperability.md",
@@ -240,18 +252,6 @@
     "Association rules.md",
     "Heaviside step function.md",
     "Kernel trick.md",
-    "Ensemble averaging.md",
-    "Apriori principle.md",
-    "Sets.md",
-    "Subsets.md",
-    "Orthogonal sets.md",
-    "Inbox/WFSEL.md",
-    "Inbox/Untitled.md",
-    "Recursion.md",
-    "Big-O notation.md",
-    "Generalised additive Models.md",
-    "Linear regression.md",
-    "Conditional convergence.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
