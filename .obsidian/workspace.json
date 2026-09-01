@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "EOQ"
             }
+          },
+          {
+            "id": "a9aaa15680996059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,8 +125,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,8 +247,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "448195d4a10502dc",
+  "active": "a9aaa15680996059",
   "lastOpenFiles": [
+    "EOQ.md",
+    "Inbox/Untitled.md",
     "Critical paths.md",
     "Critical arcs.md",
     "Max-flow problems.md",
@@ -236,7 +261,6 @@
     "Simplex method.md",
     "Linear functions.md",
     "Convex sets.md",
-    "EOQ.md",
     "Crosstabulation.md",
     "Logos.md",
     "Big associated number (BAN).md",
@@ -251,7 +275,6 @@
     "Closed itemsets.md",
     "Maximal itemsets.md",
     "Lift.md",
-    "Frequent itemsets.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
