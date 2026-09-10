@@ -4,9 +4,9 @@
   "cssTheme": "Minimal",
   "nativeMenus": false,
   "translucency": true,
-  "textFontFamily": "Apple Braille",
+  "textFontFamily": "",
   "showViewHeader": true,
-  "interfaceFontFamily": "Apple Braille",
+  "interfaceFontFamily": "",
   "baseFontSize": 14,
   "enabledCssSnippets": [
     "graph-view",
