@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Continuity correction.md",
+                "file": "Inbox/WFSEL – Project 1.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Continuity correction"
+              "title": "WFSEL – Project 1"
             }
           }
         ],
@@ -225,6 +225,9 @@
   },
   "active": "448195d4a10502dc",
   "lastOpenFiles": [
+    "Inbox/WFSEL.md",
+    "Inbox/WFSEL – Project 1.md",
+    "Continuity correction.md",
     "EOQ.md",
     "Inbox/Untitled.md",
     "Critical paths.md",
@@ -248,9 +251,6 @@
     "Support vector machines.md",
     "k-itemsets.md",
     "Hash trees.md",
-    "Closed itemsets.md",
-    "Maximal itemsets.md",
-    "Lift.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
