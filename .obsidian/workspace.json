@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Hidden layers"
             }
+          },
+          {
+            "id": "ac017f2184ea23fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Cocoa.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Cocoa"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +114,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CS658  ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +125,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,8 +248,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "448195d4a10502dc",
+  "active": "7e01f5969e17b9b7",
   "lastOpenFiles": [
+    "Inbox/Cocoa.md",
+    "Inbox/Untitled.md",
+    "Hidden layers.md",
     "Linear seperability.md",
     "Gradient descent.md",
     "Heaviside step function.md",
@@ -249,9 +276,6 @@
     "Strong duality theorem.md",
     "Complementary slackness theorem.md",
     "Integer programming.md",
-    "Max-flow problems.md",
-    "Critical arcs.md",
-    "Critical paths.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
