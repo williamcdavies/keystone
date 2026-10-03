@@ -1,1 +1,0 @@
-Cocoa is Apple's native object-oriented application programming interface (API) for its desktop operating system macOS.
