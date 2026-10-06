@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "SDL"
             }
+          },
+          {
+            "id": "320dc27187c9391f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +224,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fad07f4d31a59bc9",
+  "active": "320dc27187c9391f",
   "lastOpenFiles": [
+    "Inbox/SDL.md",
+    "Inbox/Untitled.md",
     "Inbox/WFSEL – Project 1.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
     "Linear programming.md",
     "Big-O notation.md",
-    "Inbox/SDL.md",
     "Inbox/Cocoa.md",
     "Hidden layers.md",
     "Linear seperability.md",
@@ -226,7 +252,6 @@
     "Linear inequalities.md",
     "Simplex method.md",
     "Shadow prices.md",
-    "Reduced costs.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
