@@ -212,8 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,7 +223,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "320dc27187c9391f",
+  "active": "68d30faa5c70e5e0",
   "lastOpenFiles": [
     "Inbox/SDL.md",
     "Inbox/Untitled.md",
