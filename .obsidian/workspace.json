@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "REPL"
             }
+          },
+          {
+            "id": "9eab298e1af8380e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,13 +223,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "a1a7414bcec6ef5b",
+  "active": "9eab298e1af8380e",
   "lastOpenFiles": [
+    "Inbox/REPL.md",
+    "Inbox/Untitled.md",
     "Inbox/Linux Packages.md",
     "Inbox/SDL.md",
-    "Inbox/REPL.md",
     "Inbox/Untitled 1.md",
-    "Inbox/Untitled.md",
     "xarray.md",
     "Inbox/WFSEL – Project 1.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",

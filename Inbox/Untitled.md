@@ -1,0 +1,1 @@
+Found possible unpacking bug in `get_da_geometry_as_wkb`. Lake geometries are okay on inspection. Will complete later.
