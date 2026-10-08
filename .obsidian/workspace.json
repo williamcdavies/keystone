@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Linux Packages"
             }
+          },
+          {
+            "id": "df508df3854354b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/REPL.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "REPL"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +247,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "7a61e967b06439b8",
+  "active": "df508df3854354b7",
   "lastOpenFiles": [
-    "xarray.md",
     "Inbox/Linux Packages.md",
+    "Inbox/REPL.md",
+    "xarray.md",
     "Inbox/Untitled 1.md",
     "Inbox/SDL.md",
     "Inbox/WFSEL – Project 1.md",
@@ -250,7 +275,6 @@
     "Ensemble averaging.md",
     "Frequent itemsets.md",
     "Lift.md",
-    "Linear inequalities.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
