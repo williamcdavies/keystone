@@ -10,8 +10,31 @@ Linux distributions use different package management systems to handle the insta
 
 ## Installing Packages
 
+> [!note]
+> 
+
 ### DEB
 Use `dpkg`.
 
+> [!example]
+
+```sh
+sudo dpgk -i example.deb
 ```
+
+`dpkg` does not handle dependencies automatically. To install a package along with its dependencies use `apt`.
+
+> [!example]
+
+```sh
+sudo apt install ./example.deb
+```
+
+### RPM
+Use `rpm`.
+
+> [!example]
+
+```sh
+sudo rpm -i example.rpm
 ```
