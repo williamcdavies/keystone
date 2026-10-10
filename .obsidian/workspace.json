@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "e8a3eb67f9031ebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Arch Linux.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Arch Linux"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,13 +247,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9eab298e1af8380e",
+  "active": "e8a3eb67f9031ebc",
   "lastOpenFiles": [
-    "Inbox/REPL.md",
     "Inbox/Untitled.md",
+    "Inbox/Arch Linux.md",
+    "Inbox/REPL.md",
     "Inbox/Linux Packages.md",
     "Inbox/SDL.md",
-    "Inbox/Untitled 1.md",
     "xarray.md",
     "Inbox/WFSEL – Project 1.md",
     "Leetcode/3. Longest Substring Without Repeating Characters.md",
