@@ -78,9 +78,57 @@
               "icon": "lucide-file",
               "title": "Arch Linux"
             }
+          },
+          {
+            "id": "641375c9b67d3c1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Disk images.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Disk images"
+            }
+          },
+          {
+            "id": "fe91f2eeb63c39d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Disk images.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Disk images"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -205,10 +253,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFSEL.md"
+                "file": "Inbox/Disk images.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for WFSEL"
+              "title": "File properties"
             }
           },
           {
@@ -232,7 +280,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -247,10 +295,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e8a3eb67f9031ebc",
+  "active": "fe91f2eeb63c39d2",
   "lastOpenFiles": [
-    "Inbox/Untitled.md",
+    "Inbox/Boot images.md",
+    "Inbox/Disk images.md",
     "Inbox/Arch Linux.md",
+    "Inbox/Untitled.md",
     "Inbox/REPL.md",
     "Inbox/Linux Packages.md",
     "Inbox/SDL.md",
@@ -273,8 +323,6 @@
     "Support vector machines.md",
     "Kernel trick.md",
     "Bagging.md",
-    "Ensemble averaging.md",
-    "Frequent itemsets.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
