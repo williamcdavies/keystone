@@ -1,6 +1,6 @@
 ---
 tags:
-  - CompSci
+  - OS
 aliases:
   - Disk image
 ---

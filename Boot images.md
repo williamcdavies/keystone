@@ -1,1 +1,5 @@
+---
+tags:
+  - OS
+---
 A boot image is a type of [[Disk images|Disk image]] that when on a boot device allows the associated computer to boot.
