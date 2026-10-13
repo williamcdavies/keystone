@@ -102,9 +102,33 @@
               "icon": "lucide-file",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "9e93195dee583c7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled 1.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -229,7 +253,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/Untitled 1.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -256,7 +280,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -271,11 +295,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fe91f2eeb63c39d2",
+  "active": "9e93195dee583c7a",
   "lastOpenFiles": [
+    "Inbox/Untitled.md",
+    "Inbox/Untitled 1.md",
     "REPL.md",
     "Disk images.md",
-    "Inbox/Untitled.md",
     "Inbox/Linux Packages.md",
     "Inbox/WFSEL – Project 1.md",
     "Inbox/SDL.md",
@@ -298,7 +323,6 @@
     "Voronoi diagrams.md",
     "Support vector machines.md",
     "Kernel trick.md",
-    "Bagging.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
