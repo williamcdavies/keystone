@@ -1,7 +1,5 @@
 # comp_trend_of_esacci_lakes_variable_over_smoke_season Strategies (A–D)
 
-  
-
 ## Dictionary
 
 | Strategy     | Window size | Selection strategy | High smoke year(s)                                                                       | Low smoke year(s)                                  | Season window comes from                       | File       |
@@ -20,3 +18,5 @@
 | **$C_{6L}$** | 6           | Latest             | Year with the greatest count of distinct smoke start days at or above the high threshold | All years at or below the low threshold (averaged) | That single high year                          | `..._C.py` |
 | **$D_{4E}$** | 4           | Earliest           | All years at or above the high threshold (averaged)                                      | All years at or below the low threshold (averaged) | Median of start/end days across all high years | `..._D.py` |
 | **$D_{4L}$** | 4           | Latest             | All years at or above the high threshold (averaged)                                      | All years at or below the low threshold (averaged) | Median of start/end days across all high years | `..._D.py` |
+| **$E_{4E}$** | 4           | Earliest           | All years at or above the high threshold (combinatorial)                                 | All years at or below the low threshold (averaged) | Each high year                                 | `..._E.py` |
+| **$E_{4L}$** | 4           | Latest             | All years at or above the high threshold (combinatorial)                                 | All years at or below the low threshold (averaged) | Each high year                                 | `..._E.py  |
