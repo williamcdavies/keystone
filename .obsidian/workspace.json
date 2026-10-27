@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Untitled.md",
+                "file": "Inbox/ToDo.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "ToDo"
             }
           }
         ],
@@ -253,7 +253,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Untitled.md"
+                "file": "Inbox/ToDo.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -297,8 +297,8 @@
   },
   "active": "30f001b80011a077",
   "lastOpenFiles": [
-    "Inbox/ToDo.md",
     "Inbox/Untitled.md",
+    "Inbox/ToDo.md",
     "Inbox/SDL.md",
     "Inbox/Linux Packages.md",
     "REPL.md",
