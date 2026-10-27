@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "SDL"
             }
+          },
+          {
+            "id": "ebf3f2ef179ec4c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -205,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/SDL.md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -247,16 +271,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fe91f2eeb63c39d2",
+  "active": "ebf3f2ef179ec4c7",
   "lastOpenFiles": [
+    "Inbox/SDL.md",
+    "Inbox/Untitled.md",
     "Inbox/Linux Packages.md",
     "REPL.md",
-    "Inbox/Untitled.md",
     "Inbox/Untitled 1.md",
     "Inbox/WFSEL to do list.md",
     "Disk images.md",
     "Inbox/WFSEL – Project 1.md",
-    "Inbox/SDL.md",
     "Boot images.md",
     "Inbox/Arch Linux.md",
     "xarray.md",
