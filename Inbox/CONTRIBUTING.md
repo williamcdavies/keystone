@@ -6,7 +6,10 @@ File headers should be of the following format:
 
 ```python
 """
-Filename:<filename>
-
+Filename: <filename>
+Author: <author>
+Modified: <date>
 """
 ```
+
+The filename field should include the files extension. The author field should match the author field in pyproject.toml. The modified field 
