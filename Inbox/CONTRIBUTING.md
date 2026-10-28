@@ -12,7 +12,7 @@ Modified: <date>
 """
 ```
 
-The filename field should include the filename's extension. If the file belongs to a module, write the filename in endpoint format. The author field should match the author field under `[project]` in `pyproject.toml`. The modified field should be of the format `DD/MM/YY`.
+The filename field should include the file's extension. If the file belongs to a module, write the filename in endpoint format. The author field should match the author field under `[project]` in `pyproject.toml`. The modified field should be of the format `DD/MM/YY`.
 
 > [!example]
 > 
@@ -30,10 +30,55 @@ Imports fall under the following three categories:
 2. Related Third-party Imports
 3. Local Application/Library Specific Imports
 
-These categories should be documented as follows:
+These categories should be explicitly documented as follows:
 
 ```python
+# Standard Library Imports
 
+# Related Third-party Imports
+
+# Local Application/Library Specific Imports
+```
+
+Imports should be ordered alphabetically within their category. Imports should be tab-aligned on the `import` keyword. Any successive imports should also be tab-aligned on the `import` keyword.
+
+> [!example]
+
+```python
+# Standard Library Imports
+import sys
+
+from argparse import (
+
+ArgumentParser,
+
+Namespace,
+
+)
+
+  
+
+# Related Third-party Imports
+
+  
+
+# Local Application/Library Specific Imports
+
+from wfsel.exit_codes import (
+
+EXIT_FAILURE,
+
+EXIT_SUCCESS,
+
+)
+
+from wfsel.utils.argparse_utils import (
+
+arguments_are_valid as _arguments_are_valid,
+
+build_parser as _build_parser,
+
+)
 ```
 
 
