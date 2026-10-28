@@ -78,33 +78,9 @@
               "icon": "lucide-file",
               "title": "SDL"
             }
-          },
-          {
-            "id": "578d582afff81fb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/CONTRIBUTING.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CONTRIBUTING"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -229,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/CONTRIBUTING.md"
+                "file": "Inbox/SDL.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -271,7 +247,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "578d582afff81fb9",
+  "active": "fe91f2eeb63c39d2",
   "lastOpenFiles": [
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
