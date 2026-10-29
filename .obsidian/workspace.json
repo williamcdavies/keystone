@@ -78,9 +78,33 @@
               "icon": "lucide-file",
               "title": "SDL"
             }
+          },
+          {
+            "id": "b049cee2e081ff7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -205,7 +229,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/SDL.md"
+                "file": "Inbox/Untitled.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -247,11 +271,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fe91f2eeb63c39d2",
+  "active": "b049cee2e081ff7d",
   "lastOpenFiles": [
+    "Inbox/SDL.md",
+    "Inbox/Untitled.md",
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
-    "Inbox/SDL.md",
     "Inbox/Linux Packages.md",
     "REPL.md",
     "Inbox/Untitled 1.md",
@@ -274,7 +299,6 @@
     "Neural networks.md",
     "Bayesian belief networks.md",
     "Bayes Classification.md",
-    "Voronoi diagrams.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
