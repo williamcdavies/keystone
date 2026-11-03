@@ -1,3 +1,7 @@
+## FRQ
+1. Q. What is a `.tsv` file? A. A `.tsv` is a tab-separated value file.
+2. Q. What does `unmlknum` mean? A. `unmlknum` stands for UNM Lake Number.
+
 ## How Many Unique Lakes?
 
 ### Per File?
@@ -63,6 +67,12 @@ for tsv_path in tsv_paths:
 	ser = df["unmlknum"]
 	
 	l.append(ser)
-	
 
+o = reduce(lambda a, b: a[a.isin(b)], l)
+
+print(f"Shared: {o.nunique()}")
+```
+
+```
+Shared: 11369
 ```
