@@ -1,11 +1,8 @@
 ## How Many Unique Lakes?
 
-On S2MSI1C_MN_2017_2m0iA4.tsv:
+```python
+import pathlib
+import pandas as pd
 
-```SQL
-> SELECT DISTINCT a3;
-...
-> SELECT COUNT(*);
-11731
+dir_path = pathlib.Path("")
 ```
-
