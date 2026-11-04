@@ -81,3 +81,4 @@ print(f"Shared: {s.nunique()}")
 Shared: 11369
 ```
 
+## Inspecting Lake Data?
