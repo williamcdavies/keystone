@@ -91,7 +91,9 @@ Solution: Convert date string `YYYYMMDD` to datetime.
 UMN_41008400_v1.1:
 ![[UMN_41008400_v1.1.png]]
 
-Observation clustering is improved. However, UMN observation dates are not as frequent as ESA observation dates. It may not be possible to observe smoke coverage impact for a single lake. Therefore, analysis has to be done for every lake under some aggregation rule. It may be possible derive a statistic by counting the number of distinct start days between two observation dates within the same year. Restrictions: 
+Observation clustering is improved. However, UMN observation dates are not as frequent as ESA observation dates. It may not be possible to observe smoke coverage impact for a single lake. Therefore, analysis has to be done for every lake under some aggregation rule. It may be possible derive a statistic by counting the number of distinct start days between two observation dates within the same year. 
+
+Restrictions: 
 1. The first observation date must occur before the onset of the smoke season, or at least there must be some recovery period before to the observation date.
 2. The second observation date must occur after the onset of the smoke season, or at least after some smoke coverage period  before the the observation date.
 
