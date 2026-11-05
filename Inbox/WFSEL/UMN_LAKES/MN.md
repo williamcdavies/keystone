@@ -96,7 +96,7 @@ Observation clustering is improved. However, UMN observation dates are not as fr
 2. The second observation date must occur after the onset of the smoke season, or at least after some smoke coverage period  before the the observation date.
 
 Pros: An identical strategy can be used to compute the smoke season of a given lake.
-Cons: 
+Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
 Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
 Solution: Leave units blank until this can be resolved.
