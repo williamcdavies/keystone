@@ -82,3 +82,7 @@ Shared: 11369
 ```
 
 ## Inspecting Lake Data?
+Lake 41008400:
+![[Pasted image 20261105113411.png]]
+
+Observations are clustered near the start of each year. 
