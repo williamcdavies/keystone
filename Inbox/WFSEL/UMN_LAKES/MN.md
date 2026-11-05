@@ -82,7 +82,7 @@ Shared: 11369
 ```
 
 ## Inspecting Lake Data?
-Lake 41008400:
-![[Pasted image 20261105113411.png]]
+UMN_41008400_v1.0:
+![[UMN_41008400_v1.0.png]]
 
-Observations are clustered near the start of each year. 
+Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.

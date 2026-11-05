@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e49674db6ee8073b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1a00bc80dcb29a5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/MN.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MN"
-            }
-          }
-        ]
-      },
-      {
         "id": "c08d89420869ba46",
         "type": "tabs",
         "children": [
@@ -43,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/MN.md",
-                "mode": "preview",
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -110,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 380.1875
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -186,7 +156,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/MN.md"
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -230,10 +200,13 @@
   },
   "active": "d651956551185104",
   "lastOpenFiles": [
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.0.png",
+    "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Inbox/WFSEL/UMN_LAKES/Resources",
+    "Inbox/WFSEL/UMN_LAKES",
+    "Inbox/WFSEL",
     "Inbox/Linux Packages.md",
     "Inbox/WFSEL – Project 1.md",
-    "Pasted image 20261105113411.png",
-    "Inbox/MN.md",
     "Inbox/SDL.md",
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
@@ -272,9 +245,6 @@
     "Screenshot 2025-11-02 125548.png",
     "Inbox/cs457hw3",
     "Inbox/cpe400hw2",
-    "doc.rust-lang.org/rust-by-example/primitives",
-    "doc.rust-lang.org/rust-by-example",
-    "doc.rust-lang.org",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
