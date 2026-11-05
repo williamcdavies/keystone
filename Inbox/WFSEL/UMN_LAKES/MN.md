@@ -85,7 +85,16 @@ Shared: 11369
 UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
-Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
+Problem: Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
+Solution: Convert date string `YYYYMMDD` to datetime.
 
-UMN_41008400_v2.0:
-![[Pasted image 20261105130254.png]]
+UMN_41008400_v1.1:
+![[UMN_41008400_v1.1.png]]
+
+Observation clustering is improved. However, UMN observation dates are not as frequent as ESA observation dates. It may not be possible to 
+
+Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
+Solution: Leave units blank until this can be resolved.
+
+
+
