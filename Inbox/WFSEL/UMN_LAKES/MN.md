@@ -86,3 +86,6 @@ UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
 Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
+
+UMN_41008400_v2.0:
+![[Pasted image 20261105130254.png]]
