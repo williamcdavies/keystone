@@ -86,7 +86,8 @@ UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
 > [!warning]
-> Problem: Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
+> Problem: 
+> Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
 
 > [!success]
 > Solution: Convert date string `YYYYMMDD` to datetime.
@@ -99,13 +100,17 @@ Observation clustering is improved. However, UMN observation dates are not as fr
 Pros: An identical strategy can be used to compute the smoke season of a given lake.
 Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
-> [!warning] Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
+> [!warning] 
+> Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
 
-> [!success] Solution: Leave units blank until this can be resolved.
+> [!success] 
+> Solution: Leave units blank until this can be resolved.
 
-> [!warning] Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
+> [!warning] 
+> Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
 
-> [!success] Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
+> [!success] 
+> Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
 
 ### Loading ShapeFiles into PostgreSQL
 
@@ -167,3 +172,15 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
      32615
 (1 row)
 ```
+
+> [!success]
+> Solution: transform SRID to `4326` at transaction time.
+>
+| umn_lakes_id | hylak_id | lake_name | country                  | continent     | poly_src | lake_type | grand_id | lake_area_m2 | shore_len_m        | shore_dev | vol_total_m3 | vol_res_m3 | vol_src | depth_avg_m | dis_avg_m3_per_s | res_time_days | elevation_m | slope_deg | wshd_area_m2 | pour_long_deg | pour_lat_deg |
+|:------------ |:-------- |:--------- |:------------------------ |:------------- |:-------- |:--------- |:-------- |:------------ |:------------------ |:--------- |:------------ |:---------- |:------- |:----------- |:---------------- |:------------- |:----------- |:--------- |:------------ |:------------- |:------------ |
+| 01000100     | 107727   |           | United States of America | North America | SWBD     | 1         | 0        | 1340000      | 7070               | 1.72      | 6510000      | 0          | 3       | 4.8         | 0.368            | 204.8         | 329         | 2.86      | 40400000     | -93.064641    | 46.193753    |
+| 01000200     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000300     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000400     | 1026013  |           | United States of America | North America | SWBD     | 1         | 0        | 150000       | 2029.9999999999998 | 1.48      | 260000       | 0          | 3       | 1.8         | 0.066            | 46.4          | 392         | 0.66      | 6200000      | -93.142158    | 46.548936    |
+| 01000500     | 1025420  |           | United States of America | North America | SWBD     | 1         | 0        | 300000       | 2660               | 1.37      | 810000       | 0          | 3       | 2.7         | 0.101            | 92.4          | 385         | 1.28      | 9400000      | -93.141939    | 46.595509    |
+| 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |

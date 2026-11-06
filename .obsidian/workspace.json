@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.1875
+    "width": 380.1875,
+    "collapsed": true
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -217,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,7 +229,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "d651956551185104",
+  "active": "02825c07137a8de1",
   "lastOpenFiles": [
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
