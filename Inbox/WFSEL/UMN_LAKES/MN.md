@@ -54,7 +54,7 @@ S2MSI1C_MN_2025_2m0iCL: 11723
 S2MSI1C_MN_2025_2m0iSD: 11743
 ```
 
-### Shared?
+### All Files?
 
 ```python
 import pathlib
@@ -118,12 +118,12 @@ Cons: There are not enough observations during the smoke season of a given lake 
 ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
 ```
 
-### Querying PostgreSQL for UMN Lakes Metadata
-Objective: To produce a count of distinct start days for the UMN Lakes; To link HydroLAKES to the UMN Lakes
+### Querying PostgreSQL for Metadata
+Objective: To produce a count of distinct start days for UMN Lakes; To link HydroLAKES to UMN Lakes.
 
-The queries to produce these tables have already been written. They can be duplicated and fitted to the umn_lakes table.
+The queries to produce these tables have already been written. They can be duplicated and fitted to `public.umn_lakes`.
 > [!bug]
-> Bug: Tables are blank or null. Since both tables are blank, an SRID or projection issue may have occurred.
+> Bug: Tables are blank or null. An SRID or projection issue may have occurred.
 > 
 | unmlknum | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:-------- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
@@ -149,7 +149,7 @@ UMN_Shapes_Source:
 UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
-Inspection of source ShapeFile and PSQL Polygons result in identical map projection. Therefore, the bug is likely as a result of incorrect query modification.
+Source ShapeFile and PSQL output provide identical map projections. Therefore, the bug was likely introduced during query duplication and modification.
 
 > [!bug]
 > Bug: `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
