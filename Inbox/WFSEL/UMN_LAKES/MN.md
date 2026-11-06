@@ -102,8 +102,28 @@ Solution: Leave units blank until this can be resolved.
 Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
 Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
 
-### Loading Sha
+### Loading ShapeFiles into PostgreSQL
 
+```sh
+ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
+```
+
+Objective: To produce a count of distinct start days for the UMN Lakes; To link HydroLAKES to the UMN Lakes
+
+The queries to produce these tables have already been written. They can be duplicated and fitted to the umn_lakes table.
+
+
+|     |     |
+| --- | --- |
+|     |     |
+
+unmlknum,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023
+01000100,0,0,0,0,0,0,0,0,0,0,0,0,0
+01000200,0,0,0,0,0,0,0,0,0,0,0,0,0
+01000300,0,0,0,0,0,0,0,0,0,0,0,0,0
+01000400,0,0,0,0,0,0,0,0,0,0,0,0,0
+01000500,0,0,0,0,0,0,0,0,0,0,0,0,0
+01000600,0,0,0,0,0,0,0,0,0,0,0,0,0
 
 
 
