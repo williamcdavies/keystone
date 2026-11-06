@@ -118,11 +118,12 @@ Cons: There are not enough observations during the smoke season of a given lake 
 ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
 ```
 
+### Querying PostgreSQL for UMN Lakes Metadata
 Objective: To produce a count of distinct start days for the UMN Lakes; To link HydroLAKES to the UMN Lakes
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to the umn_lakes table.
 > [!bug]
-> Tables are blank or null. Since both tables are blank, an SRID or projection issue may have occurred.
+> Bug: Tables are blank or null. Since both tables are blank, an SRID or projection issue may have occurred.
 > 
 | unmlknum | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:-------- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
@@ -148,10 +149,10 @@ UMN_Shapes_Source:
 UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
-Inspection of source ShapeFiles and PSQL Polygons result in identical map projection. Therefore, the bug is likely as a result of incorrect query modification.
+Inspection of source ShapeFile and PSQL Polygons result in identical map projection. Therefore, the bug is likely as a result of incorrect query modification.
 
 > [!bug]
-> `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
+> Bug: `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
 > 
 ```
 SELECT Find_SRID('public', 'hms_smokes', 'geom');
@@ -176,6 +177,15 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 > [!success]
 > Solution: transform SRID to `4326` at transaction time.
 >
+| umn_lakes_id | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
+|:------------ |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
+| 01000100     | 4    | 23   | 14   | 16   | 23   | 5    | 16   | 25   | 17   | 14   | 57   | 21   | 85   |
+| 01000200     | 5    | 22   | 14   | 16   | 24   | 5    | 18   | 26   | 17   | 14   | 57   | 21   | 84   |
+| 01000300     | 5    | 22   | 13   | 17   | 24   | 6    | 19   | 27   | 17   | 14   | 58   | 19   | 84   |
+| 01000400     | 5    | 22   | 13   | 17   | 24   | 6    | 19   | 27   | 17   | 14   | 58   | 19   | 85   |
+| 01000500     | 6    | 21   | 13   | 16   | 24   | 7    | 18   | 27   | 17   | 14   | 57   | 19   | 84   |
+| 01000600     | 6    | 19   | 13   | 16   | 24   | 7    | 18   | 26   | 17   | 13   | 57   | 19   | 84   |
+>
 | umn_lakes_id | hylak_id | lake_name | country                  | continent     | poly_src | lake_type | grand_id | lake_area_m2 | shore_len_m        | shore_dev | vol_total_m3 | vol_res_m3 | vol_src | depth_avg_m | dis_avg_m3_per_s | res_time_days | elevation_m | slope_deg | wshd_area_m2 | pour_long_deg | pour_lat_deg |
 |:------------ |:-------- |:--------- |:------------------------ |:------------- |:-------- |:--------- |:-------- |:------------ |:------------------ |:--------- |:------------ |:---------- |:------- |:----------- |:---------------- |:------------- |:----------- |:--------- |:------------ |:------------- |:------------ |
 | 01000100     | 107727   |           | United States of America | North America | SWBD     | 1         | 0        | 1340000      | 7070               | 1.72      | 6510000      | 0          | 3       | 4.8         | 0.368            | 204.8         | 329         | 2.86      | 40400000     | -93.064641    | 46.193753    |
@@ -184,3 +194,4 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 | 01000400     | 1026013  |           | United States of America | North America | SWBD     | 1         | 0        | 150000       | 2029.9999999999998 | 1.48      | 260000       | 0          | 3       | 1.8         | 0.066            | 46.4          | 392         | 0.66      | 6200000      | -93.142158    | 46.548936    |
 | 01000500     | 1025420  |           | United States of America | North America | SWBD     | 1         | 0        | 300000       | 2660               | 1.37      | 810000       | 0          | 3       | 2.7         | 0.101            | 92.4          | 385         | 1.28      | 9400000      | -93.141939    | 46.595509    |
 | 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
+
