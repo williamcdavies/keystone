@@ -197,4 +197,6 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 
 5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. Therefore, HydroLAKES metadata cannot considered for a significant percentage of the study group.
 
-## Differences-in-differences
+## Simple Comparison
+> [!warning]
+> Problem: 2024 and 2025 data needs to be extracted from NOAA, transformed, and loaded into PostgreSQL.
