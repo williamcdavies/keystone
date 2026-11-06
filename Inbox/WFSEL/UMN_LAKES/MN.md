@@ -85,8 +85,11 @@ Shared: 11369
 UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
-Problem: Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
-Solution: Convert date string `YYYYMMDD` to datetime.
+> [!warning]
+> Problem: Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
+
+> [!success]
+> Solution: Convert date string `YYYYMMDD` to datetime.
 
 UMN_41008400_v1.1:
 ![[UMN_41008400_v1.1.png]]
@@ -96,7 +99,7 @@ Observation clustering is improved. However, UMN observation dates are not as fr
 Pros: An identical strategy can be used to compute the smoke season of a given lake.
 Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
-Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
+> [!warning] Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
 Solution: Leave units blank until this can be resolved.
 
 Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
@@ -112,18 +115,21 @@ Objective: To produce a count of distinct start days for the UMN Lakes; To link 
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to the umn_lakes table.
 
+| unmlknum | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
+|:-------- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
+| 01000100 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| 01000200 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| 01000300 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| 01000400 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| 01000500 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
+| 01000600 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
 
-|     |     |
-| --- | --- |
-|     |     |
-
-unmlknum,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023
-01000100,0,0,0,0,0,0,0,0,0,0,0,0,0
-01000200,0,0,0,0,0,0,0,0,0,0,0,0,0
-01000300,0,0,0,0,0,0,0,0,0,0,0,0,0
-01000400,0,0,0,0,0,0,0,0,0,0,0,0,0
-01000500,0,0,0,0,0,0,0,0,0,0,0,0,0
-01000600,0,0,0,0,0,0,0,0,0,0,0,0,0
-
-
+| umn_lakes_id | hylak_id | lake_name | country | continent | poly_src | lake_type | grand_id | lake_area_m2 | shore_len_m | shore_dev | vol_total_m3 | vol_res_m3 | vol_src | depth_avg_m | dis_avg_m3_per_s | res_time_days | elevation_m | slope_deg | wshd_area_m2 | pour_long_deg | pour_lat_deg |
+|:------------ |:-------- |:--------- |:------- |:--------- |:-------- |:--------- |:-------- |:------------ |:----------- |:--------- |:------------ |:---------- |:------- |:----------- |:---------------- |:------------- |:----------- |:--------- |:------------ |:------------- |:------------ |
+| 01000100     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000200     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000300     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000400     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000500     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
+| 01000600     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
 
