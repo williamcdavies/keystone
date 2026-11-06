@@ -144,3 +144,26 @@ UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
 Inspection of source ShapeFiles and PSQL Polygons result in identical map projection. Therefore, the bug is likely as a result of incorrect query modification.
+
+> [!bug]
+> `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
+> 
+```
+SELECT Find_SRID('public', 'hms_smokes', 'geom');
+SELECT Find_SRID('public', 'hylak_polys', 'geom');
+ find_srid 
+-----------
+      4326
+(1 row)
+
+ find_srid 
+-----------
+      4326
+(1 row)
+
+spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
+ find_srid 
+-----------
+     32615
+(1 row)
+```
