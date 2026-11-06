@@ -149,7 +149,7 @@ UMN_Shapes_Source:
 UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
-Source ShapeFile and PSQL output provide identical map projections. Therefore, the bug was likely introduced during query duplication and modification.
+Source ShapeFile and PSQL output provide identical map projections. The bug was likely introduced during query duplication and modification.
 
 > [!bug]
 > Bug: `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
@@ -195,3 +195,4 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 | 01000500     | 1025420  |           | United States of America | North America | SWBD     | 1         | 0        | 300000       | 2660               | 1.37      | 810000       | 0          | 3       | 2.7         | 0.101            | 92.4          | 385         | 1.28      | 9400000      | -93.141939    | 46.595509    |
 | 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
 
+5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. However, we still have data for these `5444` lakes. Therefore, 
