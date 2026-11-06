@@ -32,18 +32,31 @@
             }
           },
           {
-            "id": "01fbe71179ce7386",
+            "id": "400bba7996b6780d",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.15.0"
+                "file": "Inbox/Untitled.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.15.0"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.1875,
-    "collapsed": true
+    "width": 380.1875
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -211,11 +223,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "33cbaa972005cc17",
+  "active": "400bba7996b6780d",
   "lastOpenFiles": [
+    "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Inbox/Untitled.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
-    "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.1.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.0.png",
     "Inbox/WFSEL/UMN_LAKES/Resources",
