@@ -30,6 +30,18 @@
               "icon": "lucide-file",
               "title": "MN"
             }
+          },
+          {
+            "id": "01fbe71179ce7386",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
         ]
       }
