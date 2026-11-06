@@ -137,3 +137,10 @@ The queries to produce these tables have already been written. They can be dupli
 | 01000500     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
 | 01000600     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
 
+UMN_Shapes_Source:
+![[UMN_Shapes_Source.png]]
+
+UMN_Shapes_PSQL
+![[UMN_Shapes_PSQL.png]]
+
+Inspection of source ShapeFiles and PSQL Polygons result in identical map projection. Therefore, the bug is likely as a result of incorrect query modification.
