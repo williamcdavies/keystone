@@ -100,10 +100,12 @@ Pros: An identical strategy can be used to compute the smoke season of a given l
 Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
 > [!warning] Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
-Solution: Leave units blank until this can be resolved.
 
-Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
-Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
+> [!success] Solution: Leave units blank until this can be resolved.
+
+> [!warning] Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
+
+> [!success] Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
 
 ### Loading ShapeFiles into PostgreSQL
 
@@ -114,7 +116,9 @@ ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_
 Objective: To produce a count of distinct start days for the UMN Lakes; To link HydroLAKES to the UMN Lakes
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to the umn_lakes table.
-
+> [!bug]
+> Tables are blank or null. Since both tables are blank, an SRID or projection issue may have occurred.
+> 
 | unmlknum | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:-------- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
 | 01000100 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
@@ -123,7 +127,7 @@ The queries to produce these tables have already been written. They can be dupli
 | 01000400 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
 | 01000500 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
 | 01000600 | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    | 0    |
-
+>
 | umn_lakes_id | hylak_id | lake_name | country | continent | poly_src | lake_type | grand_id | lake_area_m2 | shore_len_m | shore_dev | vol_total_m3 | vol_res_m3 | vol_src | depth_avg_m | dis_avg_m3_per_s | res_time_days | elevation_m | slope_deg | wshd_area_m2 | pour_long_deg | pour_lat_deg |
 |:------------ |:-------- |:--------- |:------- |:--------- |:-------- |:--------- |:-------- |:------------ |:----------- |:--------- |:------------ |:---------- |:------- |:----------- |:---------------- |:------------- |:----------- |:--------- |:------------ |:------------- |:------------ |
 | 01000100     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
