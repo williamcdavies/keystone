@@ -195,4 +195,4 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 | 01000500     | 1025420  |           | United States of America | North America | SWBD     | 1         | 0        | 300000       | 2660               | 1.37      | 810000       | 0          | 3       | 2.7         | 0.101            | 92.4          | 385         | 1.28      | 9400000      | -93.141939    | 46.595509    |
 | 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
 
-5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. However, we still have data for these `5444` lakes. Therefore, 
+5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. Therefore, HydroLAKES metadata cannot considered for a significant percentage of the study group.

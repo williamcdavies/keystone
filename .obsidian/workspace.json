@@ -4,36 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "13e7ccd43576dc63",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "02825c07137a8de1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "MN"
-            }
-          }
-        ]
-      },
-      {
         "id": "196b3d126ebf3e56",
         "type": "tabs",
         "children": [
