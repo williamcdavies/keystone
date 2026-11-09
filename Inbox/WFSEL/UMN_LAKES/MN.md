@@ -115,7 +115,7 @@ UMN_Shapes_Source:
 UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
-Source ShapeFile and PSQL output provide identical map projections.
+Source output and PSQL output provide identical map projections.
 
 #### Querying PostgreSQL for Metadata
 Objective: To produce a count of distinct start days table and a HydroLAKES field values table for UMN Lakes.
@@ -164,15 +164,8 @@ The queries to produce these tables have already been written. They can be dupli
 | 01000500     | 1025420  |           | United States of America | North America | SWBD     | 1         | 0        | 300000       | 2660               | 1.37      | 810000       | 0          | 3       | 2.7         | 0.101            | 92.4          | 385         | 1.28      | 9400000      | -93.141939    | 46.595509    |
 | 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
 
-5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. Therefore, HydroLAKES metadata cannot considered for a significant percentage of the study group.
+> [!warning]
+> 5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES.
 
 ### NOAA
-Pros: An identical strategy can be used to compute the smoke season of a given lake.
-Cons: There are not enough observations during the smoke season of a given lake to observe a trend in any of the three variables.
-
-> [!warning] Problem
-> No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
-
-## Simple Comparison
-> [!warning]
-> Problem: 2024 and 2025 data needs to be extracted from NOAA, transformed, and loaded into PostgreSQL.
+An identical strategy can be used to compute the smoke season of a given lake. However, there are not enough observations during the smoke season of any given lake to observe a trend in any of the three variables. 2024 and 2025 HOAA HMS, however, should be extracted, transformed, and loaded into PSQL.
