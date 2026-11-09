@@ -168,4 +168,4 @@ The queries to produce these tables have already been written. They can be dupli
 > 5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES.
 
 ### NOAA
-An identical strategy can be used to compute the smoke season of a given lake. However, there are not enough observations during the smoke season of any given lake to observe a trend in any of the three variables. 2024 and 2025 HOAA HMS, however, should be extracted, transformed, and loaded into PSQL.
+An identical strategy can be used to compute the smoke season of a given lake. However, there are not enough observations during the smoke season of any given lake to observe a trend in any of the three variables. 2024 and 2025 HOAA HMS, however, should be extracted, transformed, and loaded into PostgreSQL.
