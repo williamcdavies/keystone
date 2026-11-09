@@ -82,50 +82,39 @@ Shared: 11369
 ```
 
 ## Inspecting Lake Data?
+
+### UMN
 UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
-> [!warning]
-> Problem: 
+> [!warning] Problem
 > Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
 
-> [!success]
-> Solution: Convert date string `YYYYMMDD` to datetime.
+> [!success] Solution
+> Convert date string `YYYYMMDD` to datetime.
 
 UMN_41008400_v1.1:
 ![[UMN_41008400_v1.1.png]]
 
 Observation clustering is improved. However, UMN observation dates are not as frequent as ESA observation dates. Therefore, it is not possible to fit the UMN observation data into the ESA observation data pipeline. Some components, however, may be usable. 
 
-UMN_41008400_v1.1:
+UMN_41008400_v1.2:
 ![[UMN_41008400_v1.2.png]]
-Pros: An identical strategy can be used to compute the smoke season of a given lake.
-Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
-> [!warning] 
-> Problem: No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
+Stacking observations show poor results. Some yearly trend was expected to be seen. No yearly trend, however, was observed in any of the three variables.
 
-> [!success] 
-> Solution: Leave units blank until this can be resolved.
-
-> [!warning] 
-> Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
-
-> [!FAQ] Possible Solution
-> Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
-
-### Loading ShapeFiles into PostgreSQL
+#### Loading ShapeFiles into PostgreSQL
 
 ```sh
 ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
 ```
 
-### Querying PostgreSQL for Metadata
-Objective: To produce a count of distinct start days for UMN Lakes; To link HydroLAKES to UMN Lakes.
+#### Querying PostgreSQL for Metadata
+Objective: To produce a count of distinct start days for UMN Lakes and to link HydroLAKES to UMN Lakes.
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to `public.umn_lakes`.
-> [!bug]
-> Bug: Tables are blank or null. An SRID or projection issue may have occurred.
+> [!bug] Bug
+> Tables are blank or null. An SRID or projection issue may have occurred.
 > 
 | unmlknum | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:-------- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
@@ -153,8 +142,7 @@ UMN_Shapes_PSQL
 
 Source ShapeFile and PSQL output provide identical map projections. The bug was likely introduced during query duplication and modification.
 
-> [!bug]
-> Bug: `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
+> [!bug] Bug `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
 > 
 ```
 SELECT Find_SRID('public', 'hms_smokes', 'geom');
@@ -176,8 +164,8 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 (1 row)
 ```
 
-> [!success]
-> Solution: transform SRID to `4326` at transaction time.
+> [!success] Solution
+> Transform SRID to `4326` at transaction time.
 >
 | umn_lakes_id | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:------------ |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
@@ -198,6 +186,18 @@ spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
 | 01000600     |          |           |                          |               |          |           |          |              |                    |           |              |            |         |             |                  |               |             |           |              |               |              |
 
 5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES. Therefore, HydroLAKES metadata cannot considered for a significant percentage of the study group.
+
+### NOAA
+Pros: An identical strategy can be used to compute the smoke season of a given lake.
+Cons: There are not enough observations during the smoke season of a given lake to observe a trend in any of the three variables.
+
+> [!warning] Problem
+> No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
+
+> [!success] Solution
+> Leave units blank until this can be resolved.
+
+
 
 ## Simple Comparison
 > [!warning]
