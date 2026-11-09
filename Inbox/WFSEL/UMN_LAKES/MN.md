@@ -109,7 +109,7 @@ Cons: There are not enough observations during the smoke season of a given lake 
 > [!warning] 
 > Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
 
-> [!success] 
+> [!help] 
 > Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
 
 ### Loading ShapeFiles into PostgreSQL
