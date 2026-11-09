@@ -87,7 +87,7 @@ Shared: 11369
 UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
-> [!warning] Problem
+> [!bug] Bug
 > Observations are clustered near the start of each year because pandas is interpreting the date string `YYYYMMDD` as an integer.
 
 > [!success] Solution
@@ -109,10 +109,19 @@ Stacking observations does not provide insight. No yearly trend was observed in 
 ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
 ```
 
+UMN_Shapes_Source:
+![[UMN_Shapes_Source.png]]
+
+UMN_Shapes_PSQL
+![[UMN_Shapes_PSQL.png]]
+
+Source ShapeFile and PSQL output provide identical map projections.
+
 #### Querying PostgreSQL for Metadata
-Objective: To produce a count of distinct start days for UMN Lakes and to link HydroLAKES to UMN Lakes.
+Objective: To produce a count of distinct start days table and a HydroLAKES field values table for UMN Lakes.
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to `public.umn_lakes`.
+
 > [!bug] Bug
 > Tables are blank or null. An SRID or projection issue may have occurred.
 > 
@@ -134,39 +143,8 @@ The queries to produce these tables have already been written. They can be dupli
 | 01000500     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
 | 01000600     |          |           |         |           |          |           |          |              |             |           |              |            |         |             |                  |               |             |           |              |               |              |
 
-UMN_Shapes_Source:
-![[UMN_Shapes_Source.png]]
-
-UMN_Shapes_PSQL
-![[UMN_Shapes_PSQL.png]]
-
-Source ShapeFile and PSQL output provide identical map projections. Therefore, the bug was likely introduced during query duplication and modification.
-
-> [!bug] Bug 
-> `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
-> 
-```
-SELECT Find_SRID('public', 'hms_smokes', 'geom');
-SELECT Find_SRID('public', 'hylak_polys', 'geom');
- find_srid 
------------
-      4326
-(1 row)
-
- find_srid 
------------
-      4326
-(1 row)
-
-spatial=# SELECT Find_SRID('public', 'umn_lakes', 'wkb_geometry');
- find_srid 
------------
-     32615
-(1 row)
-```
-
 > [!success] Solution
-> Transform SRID to `4326` at transaction time.
+> Transform `public.umn_lakes.wkb_geometry` SRID from `32615` to `4326` at transaction time.
 >
 | umn_lakes_id | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 |
 |:------------ |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |:---- |
