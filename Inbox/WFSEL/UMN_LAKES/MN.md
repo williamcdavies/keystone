@@ -101,7 +101,7 @@ Observation clustering is improved. However, UMN observation dates are not as fr
 UMN_41008400_v1.2:
 ![[UMN_41008400_v1.2.png]]
 
-Stacking observations show poor results. Some yearly trend was expected to be seen. No yearly trend, however, was observed in any of the three variables.
+Stacking observations does not provide insight. No yearly trend was observed in any of the three variables.
 
 #### Loading ShapeFiles into PostgreSQL
 
@@ -140,9 +140,10 @@ UMN_Shapes_Source:
 UMN_Shapes_PSQL
 ![[UMN_Shapes_PSQL.png]]
 
-Source ShapeFile and PSQL output provide identical map projections. The bug was likely introduced during query duplication and modification.
+Source ShapeFile and PSQL output provide identical map projections. Therefore, the bug was likely introduced during query duplication and modification.
 
-> [!bug] Bug `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
+> [!bug] Bug 
+> `public.umn_lakes.wkb_geometry` is projected into `32615` whereas `public.hms_smokes.geom` and `public.hylak_polys.geom` are projected into `4326`.
 > 
 ```
 SELECT Find_SRID('public', 'hms_smokes', 'geom');
@@ -193,11 +194,6 @@ Cons: There are not enough observations during the smoke season of a given lake 
 
 > [!warning] Problem
 > No units were provided for Secchi Depth, Chlorophyl-a, nor A440 CDOM.
-
-> [!success] Solution
-> Leave units blank until this can be resolved.
-
-
 
 ## Simple Comparison
 > [!warning]
