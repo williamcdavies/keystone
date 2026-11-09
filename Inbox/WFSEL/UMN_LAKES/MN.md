@@ -97,6 +97,8 @@ UMN_41008400_v1.1:
 
 Observation clustering is improved. However, UMN observation dates are not as frequent as ESA observation dates. Therefore, it is not possible to fit the UMN observation data into the ESA observation data pipeline. Some components, however, may be usable. 
 
+UMN_41008400_v1.1:
+![[UMN_41008400_v1.2.png]]
 Pros: An identical strategy can be used to compute the smoke season of a given lake.
 Cons: There are not enough observations during the smoke season of a given lake to discover a trend.
 
@@ -109,7 +111,7 @@ Cons: There are not enough observations during the smoke season of a given lake 
 > [!warning] 
 > Problem: Observation dates are sparse. Therefore, a complete trend line for an individual lake cannot be observed.
 
-> [!help] 
+> [!FAQ] Possible Solution
 > Solution: Signal processing. i.e., measuring state before an after some signal event (smoke coverage) and performing a comparison.
 
 ### Loading ShapeFiles into PostgreSQL

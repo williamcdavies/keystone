@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.1875
+    "width": 380.1875,
+    "collapsed": true
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,8 +202,9 @@
   },
   "active": "33cbaa972005cc17",
   "lastOpenFiles": [
-    "Inbox/Untitled.md",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Inbox/Untitled.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.1.png",
@@ -232,7 +235,6 @@
     "Perceptrons.md",
     "Activation functions.md",
     "Neural networks.md",
-    "Bayesian belief networks.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
@@ -243,7 +245,6 @@
     "Screenshot 2025-11-02 125615.png",
     "Screenshot 2025-11-02 125610.png",
     "Screenshot 2025-11-02 125606.png",
-    "Screenshot 2025-11-02 125602.png",
     "Inbox/cs457hw3",
     "Inbox/cpe400hw2",
     "Untitled.canvas",
