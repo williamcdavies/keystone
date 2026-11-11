@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Entity component system (ECS)"
             }
+          },
+          {
+            "id": "ada4311f8ad6dcf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Data races.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Data races"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,8 +101,7 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,13 +223,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ef23cad5086e4fe7",
+  "active": "ada4311f8ad6dcf1",
   "lastOpenFiles": [
+    "Entity component system (ECS).md",
+    "Inbox/Data races.md",
     "Preattentive attributes.md",
     "OpenFlow.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
-    "Inbox/Untitled.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.1.png",
@@ -234,7 +259,6 @@
     "Gradient descent.md",
     "Heaviside step function.md",
     "Perceptrons.md",
-    "Activation functions.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
