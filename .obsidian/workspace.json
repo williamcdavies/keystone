@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
+                "file": "Entity component system (ECS).md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MN"
+              "title": "Entity component system (ECS)"
             }
           }
         ]
@@ -65,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "game ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,6 +201,8 @@
   },
   "active": "ef23cad5086e4fe7",
   "lastOpenFiles": [
+    "Preattentive attributes.md",
+    "OpenFlow.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
     "Inbox/Untitled.md",
@@ -232,7 +235,6 @@
     "Heaviside step function.md",
     "Perceptrons.md",
     "Activation functions.md",
-    "Neural networks.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
