@@ -172,5 +172,6 @@ An identical strategy can be used to compute the smoke season of a given lake. H
 
 ## Gathering Results
 
-### How are we 
+### Methods?
+Since UMN Lakes observations are temporally sparse, fitting these data into the ESA Lakes pipeline will not be possible due to the ESA Lakes pipeline's reliance on observation density $\rightarrow$ the methodology must be agnostic to temporally sparse data $\rightarrow$ the methodology must be centred around event response.
 
