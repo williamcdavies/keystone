@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Data races"
             }
+          },
+          {
+            "id": "82cdea56952f77b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/YAGNI.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "YAGNI"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,10 +247,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ada4311f8ad6dcf1",
+  "active": "82cdea56952f77b5",
   "lastOpenFiles": [
-    "Entity component system (ECS).md",
     "Inbox/Data races.md",
+    "Inbox/YAGNI.md",
+    "Inbox/SDL.md",
+    "Entity component system (ECS).md",
     "Preattentive attributes.md",
     "OpenFlow.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
@@ -240,7 +266,6 @@
     "Inbox/WFSEL",
     "Inbox/Linux Packages.md",
     "Inbox/WFSEL – Project 1.md",
-    "Inbox/SDL.md",
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
     "REPL.md",
@@ -258,7 +283,6 @@
     "Linear seperability.md",
     "Gradient descent.md",
     "Heaviside step function.md",
-    "Perceptrons.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
