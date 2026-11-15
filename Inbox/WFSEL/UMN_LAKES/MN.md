@@ -178,6 +178,8 @@ Since UMN Lakes observations are temporally sparse, fitting these data into the 
 ### Naive Deltas
 
 #### Overview
-1. Group observations by field to produce observation sets for A4, CL, and SD.
-2. Group observations by lake 
-
+1. Group observations by field
+2. Group observations by lake
+3. Order observations by date
+4. For each field-lake group, iterate over all observations to compute:
+	1. $\delta_i = v50\%_i - v50\%_{i - 1}$
