@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/YAGNI.md",
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "YAGNI"
+              "title": "MN"
             }
           }
         ],
@@ -249,8 +249,8 @@
   },
   "active": "82cdea56952f77b5",
   "lastOpenFiles": [
-    "Inbox/Data races.md",
     "Inbox/YAGNI.md",
+    "Inbox/Data races.md",
     "Inbox/SDL.md",
     "Entity component system (ECS).md",
     "Preattentive attributes.md",
