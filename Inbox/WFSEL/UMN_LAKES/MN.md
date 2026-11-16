@@ -190,9 +190,13 @@ Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the second o
 
 Where $N$ is the number of elements in the set of events between the first observation in the pair and the second observation in the pair, $\mathbb{E}$.
 
+3.$$x_k = \frac{ \mathbb{e}_k - j_{i - 1}}{j_i - j_{i - 1}}$$
+
+Where $x_k$ is the normalised position of some event $e_k \in \mathbb{E}$, $j_{i - 1}$ is the absolute position of the first observation in the pair, and $j_i$ is the absolute position of the second observation in the pair.
+
 3.$$\mu = \frac{1}{N} \sum_{k = 1}^N{x_k}$$
 
-Where $\mu$ is a population mean and $x_k$ is $$\frac{ \mathbb{e}_k - j_{i - 1}}{j_i - j_{i - 1}}$$
+Where $\mu$ is a population mean and $x_k$ is 
 
 for the julian day $\mathbb{e}_k$ of some event $\mathbb{e} \in \mathbb{E}$, the julian day $j_i$ of the second observation in the pair, and the julian day $j_{i - 1}$ of the first observation in the pair.
 
