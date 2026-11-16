@@ -202,4 +202,4 @@ Where $\mu$ is the population mean.
 
 Where $\sigma$ is the population standard deviation.
 
-5.$$g_i $$
+5.$$g = \frac{ \sum_{k = 1}^N{ x_k - \mu } }{N \sigma^3}$$

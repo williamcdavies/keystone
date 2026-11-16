@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -230,7 +230,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ccd16ef104c61544",
+  "active": "82cdea56952f77b5",
   "lastOpenFiles": [
     "Inbox/YAGNI.md",
     "Inbox/Data races.md",
