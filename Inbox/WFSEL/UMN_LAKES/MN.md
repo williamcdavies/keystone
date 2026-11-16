@@ -186,6 +186,10 @@ $$\delta_i = v50\%_i - v50\%_{i - 1}$$
 
 Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the first observation in the pair, and $v50\%_{i - 1}$ is the median value of the second observation in the pair.
 
-$$n = |\mathbb{E}|$$
+$$n = |\mathbb{E}_{i - 1, i}|$$
 
-Where $n$
+Where $n$ is a cardinality and $\mathbb{E}_{i, i-1}$ is the set of events between observation $i - 1$ and observation $i$.
+
+$$\bar{x} = \frac{1}{n} \sum{x_i}$$
+
+Where $\bar{x}$ is a mean and $x_i$ 
