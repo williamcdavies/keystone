@@ -201,3 +201,5 @@ Where $\mu$ is the population mean.
 4.$$\sigma = \sqrt{ \frac{1}{N} \sum_{k = 1}^N{(x_k - \mu)^2} }$$
 
 Where $\sigma$ is the population standard deviation.
+
+5.$$g_i $$
