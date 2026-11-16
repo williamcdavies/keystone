@@ -188,12 +188,12 @@ Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the second o
 
 2.$$n = |\mathbb{E}_{i - 1, i}|$$
 
-Where $n$ is a cardinality and $\mathbb{E}_{i - 1, i}$ is the set of events between first observation in the pair and the second observation in the pair.
+Where $n$ is a cardinality and $\mathbb{E}_{i - 1, i}$ is the set of events between the first observation in the pair and the second observation in the pair.
 
-3.$$\bar{x} = \frac{1}{n} \sum_{i = 1}^n{x_i}$$
+3.$$\bar{x} = \frac{1}{n} \sum_{k = 1}^n{x_k}$$
 
-Where $\bar{x}$ is a mean and $x_i$ is $$\frac{ \mathbb{e}_i - j_{i - 1}}{j_i - j_{i - 1}}$$
+Where $\bar{x}$ is a mean and $x_k$ is $$\frac{ \mathbb{e}_k - j_{i - 1}}{j_i - j_{i - 1}}$$
 
-for the julian day $\mathbb{e}_i$ of some event $\mathbb{e} \in \mathbb{E}_{i, i-1}$, the julian day $j_i$ of observation $i$, and the julian day $j_{i - 1}$ of observation $i - 1$.
+for the julian day $\mathbb{e}_k$ of some event $\mathbb{e} \in \mathbb{E}_{i, i-1}$, the julian day $j_i$ of the second observation in the pair, and the julian day $j_{i - 1}$ of the first observation in the pair.
 
 4.$$\sigma = $$
