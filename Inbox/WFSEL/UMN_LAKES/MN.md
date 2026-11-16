@@ -182,14 +182,18 @@ Since UMN Lakes observations are temporally sparse, fitting these data into the 
 2. Group observations by lake and year
 3. For each lake-year group, iterate over all observations to compute:
 
-$$\delta_i = v50\%_i - v50\%_{i - 1}$$
+1.$$\delta_i = v50\%_i - v50\%_{i - 1}$$
 
 Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the first observation in the pair, and $v50\%_{i - 1}$ is the median value of the second observation in the pair.
 
-$$n = |\mathbb{E}_{i - 1, i}|$$
+2.$$n = |\mathbb{E}_{i - 1, i}|$$
 
 Where $n$ is a cardinality and $\mathbb{E}_{i, i-1}$ is the set of events between observation $i - 1$ and observation $i$.
 
-$$\bar{x} = \frac{1}{n} \sum{x_i}$$
+3.$$\bar{x} = \frac{1}{n} \sum{x_i}$$
 
-Where $\bar{x}$ is a mean and $x_i$ 
+Where $\bar{x}$ is a mean and $x_i$ is $$\frac{ \mathbb{e}_i - j_{i - 1}}{j_i - j_{i - 1}}$$
+
+for some event $\mathbb{e}_i \in \mathbb{E}_{i, i-1}$, the julian day $j_i$ of observation $i$, and the julian day $j_{i - 1}$ of observation $i - 1$.
+
+4.$$$$
