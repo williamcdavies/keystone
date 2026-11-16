@@ -181,6 +181,11 @@ Since UMN Lakes observations are temporally sparse, fitting these data into the 
 1. Order observations by date
 2. Group observations by lake and year
 3. For each lake-year group, iterate over all observations to compute:
-	1. $\delta_i = v50\%_i - v50\%_{i - 1}$
 
-Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the first observation in the pair, and $v50\%_{i - 1}$ is the
+$$\delta_i = v50\%_i - v50\%_{i - 1}$$
+
+Where $\delta_i$ is a naive delta, $v50\%_i$ is the median value of the first observation in the pair, and $v50\%_{i - 1}$ is the median value of the second observation in the pair.
+
+$$n = |\mathbb{E}|$$
+
+Where $n$
