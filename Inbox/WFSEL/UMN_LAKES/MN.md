@@ -202,4 +202,6 @@ Where $\mu$ is the population mean.
 
 Where $\sigma$ is the population standard deviation.
 
-5.$$g = \frac{ \sum_{k = 1}^N{ x_k - \mu } }{N \sigma^3}$$
+5.$$g_1 = \frac{ \sum_{k = 1}^N{(x_k - \mu)^3} }{N \sigma^3}$$
+
+Where $g_1$ is the Fisher-Pearson coefficient of skewness.
