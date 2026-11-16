@@ -196,8 +196,8 @@ Where $x_k$ is the normalised position of some event $e_k \in \mathbb{E}$, $j_{i
 
 3.$$\mu = \frac{1}{N} \sum_{k = 1}^N{x_k}$$
 
-Where $\mu$ is a population mean and $x_k$ is 
+Where $\mu$ is the population mean.
 
-for the julian day $\mathbb{e}_k$ of some event $\mathbb{e} \in \mathbb{E}$, the julian day $j_i$ of the second observation in the pair, and the julian day $j_{i - 1}$ of the first observation in the pair.
+4.$$\sigma = \sqrt{ \frac{1}{N} \sum_{k = 1}^N{(x_k - \mu)^2} }$$
 
-4.$$s = $$
+Where $\sigma$ is the population standard deviation.
