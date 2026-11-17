@@ -34,11 +34,11 @@
         ]
       },
       {
-        "id": "ef2a2aaaed362ed2",
+        "id": "c7ff7bd57372d7fd",
         "type": "tabs",
         "children": [
           {
-            "id": "ccd16ef104c61544",
+            "id": "b2cf4a8ceea66ee1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.1875,
-    "collapsed": true
+    "width": 380.1875
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -230,15 +229,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "82cdea56952f77b5",
+  "active": "b2cf4a8ceea66ee1",
   "lastOpenFiles": [
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
+    "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/YAGNI.md",
     "Inbox/Data races.md",
     "Inbox/SDL.md",
     "Entity component system (ECS).md",
     "Preattentive attributes.md",
     "OpenFlow.md",
-    "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
@@ -265,7 +265,6 @@
     "Hidden layers.md",
     "Linear seperability.md",
     "Gradient descent.md",
-    "Heaviside step function.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
@@ -275,7 +274,6 @@
     "Screenshot 2025-11-08 142002.png",
     "Screenshot 2025-11-02 125615.png",
     "Screenshot 2025-11-02 125610.png",
-    "Screenshot 2025-11-02 125606.png",
     "Inbox/cs457hw3",
     "Inbox/cpe400hw2",
     "Untitled.canvas",

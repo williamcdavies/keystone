@@ -175,9 +175,9 @@ An identical strategy can be used to compute the smoke season of a given lake. H
 ### Methods?
 Since UMN Lakes observations are temporally sparse, fitting these data into the ESA Lakes pipeline will not be possible due to the ESA Lakes pipeline's reliance on observation density $\rightarrow$ the methodology must be agnostic to temporally sparse data $\rightarrow$ the methodology must be centred around event response.
 
-### Naive Deltas
+#### Naive Deltas
 
-#### Overview
+##### Overview
 1. Order observations by date
 2. Group observations by lake and year
 3. For each lake-year group, iterate over all observations to compute:
@@ -205,3 +205,10 @@ Where $\sigma$ is the population standard deviation.
 5.$$g_1 = \frac{ \sum_{k = 1}^N{(x_k - \mu)^3} }{N \sigma^3}$$
 
 Where $g_1$ is the Fisher-Pearson coefficient of skewness.
+
+##### Results
+
+UMN_naive_deltas_v1.0:
+![[UMN_naive_deltas_v1.0.png]]
+
+No 
