@@ -211,4 +211,4 @@ Where $g_1$ is the Fisher-Pearson coefficient of skewness.
 UMN_naive_deltas_v1.0:
 ![[UMN_naive_deltas_v1.0.png]]
 
-No 
+No apparent correlation between number of events between observations (N) and the change in observation metric (Delta), which is expected of naive deltas. 
