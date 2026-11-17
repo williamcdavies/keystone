@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -229,7 +229,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b2cf4a8ceea66ee1",
+  "active": "82cdea56952f77b5",
   "lastOpenFiles": [
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
