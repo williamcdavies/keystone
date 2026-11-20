@@ -1,1 +1,5 @@
+---
+tags:
+  - CS
+---
 In concurrent programming, a data race occurs when two or more threads access the same memory location and at least one of the accesses is a write.

@@ -1,3 +1,7 @@
+---
+tags:
+  - OS
+---
 ## What is a Linux Package
 A linux package is a compressed archive that contains all the file and metadata required to install and run a software application on a Linux system.
 

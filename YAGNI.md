@@ -1,1 +1,5 @@
+---
+tags:
+  - CS
+---
 "You ain't gonna' need it.". YAGNI is an acronym used in software development. It means to only develop a tool at the moment its required.

@@ -1,1 +1,5 @@
+---
+tags:
+  - Mathematics
+---
 A design matrix, model matrix, or regressor matrix, is a matrix of values of explanatory variables of a set of objects.

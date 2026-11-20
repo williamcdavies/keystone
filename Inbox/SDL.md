@@ -16,6 +16,3 @@ All `SDL` programs need to initialise the SDL library before it can be used. Thi
 ```
 
 ```
-
-
-https://wiki.libsdl.org/SDL3/SDL_MAIN_USE_CALLBACKS

@@ -1,1 +1,5 @@
+---
+tags:
+  - Mathematics
+---
 The rank of a matrix is the number of linearly independent columns in that matrix. This number is identical to the dimension of the vector space spanned by its rows.
