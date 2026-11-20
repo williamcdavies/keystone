@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Rank.md",
-                "mode": "source",
+                "file": "Linear combinations.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Rank"
+              "title": "Linear combinations"
             }
           }
         ],
@@ -250,6 +250,8 @@
   },
   "active": "bf2e72d64df6a5ed",
   "lastOpenFiles": [
+    "Inbox/Rank.md",
+    "Linear independence.md",
     "Inbox/Untitled 1.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/YAGNI.md",
@@ -259,7 +261,6 @@
     "Inbox/Data races.md",
     "Inbox/Design matrices.md",
     "Linear combinations.md",
-    "Inbox/Rank.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
     "Entity component system (ECS).md",
     "Preattentive attributes.md",
@@ -284,7 +285,6 @@
     "Linear programming.md",
     "Big-O notation.md",
     "Inbox/Cocoa.md",
-    "Hidden layers.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
