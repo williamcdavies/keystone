@@ -1,7 +1,7 @@
 {
-  "accentColor": "#6e87b2",
+  "accentColor": "",
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "Catppuccin",
   "nativeMenus": false,
   "translucency": true,
   "textFontFamily": "",
@@ -16,5 +16,6 @@
     "mjx-math",
     "accented-graph-view"
   ],
-  "showRibbon": true
+  "showRibbon": true,
+  "monospaceFontFamily": "JetBrainsMonoNL Nerd Font"
 }

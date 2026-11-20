@@ -60,8 +60,21 @@
               "icon": "lucide-file",
               "title": "MN"
             }
+          },
+          {
+            "id": "74d25c97450b7b83",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.1"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,7 +242,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e116cf2489aa7c17",
+  "active": "74d25c97450b7b83",
   "lastOpenFiles": [
     "Inbox/Rank.md",
     "Inbox/Untitled 1.md",
