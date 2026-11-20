@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "Linear combinations"
             }
+          },
+          {
+            "id": "bf2e72d64df6a5ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/Rank.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rank"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -225,15 +248,19 @@
       "graph:Open graph view": false
     }
   },
-  "active": "867f0b39db405430",
+  "active": "bf2e72d64df6a5ed",
   "lastOpenFiles": [
-    "Inbox/Design matrices.md",
+    "Inbox/Untitled 1.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
-    "Inbox/Untitled.md",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
     "Inbox/YAGNI.md",
-    "Inbox/Data races.md",
     "Inbox/SDL.md",
+    "Inbox/WFSEL – Project 1.md",
+    "Inbox/Linux Packages.md",
+    "Inbox/Data races.md",
+    "Inbox/Design matrices.md",
+    "Linear combinations.md",
+    "Inbox/Rank.md",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
     "Entity component system (ECS).md",
     "Preattentive attributes.md",
     "OpenFlow.md",
@@ -245,8 +272,6 @@
     "Inbox/WFSEL/UMN_LAKES/Resources",
     "Inbox/WFSEL/UMN_LAKES",
     "Inbox/WFSEL",
-    "Inbox/Linux Packages.md",
-    "Inbox/WFSEL – Project 1.md",
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
     "REPL.md",
@@ -260,8 +285,6 @@
     "Big-O notation.md",
     "Inbox/Cocoa.md",
     "Hidden layers.md",
-    "Linear seperability.md",
-    "Gradient descent.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
