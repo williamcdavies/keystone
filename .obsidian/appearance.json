@@ -4,9 +4,9 @@
   "cssTheme": "Catppuccin",
   "nativeMenus": false,
   "translucency": true,
-  "textFontFamily": "",
+  "textFontFamily": "Arial",
   "showViewHeader": true,
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Arial",
   "baseFontSize": 14,
   "enabledCssSnippets": [
     "graph-view",
