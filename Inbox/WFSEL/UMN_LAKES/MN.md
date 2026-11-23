@@ -220,4 +220,4 @@ $$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \
 a seasonal trend can be modelled using the values $N = 2$, $x = t$, and $P = 365$.
 
 ##### Computing $a_n$
-The vector $[a_0, a_1, \ldots$
+The vector $\vec{a} = [a_0, a_1, \dots a_n]$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, where $$
