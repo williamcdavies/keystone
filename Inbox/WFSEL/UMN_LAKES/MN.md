@@ -237,14 +237,22 @@ The HANTS procedure implements iterative outlier rejection to optimise $\vec{a}$
 
 ##### Results
 
-![[UMN_HANTS_Iterations.png]]
+UMN_HANTS_iterations:
+![[UMN_HANTS_iterations.png]]
 
-![[a4_harmonic_fit_diagnostic.png]]
+v1: harmonics + indicators $\rightarrow$ v2: harmonics: the removal of indicator variables from the design matrix $\matrix{X}$ has little impact on t 
 
-![[cl_harmonic_fit_diagnostic.png]]
+UMN_HANTS_diagnostic_a4:
+![[UMN_HANTS_diagnostic_a4.png]]
 
-![[sd_harmonic_fit_diagnostic.png]]
+UMN_HANTS_diagnostic_cl:
+![[UMN_HANTS_diagnostic_cl.png]]
 
+UMN_HANTS_diagnostic_sd:
+![[UMN_HANTS_diagnostic_sd.png]]
+
+UMN_HANTS_a_0_v_sigma:
 ![[UMN_HANTS_a_0_v_sigma.png]]
 
+UMN_HANTS_N_v_R:
 ![[UMN_HANTS_N_v_R.png]]
