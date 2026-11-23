@@ -217,19 +217,19 @@ No apparent correlation between number of events between observations (N) and th
 HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions:
 $$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \right) } + b_n \sin{ \left( 2 \pi \frac{n}{P} x \right) } \right) }$$
 
-a seasonal trend can be modelled using the values $N = 2$, $x = t$, and $P = 365$.
-
 ##### Computing $a_n$
-The vector $\vec{a} = [a_0, a_1, \dots a_n]$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, such that
+The vector $\vec{a} = \begin{bmatrix} a_0, a_1, \dots a_n \end{bmatrix}$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, such that
 
 $$\begin{align}
 \matrix{X} &= \begin{bmatrix} 
-1 & \cos{ \left( \frac{2 \pi}{365} t_1 \right) } & \sin{ \left( \frac{2 \pi}{365} t_1 \right) } & \cos{ \left( \frac{4 \pi}{365} t_1 \right) } & \sin{ \left( \frac{4 \pi}{365} t_1 \right) } \\
-1 & \cos{ \left( \frac{2 \pi}{365} t_2 \right) } & \sin{ \left( \frac{2 \pi}{365} t_2 \right) } & \cos{ \left( \frac{4 \pi}{365} t_2 \right) } & \sin{ \left( \frac{4 \pi}{365} t_2 \right) } \\
+1 & \cos{ \left( \frac{2 \pi}{365} j_1 \right) } & \sin{ \left( \frac{2 \pi}{365} j_1 \right) } & \cos{ \left( \frac{4 \pi}{365} j_1 \right) } & \sin{ \left( \frac{4 \pi}{365} j_1 \right) } \\
+1 & \cos{ \left( \frac{2 \pi}{365} j_2 \right) } & \sin{ \left( \frac{2 \pi}{365} j_2 \right) } & \cos{ \left( \frac{4 \pi}{365} j_2 \right) } & \sin{ \left( \frac{4 \pi}{365} j_2 \right) } \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-1 & \cos{ \left( \frac{2 \pi}{365} t_m \right) } & \sin{ \left( \frac{2 \pi}{365} t_m \right) } & \cos{ \left( \frac{4 \pi}{365} t_m \right) } & \sin{ \left( \frac{4 \pi}{365} t_m \right) }
+1 & \cos{ \left( \frac{2 \pi}{365} j_i \right) } & \sin{ \left( \frac{2 \pi}{365} j_i \right) } & \cos{ \left( \frac{4 \pi}{365} j_i \right) } & \sin{ \left( \frac{4 \pi}{365} j_i \right) }
 \end{bmatrix} \\\\
 \vec{y} &= \begin{bmatrix} v50\%_1 \\ v50\%_2 \\ \vdots \\ v50\%_m \end{bmatrix}
 \end{align}$$
+
+where $j$ is the *d.o.y.* (day of year) of an observation and $m$ is the number of observations
 
 #####
