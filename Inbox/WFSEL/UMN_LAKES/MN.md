@@ -265,4 +265,4 @@ N/A
 UMN_HANTS_N_v_R:
 ![[UMN_HANTS_N_v_R.png]]
 
-Plotting 
+No apparent correlation between number of events between observations (N) and the change in observation metric (Delta).
