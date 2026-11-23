@@ -227,9 +227,10 @@ $$\begin{align}
 \vdots & \vdots & \vdots & \vdots & \vdots \\
 1 & \cos{ \left( \frac{2 \pi}{365} j_i \right) } & \sin{ \left( \frac{2 \pi}{365} j_i \right) } & \cos{ \left( \frac{4 \pi}{365} j_i \right) } & \sin{ \left( \frac{4 \pi}{365} j_i \right) }
 \end{bmatrix} \\\\
-\vec{y} &= \begin{bmatrix} v50\%_1 \\ v50\%_2 \\ \vdots \\ v50\%_m \end{bmatrix}
+\vec{y} &= \begin{bmatrix} v50\%_1 \\ v50\%_2 \\ \vdots \\ v50\%_i \end{bmatrix}
 \end{align}$$
 
-where $j$ is the *d.o.y.* (day of year) of an observation and $m$ is the number of observations
+where $j$ is the *d.o.y.* (day of year) of some observation $i$.
 
-#####
+##### Iterative Outlier Rejection
+The HANTS procedure implements iterative outlier rejection to compute $\vec{a}$. This is done between each OLS (ordinary least squares) call. 
