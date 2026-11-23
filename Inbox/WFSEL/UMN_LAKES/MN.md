@@ -214,10 +214,7 @@ UMN_naive_deltas_v1.0:
 No apparent correlation between number of events between observations (N) and the change in observation metric (Delta), which is expected of naive deltas. Seasonality needs to be accounted for. This can be accomplished by performing a per-lake Harmonic ANalysis of Time Series (HANTS)/Fourier Analysis. 
 
 #### Harmonics
-HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions. A seasonal trend can be modelled by
+HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions. A seasonal trend can be modelled by a $k = 2$ Fourier transformation:
 
-$$\hat{y}(\text{doy}) = \hat{\beta}_0 
-    + \hat{\beta}_1 \sin\left(\frac{2\pi \cdot \text{doy}}{365}\right) 
-    + \hat{\beta}_2 \cos\left(\frac{2\pi \cdot \text{doy}}{365}\right) 
-    + \hat{\beta}_3 \sin\left(\frac{4\pi \cdot \text{doy}}{365}\right) 
-    + \hat{\beta}_4 \cos\left(\frac{4\pi \cdot \text{doy}}{365}\right)$$
+$$\hat{y} = \hat{ \beta }_0 + \hat{ \beta }_1 \cdot \sin{ \left( 2 \pi \cdot \frac{ \text{doy} }{365} \right) } + \hat{ \beta }_2 \cdot \cos{ \left( 2 \pi \cdot \frac{ \text{doy} }{365} \right) } + \hat{ \beta }_3 \cdot \sin{ \left( 4 \pi \cdot \frac{ \text{doy} }{365} \right) } + \hat{ \beta }_4 \cdot \cos{ \left( 4 \pi \cdot \frac{ \text{doy} }{365} \right) }$$
+
