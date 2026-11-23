@@ -242,19 +242,27 @@ UMN_HANTS_iterations:
 
 v1: harmonics + indicators $\rightarrow$ v2: harmonics: the removal of indicator variables from the design matrix $\matrix{X}$ has little impact on the model. Therefore, indicator variables shall be removed from consecutive iterations to improve simplicity. The removal of the indicator variables improves the inclusivity rate by ~3% and the plausibility rate by ~0.5%.
 
-v2: harmonics $\rightarrow$ v2: harmonics + log: applying a log factor to each of the three variables has no impact on the inclusivity rate. However, appling a log factor to CL design matrices improves the plausibility rate by ~7%. However, applying a log factor to the A4 and SD design matrices is detrimental. Therefore, linear scaling shall be applied to the A4 and SD design matrices for consecutiv
-
-UMN_HANTS_diagnostic_a4:
-![[UMN_HANTS_diagnostic_a4.png]]
-
-UMN_HANTS_diagnostic_cl:
-![[UMN_HANTS_diagnostic_cl.png]]
-
-UMN_HANTS_diagnostic_sd:
-![[UMN_HANTS_diagnostic_sd.png]]
+v2: harmonics $\rightarrow$ v2: harmonics + log: applying a log factor to each of the three variables has no impact on the inclusivity rate. However, appling a log factor to CL design matrices improves the plausibility rate by ~7%. However, applying a log factor to the A4 and SD design matrices is detrimental. Therefore, linear scaling shall be applied to the A4 and SD design matrices for consecutive iterations.
 
 UMN_HANTS_a_0_v_sigma:
 ![[UMN_HANTS_a_0_v_sigma.png]]
 
+UMN_HANTS_diagnostic_a4:
+![[UMN_HANTS_diagnostic_a4.png]]
+
+N/A
+
+UMN_HANTS_diagnostic_cl:
+![[UMN_HANTS_diagnostic_cl.png]]
+
+CL patterns still appear to be U-shaped for select lakes, unsure why. Current implementation stacks yearly data for improved remote sensing coverage. However, certain models are inaccurate. Limiting observations to low-smoke years may improve model accuracy.
+
+UMN_HANTS_diagnostic_sd:
+![[UMN_HANTS_diagnostic_sd.png]]
+
+N/A
+
 UMN_HANTS_N_v_R:
 ![[UMN_HANTS_N_v_R.png]]
+
+Plotting 
