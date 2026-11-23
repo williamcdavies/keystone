@@ -233,4 +233,4 @@ $$\begin{align}
 where $j$ is the *d.o.y.* (day of year) of some observation $i$.
 
 ##### Iterative Outlier Rejection
-The HANTS procedure implements iterative outlier rejection to compute $\vec{a}$. This is done between each OLS (ordinary least squares) call. 
+The HANTS procedure implements iterative outlier rejection to optimise $\vec{a}$ (iteration is done until either $\vec{a}$ is optimised or until the iteration limit is reached). At each iteration step, $\vec{a}$ is computed from the set of inlier observations (iteration 0 assumes all observations are inliers). 
