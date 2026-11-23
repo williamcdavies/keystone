@@ -215,5 +215,6 @@ No apparent correlation between number of events between observations (N) and th
 
 #### Harmonics
 HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions:
-$$S_N(x) = a_0 + \sum_{n = 1}^N{ a_n \cos{ \left( 2 \)} }$$
+$$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \right) } + b_n \sin{ \left( 2 \pi \frac{n}{P} x \right) } \right) }$$
 
+A seasonal trend can be modelled using an $n = 2$ Fourier series where $n$ is the index of the harmon
