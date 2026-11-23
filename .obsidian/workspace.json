@@ -11,15 +11,12 @@
             "id": "82cdea56952f77b5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "Inbox/WFSEL/UMN_LAKES/Resources/sd_harmonic_fit_diagnostic.png"
               },
-              "icon": "lucide-file",
-              "title": "MN"
+              "icon": "lucide-image",
+              "title": "sd_harmonic_fit_diagnostic"
             }
           }
         ]
@@ -41,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -54,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 379.77721786499023
   },
   "right": {
     "id": "98b5e3d33cf06115",
@@ -71,7 +67,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/WFSEL/UMN_LAKES/MN.md"
+                "file": "Inbox/WFSEL/UMN_LAKES/Resources/sd_harmonic_fit_diagnostic.png"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -94,10 +90,21 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "82cdea56952f77b5",
+  "active": "49c165154e4af8a4",
   "lastOpenFiles": [
-    "Elementary matrices.md",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_HANTS_a_0_v_sigma.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_HANTS_Iterations.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_HANTS_N_v_R.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/sd_harmonic_fit_diagnostic.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/a4_harmonic_fit_diagnostic.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.1.png",
+    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.0.png",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Elementary matrices.md",
     "Second partial derivative test.md",
     "Linux Packages.md",
     "Data races.md",
@@ -115,31 +122,20 @@
     "Inbox/Untitled 1.md",
     "Linear combinations.md",
     "Linear independence.md",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_naive_deltas_v1.0.png",
     "Entity component system (ECS).md",
     "Preattentive attributes.md",
     "OpenFlow.md",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.2.png",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_Source.png",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_Shapes_PSQL.png",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.1.png",
-    "Inbox/WFSEL/UMN_LAKES/Resources/UMN_41008400_v1.0.png",
     "Inbox/WFSEL/UMN_LAKES/Resources",
     "Inbox/WFSEL/UMN_LAKES",
     "Inbox/WFSEL",
     "Inbox/CONTRIBUTING.md",
     "Inbox/ToDo.md",
     "REPL.md",
-    "Inbox/WFSEL to do list.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
     "~/Documents",
     "~",
-    "Screenshot 2025-11-08 160512.png",
-    "Screenshot 2025-11-08 142002.png",
-    "Screenshot 2025-11-02 125615.png",
-    "Screenshot 2025-11-02 125610.png",
     "Inbox/cs457hw3",
     "Inbox/cpe400hw2",
     "Untitled.canvas",
