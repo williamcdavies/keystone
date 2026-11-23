@@ -220,11 +220,11 @@ $$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \
 a seasonal trend can be modelled using the values $N = 2$, $x = t$, and $P = 365$.
 
 ##### Computing $a_n$
-The vector $\vec{a} = [a_0, a_1, \dots a_n]$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, where $\matrix{X}$ is:
+The vector $\vec{a} = [a_0, a_1, \dots a_n]$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, such that
 
 $$\matrix{X} = \begin{bmatrix} 
-1 & \sin\left(2\pi \cdot \frac{\text{doy}_1}{365}\right) & \cos\left(2\pi \cdot \frac{\text{doy}_1}{365}\right) & \sin\left(4\pi \cdot \frac{\text{doy}_1}{365}\right) & \cos\left(4\pi \cdot \frac{\text{doy}_1}{365}\right) \\
-1 & \sin\left(2\pi \cdot \frac{\text{doy}_2}{365}\right) & \cos\left(2\pi \cdot \frac{\text{doy}_2}{365}\right) & \sin\left(4\pi \cdot \frac{\text{doy}_2}{365}\right) & \cos\left(4\pi \cdot \frac{\text{doy}_2}{365}\right) \\
+1 & \cos{ \left( 2 \pi \frac{1}{P} \text{doy}_1 \right) } & \sin{ \left( 2 \pi \frac{1}{P} \text{doy}_1 \right) } & \cos{ \left( 2 \pi \frac{2}{P} \text{doy}_1 \right) } & \sin{ \left( 2 \pi \frac{2}{P} \text{doy}_1 \right) } \\
+1 & \cos{ \left( 2 \pi \frac{1}{P} \text{doy}_2 \right) } & \sin{ \left( 2 \pi \frac{1}{P} \text{doy}_2 \right) } & \cos{ \left( 2 \pi \frac{2}{P} \text{doy}_2 \right) } & \sin{ \left( 2 \pi \frac{2}{P} \text{doy}_2 \right) } \\
 \vdots & \vdots & \vdots & \vdots & \vdots \\
-1 & \sin\left(2\pi \cdot \frac{\text{doy}_n}{365}\right) & \cos\left(2\pi \cdot \frac{\text{doy}_n}{365}\right) & \sin\left(4\pi \cdot \frac{\text{doy}_n}{365}\right) & \cos\left(4\pi \cdot \frac{\text{doy}_n}{365}\right)
+1 & \cos{ \left( 2 \pi \frac{1}{P} \text{doy}_m \right) } & \sin{ \left( 2 \pi \frac{1}{P} \text{doy}_m \right) } & \cos{ \left( 2 \pi \frac{2}{P} \text{doy}_m \right) } & \sin{ \left( 2 \pi \frac{2}{P} \text{doy}_m \right) }
 \end{bmatrix}$$

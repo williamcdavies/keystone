@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -95,6 +96,9 @@
   },
   "active": "82cdea56952f77b5",
   "lastOpenFiles": [
+    "Second partial derivative test.md",
+    "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Elementary matrices.md",
     "Linux Packages.md",
     "Data races.md",
     "Design matrices.md",
@@ -108,7 +112,6 @@
     "Access modifiers.md",
     "Access control is not security.md",
     "Abstract data types.md",
-    "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/Untitled 1.md",
     "Linear combinations.md",
     "Linear independence.md",
@@ -128,8 +131,6 @@
     "Inbox/ToDo.md",
     "REPL.md",
     "Inbox/WFSEL to do list.md",
-    "Disk images.md",
-    "Boot images.md",
     "Leetcode",
     "~/Documents/Projects/P-12",
     "~/Documents/Projects",
