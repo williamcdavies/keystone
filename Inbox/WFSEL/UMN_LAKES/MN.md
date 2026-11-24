@@ -269,4 +269,7 @@ No apparent correlation between number of events between observations (N) and th
 #### HANTS (Iteration 2)
 Of the available methodologies, HANTS appears to be the most promising. However, the previous iteration was limited in its modularity. Therefore, a modular system of representing and solving the system $$\mathbf{y} = \matrix{X} \mathbf{ \beta }$$
 
-needs t
+needs to be developed.
+
+##### Development
+Objective: develop the functions `build_X()`, `build_y()`
