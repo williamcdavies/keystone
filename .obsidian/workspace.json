@@ -23,8 +23,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Overdetermined systems.md",
-                "mode": "source",
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Overdetermined systems"
+              "title": "MN"
             }
           }
         ],
@@ -90,7 +90,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Inbox/Overdetermined systems.md"
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -115,10 +115,10 @@
   },
   "active": "2a81b9d553421f43",
   "lastOpenFiles": [
-    "Inbox/SDL.md",
     "Inbox/Basis functions.md",
-    "Inbox/Overdetermined systems.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
+    "Inbox/Overdetermined systems.md",
+    "Inbox/SDL.md",
     "Design matrices.md",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_HANTS_iterations.png",
     "Inbox/WFSEL/UMN_LAKES/Resources/UMN_HANTS_diagnostic_sd.png",
