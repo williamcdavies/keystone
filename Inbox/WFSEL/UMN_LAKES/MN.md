@@ -278,4 +278,9 @@ Objective: Develop the functions `build_x()`, `build_y()`, and `solve()`.
 
 Objective: Write the script `compute_umn_lakes_models`.
 
-`compute_umn_lakes_models` takes the inputs `umn_lakes_product_directory_path`, `-f | --field = ["A4", "CL, "SD"]`, and `-o | --output = output_file_path`.
+`compute_umn_lakes_models` can be modelled as follows:
+
+```mermaid
+flowchart TD
+	A[Start] --> B[Step]
+```
