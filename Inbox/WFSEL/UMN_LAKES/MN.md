@@ -213,7 +213,7 @@ UMN_naive_deltas_v1.0:
 
 No apparent correlation between number of events between observations (N) and the change in observation metric (Delta), which is expected of naive deltas. Seasonality needs to be accounted for. This can be accomplished by performing a per-lake Harmonic ANalysis of Time Series (HANTS)/Fourier Analysis. 
 
-#### HANTS
+#### HANTS (Iteration 1)
 HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions:
 $$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \right) } + b_n \sin{ \left( 2 \pi \frac{n}{P} x \right) } \right) }$$
 
@@ -266,4 +266,4 @@ UMN_HANTS_N_v_R:
 
 No apparent correlation between number of events between observations (N) and the change in observation metric (Delta).
 
-#### 
+#### HANTS (Iteration 2)
