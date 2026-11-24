@@ -109,7 +109,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Dynamically typed languages.md"
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -131,10 +131,10 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "49c165154e4af8a4",
+  "active": "2a81b9d553421f43",
   "lastOpenFiles": [
-    "Statically typed languages.md",
     "Dynamically typed languages.md",
+    "Statically typed languages.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
     "Inbox/Basis functions.md",
     "Inbox/Overdetermined systems.md",

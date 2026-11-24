@@ -272,4 +272,4 @@ Of the available methodologies, HANTS appears to be the most promising. However,
 needs to be developed.
 
 ##### Development
-Objective: develop the functions `build_X()`, `build_y()`
+Objective: Develop the functions `build_X()`, `build_y()`, and `solve()`. `build_X` returns a `np.ndarray` of the shape `(len(x), 1 + (2N))`. `build_y` returns a `np.ndarray` of the shape `(len(x), 1)`.
