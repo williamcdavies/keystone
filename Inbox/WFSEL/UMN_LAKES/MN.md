@@ -83,7 +83,7 @@ Shared: 11369
 
 ## Inspecting Lake Data?
 
-### UMN
+### .tsv Files
 UMN_41008400_v1.0:
 ![[UMN_41008400_v1.0.png]]
 
@@ -103,7 +103,7 @@ UMN_41008400_v1.2:
 
 Stacking observations does not provide insight. No yearly trend was observed in any of the three variables.
 
-#### Loading ShapeFiles into PostgreSQL
+### .shp Files
 
 ```sh
 ogr2ogr -f "PostgreSQL" PG:"dbname=spatial" data/umn_lakes/product/MNWQ2010_new_ecoregion_wgs/MNWQ2010_new_ecoregion_wgs.shp -nln public.umn_lakes -lco SPATIAL_INDEX=GIST -nlt MULTIPOLYGON
@@ -117,7 +117,7 @@ UMN_Shapes_PSQL
 
 Source output and PSQL output provide identical map projections.
 
-#### Querying PostgreSQL for Metadata
+### Querying Metadata
 Objective: To produce a count of distinct start days table and a HydroLAKES field values table for UMN Lakes.
 
 The queries to produce these tables have already been written. They can be duplicated and fitted to `public.umn_lakes`.
@@ -167,12 +167,12 @@ The queries to produce these tables have already been written. They can be dupli
 > [!warning]
 > 5444 of the 12194 (44.64%) of lakes could not be linked to HydroLAKES.
 
-### NOAA
+### Querying NOAA HMS
 An identical strategy can be used to compute the smoke season of a given lake. However, there are not enough observations during the smoke season of any given lake to observe a trend in any of the three variables. 2024 and 2025 HOAA HMS, however, should be extracted, transformed, and loaded into PostgreSQL.
 
 ## Gathering Results
 
-### Methods?
+### Methods
 Since UMN Lakes observations are temporally sparse, fitting these data into the ESA Lakes pipeline will not be possible due to the ESA Lakes pipeline's reliance on observation density $\rightarrow$ the methodology must be agnostic to temporally sparse data $\rightarrow$ the methodology must be centred around event response.
 
 #### Naive Deltas
@@ -217,7 +217,7 @@ No apparent correlation between number of events between observations (N) and th
 HANTS is a procedure that can be used to model a periodic time dependent data set by decomposing the set into a sum of sinusoidal functions:
 $$S_N(x) = a_0 + \sum_{n = 1}^{N}{ \left( a_n \cos{ \left( 2 \pi \frac{n}{P} x \right) } + b_n \sin{ \left( 2 \pi \frac{n}{P} x \right) } \right) }$$
 
-##### Computing $a_n$
+##### Overview
 The vector $\vec{a} = \begin{bmatrix} a_0, a_1, \dots a_n \end{bmatrix}$ can be computed by minimising the sum of squares of differences for the system $\matrix{X} \vec{a} = \vec{y}$, such that
 
 $$\begin{align}
@@ -232,7 +232,6 @@ $$\begin{align}
 
 where $j$ is the *d.o.y.* (day of year) of some observation $i$.
 
-##### Iterative Outlier Rejection
 The HANTS procedure implements iterative outlier rejection to optimise $\vec{a}$ (iteration is performed until either $\vec{a}$ is optimised or until the iteration limit is reached). At each iteration step, $\vec{a}$ is computed from the set of inlier observations and a standard deviation $\sigma$ is computed from the set of inlier residuals. Residuals whose magnitude exceed $3 \sigma$ are re-classified as outliers. The purpose of iterative outlier rejection is to limit the influence of abnormal observations from the shape of the model.
 
 ##### Results
@@ -267,4 +266,4 @@ UMN_HANTS_N_v_R:
 
 No apparent correlation between number of events between observations (N) and the change in observation metric (Delta).
 
-#### Fitting 
+#### 

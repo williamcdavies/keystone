@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b690a18a06b4db92",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "2a81b9d553421f43",
             "type": "leaf",
             "state": {
@@ -41,8 +31,37 @@
               "title": "MN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "2894ab57a4d1f3eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "658c16dd368d85ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MN"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +132,7 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "2a81b9d553421f43",
+  "active": "658c16dd368d85ac",
   "lastOpenFiles": [
     "Inbox/Basis functions.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
