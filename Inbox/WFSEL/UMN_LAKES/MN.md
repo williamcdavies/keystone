@@ -281,6 +281,11 @@ Objective: Write the script `compute_umn_lakes_models`.
 `compute_umn_lakes_models` can be modelled as follows:
 
 ```mermaid
-flowchart TD
-	A[Start] --> B[Step]
+flowchart LR
+    A[Product Dataframe] --> |pd.groupby| B[g_1]
+    A[Product Dataframe] --> |pd.groupby| C[g_2]
+    A[Product Dataframe] --> |pd.groupby| D[g_3]
+    B --> C{Decision}
+    C -->|Yes| D[Done]
+    C -->|No| A
 ```
