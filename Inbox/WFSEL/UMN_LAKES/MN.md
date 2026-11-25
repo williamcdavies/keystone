@@ -272,24 +272,23 @@ Of the available methodologies, HANTS appears to be the most promising. However,
 needs to be developed.
 
 ##### Development
-Objective: Write  `compute_umn_lakes_models.py`.
+Objective 1: Write  `compute_umn_lakes_models.py`.
 
-The purpose of `compute_umn_lakes_models.py` is to compute a seasonal model for each logical group within `product_dataframe` for a given field (A4, CL, or SD). Grouping logic should be passed to the script as an input to allow for experimentation with model computation.
+The purpose of `compute_umn_lakes_models.py` is to compute a seasonal model for each logical group within `product_dataframe` for a given field (A4, CL, or SD). Grouping logic should be modular.
 
-`compute_umn_lakes_models.py` 
-
+Program 
 ```mermaid
 flowchart LR
-    S[product pd.dataframe] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[group_...] & G_4[group_n]
+    S[product pd.dataframe] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[...] & G_4[group_n]
     G_1 --> |"build_X()<br>build_y()<br>solve()"| M_1[model_1]
     G_2 --> |"build_X()<br>build_y()<br>solve()"| M_2[model_2]
-    G_3 --> |"build_X()<br>build_y()<br>solve()"| M_3[model_...]
+    G_3 --> |"build_X()<br>build_y()<br>solve()"| M_3[...]
     G_4 --> |"build_X()<br>build_y()<br>solve()"| M_4[model_n]
     M_1 & M_2 & M_3 & M_4 --> E[models pd.dataframe]
     
 ```
 
-Objective: Develop the functions `build_x()`, `build_y()`, and `solve()`. 
+Objective 1.1: Write `build_x()`, `build_y()`, and `solve()`. 
 
 `build_x` returns a `np.ndarray` of the shape `(M, 1 + 2N)`. `build_y` returns a `np.ndarray` of the shape `(M, )`. The 
 
