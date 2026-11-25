@@ -282,10 +282,7 @@ Objective: Write the script `compute_umn_lakes_models`.
 
 ```mermaid
 flowchart LR
-    A[Product Dataframe] --> |pd.groupby| B[g_1]
-    A[Product Dataframe] --> |pd.groupby| C[g_2]
-    A[Product Dataframe] --> |pd.groupby| D[g_3]
-    B --> C{Decision}
-    C -->|Yes| D[Done]
-    C -->|No| A
+    S[pd.DataFrame] --> |pd.groupby| G_1[g_1] & G_2[g_2] & G_3[g_...] & G_4[g_n]
+    G_1 & G_2 & G_3 & G_4 --> |build_X()| E[pd.dataframe]
+    
 ```
