@@ -272,17 +272,22 @@ Of the available methodologies, HANTS appears to be the most promising. However,
 needs to be developed.
 
 ##### Development
-Objective: Develop the functions `build_x()`, `build_y()`, and `solve()`. 
-
-`build_x` returns a `np.ndarray` of the shape `(M, 1 + 2N)`. `build_y` returns a `np.ndarray` of the shape `(M, )`.
-
 Objective: Write the script `compute_umn_lakes_models`.
 
-`compute_umn_lakes_models` can be modelled as follows:
+The purpose of `compute_umn_lakes_models` is to 
 
 ```mermaid
 flowchart LR
-    S[pd.DataFrame] --> |pd.groupby| G_1[g_1] & G_2[g_2] & G_3[g_...] & G_4[g_n]
-    G_1 & G_2 & G_3 & G_4 --> |build_X()| E[pd.dataframe]
+    S[pd.DataFrame] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[group_...] & G_4[group_n]
+    G_1 --> |"build_X()<br>build_y()<br>solve()"| M_1[model_1]
+    G_2 --> |"build_X()<br>build_y()<br>solve()"| M_2[model_2]
+    G_3 --> |"build_X()<br>build_y()<br>solve()"| M_3[model_...]
+    G_4 --> |"build_X()<br>build_y()<br>solve()"| M_4[model_n]
+    M_1 & M_2 & M_3 & M_4 --> E[pd.dataframe]
     
 ```
+
+Objective: Develop the functions `build_x()`, `build_y()`, and `solve()`. 
+
+`build_x` returns a `np.ndarray` of the shape `(M, 1 + 2N)`. `build_y` returns a `np.ndarray` of the shape `(M, )`. The 
+
