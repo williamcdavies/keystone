@@ -267,28 +267,23 @@ UMN_HANTS_N_v_R:
 No apparent correlation between number of events between observations (N) and the change in observation metric (Delta).
 
 #### HANTS (Iteration 2)
-Of the available methodologies, HANTS appears to be the most promising. However, the previous iteration was limited in its modularity. Therefore, a modular system of representing and solving the system $$\mathbf{y} = \matrix{X} \mathbf{ \beta }$$
-
-needs to be developed.
+Of the available methodologies, HANTS appears to be the most promising. However, the previous iteration was limited in its modularity. Therefore, a modular system of representing and solving the system, $\mathbf{y} = \matrix{X} \mathbf{ \beta }$, needs to be developed.
 
 ##### Development
-Objective 1: Write  `compute_umn_lakes_models.py`.
+**Objective 1**: Write  `compute_umn_lakes_models.py`.
 
 The purpose of `compute_umn_lakes_models.py` is to compute a seasonal model for each logical group within `product_dataframe` for a given field (A4, CL, or SD). Grouping logic should be modular.
 
-Program 
+Program Loop:
+
 ```mermaid
 flowchart LR
-    S[product pd.dataframe] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[...] & G_4[group_n]
-    G_1 --> |"build_X()<br>build_y()<br>solve()"| M_1[model_1]
-    G_2 --> |"build_X()<br>build_y()<br>solve()"| M_2[model_2]
+    S[Product DataFrame] --> |"pd.groupby()"| G_1[Group 1] & G_2[Group 2] & G_3[...] & G_4[Group n]
+    G_1 --> |"build_X()<br>build_y()<br>solve()"| M_1[Model 1]
+    G_2 --> |"build_X()<br>build_y()<br>solve()"| M_2[Model 2]
     G_3 --> |"build_X()<br>build_y()<br>solve()"| M_3[...]
-    G_4 --> |"build_X()<br>build_y()<br>solve()"| M_4[model_n]
-    M_1 & M_2 & M_3 & M_4 --> E[models pd.dataframe]
-    
+    G_4 --> |"build_X()<br>build_y()<br>solve()"| M_4[Model n]
+    M_1 & M_2 & M_3 & M_4 --> E[Models DataFrame]
 ```
 
-Objective 1.1: Write `build_x()`, `build_y()`, and `solve()`. 
-
-`build_x` returns a `np.ndarray` of the shape `(M, 1 + 2N)`. `build_y` returns a `np.ndarray` of the shape `(M, )`. The 
-
+ **Objective 1.1**:

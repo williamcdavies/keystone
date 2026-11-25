@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "Inbox/WFSEL/UMN_LAKES/MN.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -131,7 +131,7 @@
       "switcher:Open quick switcher": false
     }
   },
-  "active": "658c16dd368d85ac",
+  "active": "2a81b9d553421f43",
   "lastOpenFiles": [
     "Rank.md",
     "Inbox/WFSEL/UMN_LAKES/MN.md",
