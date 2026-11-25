@@ -272,18 +272,20 @@ Of the available methodologies, HANTS appears to be the most promising. However,
 needs to be developed.
 
 ##### Development
-Objective: Write the script `compute_umn_lakes_models`.
+Objective: Write  `compute_umn_lakes_models.py`.
 
-The purpose of `compute_umn_lakes_models` is to 
+The purpose of `compute_umn_lakes_models.py` is to compute a seasonal model for each logical group within `product_dataframe` for a given field (A4, CL, or SD). Grouping logic should be passed to the script as an input to allow for experimentation with model computation.
+
+`compute_umn_lakes_models.py` 
 
 ```mermaid
 flowchart LR
-    S[pd.DataFrame] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[group_...] & G_4[group_n]
+    S[product pd.dataframe] --> |pd.groupby| G_1[group_1] & G_2[group_2] & G_3[group_...] & G_4[group_n]
     G_1 --> |"build_X()<br>build_y()<br>solve()"| M_1[model_1]
     G_2 --> |"build_X()<br>build_y()<br>solve()"| M_2[model_2]
     G_3 --> |"build_X()<br>build_y()<br>solve()"| M_3[model_...]
     G_4 --> |"build_X()<br>build_y()<br>solve()"| M_4[model_n]
-    M_1 & M_2 & M_3 & M_4 --> E[pd.dataframe]
+    M_1 & M_2 & M_3 & M_4 --> E[models pd.dataframe]
     
 ```
 
