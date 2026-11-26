@@ -1,1 +1,5 @@
+---
+tags:
+  - Mathematics
+---
 A system of equations is considered overdetermined if there are more equations than unknowns. An overdetermined system almost always has no solution when constructed with random coefficients. However, an overdetermined system will have solutions in some cases, e.g. if some equations are [[Linear combinations]] of the others.
